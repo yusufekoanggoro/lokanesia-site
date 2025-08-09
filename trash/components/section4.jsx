@@ -1,0 +1,140 @@
+'use client';
+
+import React, { useState } from "react";
+import { useRouter } from 'next/navigation';
+
+// import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
+
+import dynamic from "next/dynamic";
+
+const MapContainer = dynamic(() => import("react-leaflet").then(mod => mod.MapContainer), { ssr: false });
+const TileLayer = dynamic(() => import("react-leaflet").then(mod => mod.TileLayer), { ssr: false });
+const GeoJSON = dynamic(() => import("react-leaflet").then(mod => mod.GeoJSON), { ssr: false });
+
+
+import 'leaflet/dist/leaflet.css';
+import indonesiaGeoJSON from "./38provinsi-indonesia.json";
+
+import {
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  Button,
+  Typography
+} from "@mui/material";
+
+const provinces = indonesiaGeoJSON.features.map(f => f.properties.PROVINSI);
+
+function getRandomColor() {
+  const letters = '0123456789ABCDEF';
+  let color = '#';
+  for(let i=0; i<6; i++) {
+    color += letters[Math.floor(Math.random()*16)];
+  }
+  return color;
+}
+
+const provinceColors = {};
+provinces.forEach(prov => {
+  let newColor;
+  do {
+    newColor = getRandomColor();
+  } while(Object.values(provinceColors).includes(newColor));
+  provinceColors[prov] = newColor;
+});
+
+export default function Section4() {
+  const router = useRouter();
+  const [selectedProvince, setSelectedProvince] = useState(null);
+  const [selectedProvinceName, setSelectedProvinceName] = useState(null);
+  const [open, setOpen] = useState(false);
+
+  // Fungsi untuk handle klik provinsi di peta
+  function onEachFeature(feature, layer) {
+    layer.on({
+      click: () => {
+        setSelectedProvince(feature.properties.KODE_PROV);
+        // selectedProvinceName(feature.properties.PROVINSI);
+        setSelectedProvinceName(feature.properties.PROVINSI);
+        setOpen(true);
+      }
+    });
+  }
+
+  // Handle klik tombol di modal
+  const handleGoQuiz = () => {
+    if (selectedProvince) {
+      router.push(`/quiz/${encodeURIComponent(selectedProvince)}`);
+      setOpen(false);
+    }
+  };
+
+  const handleGoBudaya = () => {
+    if (selectedProvince) {
+      router.push(`/budaya/${encodeURIComponent(selectedProvince)}`);
+      setOpen(false);
+    }
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+    setSelectedProvince(null);
+    setSelectedProvinceName(null);
+  };
+
+  return (
+    <section className="h-screen py-16 bg-gray-100 text-gray-900">
+      <div className="container mx-auto px-6">
+        <h2 className="text-3xl font-extrabold text-center mb-8">
+          Jelajah Budaya Lewat Peta Nusantara
+        </h2>
+        <p className="text-center max-w-xl mx-auto mb-8 text-gray-600">
+          Klik pada provinsi untuk melihat pilihan Quiz atau Budaya.
+        </p>
+
+        <div className="w-full h-[500px] rounded-lg overflow-hidden shadow-lg">
+          <MapContainer
+            center={[-2.548926, 118.0148634]}
+            zoom={6}
+            scrollWheelZoom={false}
+            style={{ height: '100%', width: '100%' }}
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <GeoJSON 
+              data={indonesiaGeoJSON} 
+              style={(feature) => ({
+                fillColor: provinceColors[feature.properties.PROVINSI],
+                fillOpacity: 0.5,
+                color: "white",
+                weight: 1,
+              })}
+              onEachFeature={onEachFeature}
+            />
+          </MapContainer>
+        </div>
+      </div>
+
+      {/* Modal Dialog MUI */}
+      <Dialog open={open} onClose={handleClose}>
+        <DialogTitle>Pilih Halaman untuk {selectedProvinceName}</DialogTitle>
+        <DialogContent>
+          <Typography>
+            Anda ingin melihat Quiz atau Budaya dari provinsi ini?
+          </Typography>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleGoQuiz} variant="contained" color="primary">
+            Quiz
+          </Button>
+          <Button onClick={handleGoBudaya} variant="outlined" color="secondary">
+            Budaya
+          </Button>
+        </DialogActions>
+      </Dialog>
+    </section>
+  );
+}
