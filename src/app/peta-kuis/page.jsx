@@ -68,13 +68,6 @@ export default function Section4() {
     }
   };
 
-  const handleGoBudaya = () => {
-    if (selectedProvince) {
-      router.push(`/budaya/${encodeURIComponent(selectedProvince)}`);
-      setOpen(false);
-    }
-  };
-
   const handleClose = () => {
     setOpen(false);
     setSelectedProvince(null);
@@ -132,24 +125,50 @@ export default function Section4() {
         </div>
 
         {/* Modal Dialog MUI */}
-        <Dialog open={open} onClose={handleClose}>
-          <DialogTitle>
-            Mulai Quiz untuk Provinsi {selectedProvinceName}
-          </DialogTitle>
-          <DialogContent>
-            <Typography>
-              Yuk, uji pengetahuanmu tentang provinsi {selectedProvinceName} melalui Quiz ini!
-            </Typography>
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={handleGoQuiz} variant="contained" color="primary" autoFocus>
-              Mulai Quiz
-            </Button>
-            <Button onClick={handleClose} variant="text" color="secondary">
-              Batal
-            </Button>
-          </DialogActions>
-        </Dialog>
+        <Dialog
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="dialog-title"
+              aria-describedby="dialog-description"
+              maxWidth="xs"
+              fullWidth
+            >
+              <DialogTitle id="dialog-title" sx={{ fontWeight: "bold", color: "#D97706" }}>
+                Mulai Quiz untuk Provinsi {selectedProvinceName}
+              </DialogTitle>
+              <DialogContent dividers>
+                <Typography
+                  id="dialog-description"
+                  variant="body1"
+                  sx={{ color: "#92400E", mb: 2 }}
+                >
+                  Yuk, uji pengetahuanmu tentang provinsi {selectedProvinceName} melalui Quiz ini!
+                </Typography>
+              </DialogContent>
+              <DialogActions sx={{ px: 3, pb: 2 }}>
+                <Button
+                  onClick={handleGoQuiz}
+                  variant="contained"
+                  sx={{
+                    backgroundColor: "#D97706",
+                    "&:hover": { backgroundColor: "#B45309" },
+                    fontWeight: "bold",
+                    textTransform: "none",
+                  }}
+                  autoFocus
+                >
+                  Mulai Quiz
+                </Button>
+                <Button
+                  onClick={handleClose}
+                  variant="text"
+                  color="inherit"
+                  sx={{ color: "#92400E", textTransform: "none" }}
+                >
+                  Batal
+                </Button>
+              </DialogActions>
+            </Dialog>
       </section>
       <BottomNav />
     </>
