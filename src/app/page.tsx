@@ -3,16 +3,18 @@ import BottomNav from './components/BottomNav';
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen flex flex-col items-center justify-center px-6 py-16 bg-gradient-to-b from-yellow-50 to-yellow-100 text-center">
-        <div className="bg-white bg-opacity-80 rounded-xl shadow-lg max-w-3xl p-10">
-          <h1 className="text-5xl font-extrabold mb-6 text-yellow-900 drop-shadow-md">
-            Selamat Datang di <span className="text-yellow-600">LOKANESIA</span>
+      <main className="min-h-screen flex flex-col items-center justify-center px-6 py-16 bg-gradient-to-b from-yellow-100 via-yellow-50 to-yellow-100 text-center font-sans">
+        <div className="bg-white bg-opacity-95 rounded-2xl shadow-xl max-w-3xl w-full sm:w-4/5 md:w-3/4 p-8 sm:p-12 mx-auto">
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 text-yellow-900 drop-shadow-md tracking-tight">
+            Selamat Datang di{' '}
+            <span className="text-yellow-600">LOKANESIA</span>
           </h1>
-          <p className="text-lg text-yellow-800 mb-6 leading-relaxed">
+          <hr className="border-yellow-300 mb-8 mx-auto w-24" />
+          <p className="text-lg text-yellow-800 mb-8 leading-relaxed">
             LOKANESIA adalah aplikasi belajar tentang keberagaman budaya Indonesia.  
             Di dalamnya, kamu bisa mengenal rumah adat, pakaian tradisional, tarian, lagu daerah, dan alat musik dari berbagai provinsi di Indonesia.
           </p>
-          <p className="text-md text-yellow-700 leading-relaxed">
+          <p className="text-md text-yellow-700 mb-10 leading-relaxed">
             Aplikasi ini dibuat untuk membantu siswa belajar budaya Indonesia dengan cara yang seru dan mudah dimengerti, serta menumbuhkan rasa cinta dan bangga terhadap budaya bangsa.  
             Dengan LOKANESIA, belajar budaya jadi lebih menyenangkan!
           </p>

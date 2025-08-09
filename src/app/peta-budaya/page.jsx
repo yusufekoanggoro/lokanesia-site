@@ -79,7 +79,7 @@ export default function Peta() {
 
   return (
     <>
-      <section className="h-screen py-16 bg-gray-100 text-gray-900">
+      <section className="h-screen py-16 bg-gray-100 text-gray-900 pb-[88px]">
         <div className="container mx-auto px-6 relative">
           {/* Back Button */}
           <button 

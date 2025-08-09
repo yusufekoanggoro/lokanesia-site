@@ -1,6 +1,6 @@
-'use client'; // wajib di paling atas karena kita pakai useRouter (client component)
+'use client';
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { useRouter, useParams } from 'next/navigation';
 import BottomNav from '../../components/BottomNav';
 
@@ -142,7 +142,7 @@ export default function ProvinceDetail() {
 
   if (!province) {
     return (
-      <div className="p-8 text-center">
+      <div className="p-8 text-center font-sans">
         <h1 className="text-2xl font-bold">Provinsi tidak ditemukan</h1>
       </div>
     );
@@ -150,52 +150,55 @@ export default function ProvinceDetail() {
 
   return (
     <>
-      <main className="max-w-4xl mx-auto p-6">
+      <main className="max-w-4xl mx-auto p-6 pb-[88px] font-sans">
         <button
           onClick={() => router.back()}
-          className="mb-6 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md text-gray-700"
+          className="mb-6 px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-md text-gray-800 shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-yellow-400"
         >
           ← Kembali
         </button>
 
-        <audio ref={audioRef } preload="auto" />
+        <audio ref={audioRef} preload="auto" />
 
-        <h1 className="text-4xl font-bold mb-4">{province.name}</h1>
-        <div className="flex items-center space-x-6 mb-8">
+        <h1 className="text-4xl font-bold mb-6 text-yellow-900">{province.name}</h1>
+        <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-8 mb-10">
           <img
             src={province.image}
             alt={`${province.name} emblem`}
-            className="w-24 h-24 object-contain"
+            className="w-32 h-32 object-contain rounded-md shadow"
             loading="lazy"
           />
-          <div>
-            <p><span className="font-semibold">Ibu Kota:</span> {province.capital}</p>
-            <p><span className="font-semibold">Luas Wilayah:</span> {province.area} km²</p>
-            <p><span className="font-semibold">Populasi:</span> {province.population.toLocaleString()}</p>
+          <div className="text-gray-800 text-base sm:text-lg space-y-2">
+            <p><span className="font-semibold text-yellow-700">Ibu Kota:</span> {province.capital}</p>
+            <p><span className="font-semibold text-yellow-700">Luas Wilayah:</span> {province.area} km²</p>
+            <p><span className="font-semibold text-yellow-700">Populasi:</span> {province.population.toLocaleString()}</p>
           </div>
         </div>
 
         {province.cultures.map((culture) => (
-          <section key={culture.name} className="mb-10">
-            <h2 className="text-2xl font-semibold mb-4">{culture.name}</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <section key={culture.name} className="mb-12">
+            <h2 className="text-2xl font-semibold mb-6 text-yellow-800 border-b border-yellow-300 pb-2">{culture.name}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
               {culture.data.map((item, idx) => (
-                <div key={idx} className="border rounded-lg p-4 shadow hover:shadow-lg transition">
+                <div
+                  key={idx}
+                  className="border rounded-lg p-5 shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col"
+                >
                   {item.image && (
                     <img
                       src={item.image}
                       alt={item.name}
-                      className="w-full h-40 object-cover rounded-md mb-3"
+                      className="w-full h-44 object-cover rounded-md mb-4"
                       loading="lazy"
                     />
                   )}
-                  <h3 className="font-medium text-lg">{item.name}</h3>
+                  <h3 className="font-semibold text-lg mb-2">{item.name}</h3>
                   {item.ytUrl && (
                     <a
                       href={item.ytUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline mt-1 block"
+                      className="text-yellow-600 hover:underline mt-auto"
                     >
                       Tonton Video
                     </a>
