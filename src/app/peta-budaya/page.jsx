@@ -123,25 +123,50 @@ export default function Peta() {
         </div>
 
         {/* Modal Dialog MUI */}
-        <Dialog open={open} onClose={handleClose}>
-          <DialogTitle>
-            Jelajahi Budaya Provinsi {selectedProvinceName}
-          </DialogTitle>
-          <DialogContent>
-            <Typography>
-              Mari lihat informasi menarik tentang Budaya dari provinsi {selectedProvinceName}.
-            </Typography>
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={handleGoBudaya} variant="contained" color="primary" autoFocus>
-              Lihat Budaya
-            </Button>
-            <Button onClick={handleClose} variant="text" color="secondary">
-              Batal
-            </Button>
-          </DialogActions>
-        </Dialog>
-
+<Dialog
+      open={open}
+      onClose={handleClose}
+      aria-labelledby="dialog-title"
+      aria-describedby="dialog-description"
+      maxWidth="xs"
+      fullWidth
+    >
+      <DialogTitle id="dialog-title" sx={{ fontWeight: "bold", color: "#D97706" }}>
+        Jelajahi Budaya Provinsi {selectedProvinceName}
+      </DialogTitle>
+      <DialogContent dividers>
+        <Typography
+          id="dialog-description"
+          variant="body1"
+          sx={{ color: "#92400E", mb: 2 }}
+        >
+          Mari lihat informasi menarik tentang Budaya dari provinsi {selectedProvinceName}.
+        </Typography>
+      </DialogContent>
+      <DialogActions sx={{ px: 3, pb: 2 }}>
+        <Button
+          onClick={handleGoBudaya}
+          variant="contained"
+          sx={{
+            backgroundColor: "#D97706",
+            "&:hover": { backgroundColor: "#B45309" },
+            fontWeight: "bold",
+            textTransform: "none",
+          }}
+          autoFocus
+        >
+          Lihat Budaya
+        </Button>
+        <Button
+          onClick={handleClose}
+          variant="text"
+          color="inherit"
+          sx={{ color: "#92400E", textTransform: "none" }}
+        >
+          Batal
+        </Button>
+      </DialogActions>
+    </Dialog>
       </section>
       
       <BottomNav />
