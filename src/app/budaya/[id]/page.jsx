@@ -1206,10 +1206,10 @@ const provincesData = {
   },
   "32": {
     name: "Jawa Barat",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
+    capital: "Bandung",
+    area: "34,817", // dalam km²
+    population: "50.35 million (2024)",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Coat_of_arms_of_West_Java.svg/120px-Coat_of_arms_of_West_Java.svg.png",
     cultures: [
       {
         name: "Rumah Adat",
@@ -1642,10 +1642,10 @@ const provincesData = {
   },
   "36": {
     name: "Banten",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
+    capital: "Serang",
+    area:  "9,663", // dalam km²
+    population: "12.43 juta" ,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Coat_of_arms_of_Banten.svg/120px-Coat_of_arms_of_Banten.svg.png",
     cultures: [
       {
         name: "Rumah Adat",
