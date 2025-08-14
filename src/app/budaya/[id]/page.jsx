@@ -1413,44 +1413,44 @@ const provincesData = {
   },
   "34": {
     name: "Daerah Istimewa Yogyakarta",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
+    capital: "Yogyakarta",
+    area: "3,186", // dalam km²
+    population: "-" ,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Coat_of_arms_of_Yogyakarta.svg/120px-Coat_of_arms_of_Yogyakarta.svg.png",
     cultures: [
       {
         name: "Rumah Adat",
         data: [
           {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
+            name: "Joglo",
+            image: "https://www.kabarwisata.id/wp-content/uploads/2022/04/rumah-adat-joglo.jpg"
           },
           {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
+            name: "Bangsal Kencono",
+            image: "https://www.kabarwisata.id/wp-content/uploads/2022/04/Rumah-Adat-Bangsal-Kencono.jpg"
           },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
         ]
       },
       {
         name: "Baju Adat",
         data: [
           {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
+            name: "Kebaya",
+            image: "https://dewatiket.id/blog/wp-content/uploads/2025/02/Kebaya-Yogyakarta.webp"
           },
+          {
+            name: "Surjan",
+            image: "https://dewatiket.id/blog/wp-content/uploads/2025/02/Surjan-1920x1280.jpg"
+          }
         ]
       },
       {
         name: "Tarian",
         data: [
           {
-            name: "Tari Topeng Betawi",
+            name: "Tari Serimpi",
             image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
+            ytUrl: "https://www.youtube.com/watch?v=bv8vrrX4lYM&ab_channel=IndonesiaKaya"
           }
         ]
       },
@@ -1458,8 +1458,8 @@ const provincesData = {
         name: "Senjata",
         data: [
           {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
+            name: "Keris",
+            image: "https://bakpiakukustugu.co.id/uploads/11/2023-11/1db008405ba820449429ea130993e628.jpg"
           }
         ]
       },
@@ -1467,8 +1467,8 @@ const provincesData = {
         name: "Makanan Khas",
         data: [
           {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
+            name: "Gudeg Nangka",
+            image: "https://www.unileverfoodsolutions.co.id/id/inspirasi-chef/makanan-khas-jogja/jcr:content/parsys/set1/row2/span12/image.img.jpg/1715146069873.jpg"
           }
         ]
       },
@@ -1476,45 +1476,27 @@ const provincesData = {
         name: "Alat Musik",
         data: [
           {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
+            name: "Gamelan",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Traditional_indonesian_instruments02.jpg/250px-Traditional_indonesian_instruments02.jpg",
+            ytUrl: "https://youtu.be/KkAXWw5D6sE?si=A9tADLCEGtYn9wwX ", // penggunaan alat musik
           },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
         ]
       },
       {
         name: "Lagu Daerah",
         data: [
           {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
+            name: "Suwe Ora Jamu",
+            ytUrl: "https://youtu.be/NLiGaO3o-to?si=c0VVxaH3V0-Yo9j1"
           },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
         ]
       },
       {
         name: "Seni Pertunjukan",
         data: [
           {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
+            name: "Wayang Kulit",
+            ytUrl: "https://www.youtube.com/watch?v=B48SxodXOXU&ab_channel=GALERIWAYANGJOGJA"
           }
         ]
       }
@@ -1522,25 +1504,25 @@ const provincesData = {
   },
   "35": {
     name: "Jawa Timur",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
+    capital: "Surabaya",
+    area: "47,922", // dalam km²
+    population: "41.81 juta (2024)" ,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Coat_of_arms_of_East_Java.svg/120px-Coat_of_arms_of_East_Java.svg.png",
     cultures: [
       {
         name: "Rumah Adat",
         data: [
           {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
+            name: "Tanean Lanjhang (Madura)",
+            image: "https://akcdn.detik.net.id/community/media/visual/2023/08/25/rumah-adat-tanean-lanjhang-madura_169.png?w=620"
           },
           {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
+            name: "Tengger (Probolinggo)",
+            image: "https://akcdn.detik.net.id/community/media/visual/2023/08/25/rumah-adat-tengger-probolinggo.jpeg?w=554"
           },
           {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
+            name: "Dhurung (Bawean)",
+            image: "https://akcdn.detik.net.id/community/media/visual/2023/08/25/rumah-adat-dhurung-bawean.jpeg?w=1068"
           }
         ]
       },
@@ -1548,8 +1530,8 @@ const provincesData = {
         name: "Baju Adat",
         data: [
           {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
+            name: "Baju Gothil",
+            image: "https://cdn1.katadata.co.id/media/images/temp/2023/07/06/Pakaian_Adat_Jawa_Timur-2023_07_06-15_35_35_c89e6ad223cf406f1e48a1a3ce3e4f50.jpg"
           },
         ]
       },
@@ -1557,9 +1539,9 @@ const provincesData = {
         name: "Tarian",
         data: [
           {
-            name: "Tari Topeng Betawi",
+            name: "Gandrung Banyuwangi",
             image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
+            ytUrl: "https://www.youtube.com/watch?v=PCYtzoE3-cg&list=RDPCYtzoE3-cg&start_radio=1&ab_channel=JiwaEtnikBlambangan"
           }
         ]
       },
@@ -1567,8 +1549,8 @@ const provincesData = {
         name: "Senjata",
         data: [
           {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
+            name: "Clurit",
+            image: "https://cnc-magazine.oramiland.com/parenting/images/Kujang.width-800.format-webp.webp"
           }
         ]
       },
@@ -1576,8 +1558,8 @@ const provincesData = {
         name: "Makanan Khas",
         data: [
           {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
+            name: "Tahu Campur",
+            image: "https://www.unileverfoodsolutions.co.id/id/inspirasi-chef/makanan-khas-jawa-timur/jcr:content/parsys/set1/row2/span12/image.img.jpg/1715148842384.jpg"
           }
         ]
       },
@@ -1585,45 +1567,31 @@ const provincesData = {
         name: "Alat Musik",
         data: [
           {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
+            name: "Timbal atau Gendang Khas Madura",
+            image: "https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/radarmadura/2017/08/muhammad-amin-perajin-alat-musik-tradisional-berkarya-sejak-sd_m_8597.jpeg",
+            ytUrl: "https://youtu.be/sGMU8h0rWBE?si=SCR4xwBvi6dKTTpB ", // penggunaan alat musik
           },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
         ]
       },
       {
         name: "Lagu Daerah",
         data: [
           {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
+            name: "Rek Ayo Rek",
+            ytUrl: "https://youtu.be/e8YK7r6vDRg?si=UOlanAoZmcKFcKYI "
           },
           {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
+            name: "Cublak-cublak Suweng",
+            ytUrl: "https://youtu.be/Qmu4ygwS2SI?feature=shared "
           },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
         ]
       },
       {
         name: "Seni Pertunjukan",
         data: [
           {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
+            name: "Wayang Kulit",
+            ytUrl: "https://www.youtube.com/watch?v=8TRNz8izKCg&ab_channel=STUDIONEBRYAN"
           }
         ]
       }
@@ -4231,6 +4199,8 @@ const provinceSongs = {
   "32": "/music/jawa_barat.mp3",
   "36": "/music/banten.mp3",
   "33": "/music/jawa_tengah.mp3",
+  "34": "/music/yogyakarta.mp3",
+  "35": "/music/jawa_timur.mp3",
   // dst...
 };
 
