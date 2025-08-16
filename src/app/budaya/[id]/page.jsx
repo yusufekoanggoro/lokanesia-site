@@ -198,34 +198,30 @@ const provincesData = {
   },
   "13": {
     name: "Sumatera Barat",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
+    capital: "Padang",
+    area: "42,120", // dalam km²
     population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Coat_of_arms_West_Sumatera.png/120px-Coat_of_arms_West_Sumatera.png",
     cultures: [
       {
         name: "Rumah Adat",
         data: [
           {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
+            name: "Rumah Gadang",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rumah_Gadang.jpg/250px-Rumah_Gadang.jpg"
           },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
         ]
       },
       {
         name: "Baju Adat",
         data: [
           {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
+            name: "Baju Batusangkar",
+            image: "https://cnc-magazine.oramiland.com/parenting/images/Baju_Batusangkar.width-800.format-webp.webp"
+          },
+          {
+            name: "Baju Batabue",
+            image: "https://cnc-magazine.oramiland.com/parenting/images/Baju_Batabue.width-800.format-webp.webp"
           },
         ]
       },
@@ -233,9 +229,9 @@ const provincesData = {
         name: "Tarian",
         data: [
           {
-            name: "Tari Topeng Betawi",
+            name: "Tari Piring",
             image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
+            ytUrl: "https://www.youtube.com/watch?v=1O_OYwnV6iw&list=RD1O_OYwnV6iw&start_radio=1&ab_channel=GNPMusic"
           }
         ]
       },
@@ -243,8 +239,12 @@ const provincesData = {
         name: "Senjata",
         data: [
           {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
+            name: "Ruduih",
+            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/ruduih.jpg.webp"
+          },
+          {
+            name: "Kerambit",
+            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/senjata-tradisional-Kerambit.png.webp"
           }
         ]
       },
@@ -252,8 +252,12 @@ const provincesData = {
         name: "Makanan Khas",
         data: [
           {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
+            name: "Rendang",
+            image: "https://www.indonesia.travel/content/dam/indtravelrevamp/en/trip-ideas/10-makanan-khas-sumatera-barat-yang-menggoyang-lidah/1.jpg"
+          },
+          {
+            name: "Sate Padang",
+            image: "https://www.indonesia.travel/content/dam/indtravelrevamp/en/trip-ideas/10-makanan-khas-sumatera-barat-yang-menggoyang-lidah/2.jpg"
           }
         ]
       },
@@ -261,45 +265,27 @@ const provincesData = {
         name: "Alat Musik",
         data: [
           {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
+            name: "Sarunai",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNFbRVAhG632S1WS_4O00bTmWfV0UhycXNZg&s",
+            ytUrl: "https://youtu.be/tj6qlCUhPqo?si=UAtuKI-m0DL4b4yv", // penggunaan alat musik
           },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
         ]
       },
       {
         name: "Lagu Daerah",
         data: [
           {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
+            name: "Kampuang nan jauh di mato",
+            ytUrl: "https://youtu.be/vJJE-NQMYDk?si=Lprgi7gUjQv0gMJ3 "
           },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
         ]
       },
       {
         name: "Seni Pertunjukan",
         data: [
           {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
+            name: "Randai",
+            ytUrl: "https://www.youtube.com/watch?v=z3nuw_7-lms&ab_channel=AnB%40Channel"
           }
         ]
       }
@@ -4194,6 +4180,7 @@ const provinceSongs = {
   "35": "/music/jawa_timur.mp3",
   "11": "/music/aceh.mp3",
   "12": "/music/sumatera_utara.mp3",
+  "13": "/music/sumatera_barat.mp3",
   // dst...
 };
 
