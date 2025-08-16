@@ -368,9 +368,9 @@ const provincesData = {
         name: "Alat Musik",
         data: [
           {
-            name: "Gendang Panjang",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkobi8R_4QmNa41wDFAtEzq8xvynYz7zgEWg&s",
-            ytUrl: "https://youtu.be/ZppZJLm2i_k?si=oXOD1X3J5oFlpykD ", // penggunaan alat musik
+            name: "Gambus",
+            image: "https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2021/09/gambus-2.jpg",
+            ytUrl: " https://youtu.be/jU2T0U-y8to?si=4UsUeexjOL4WWaSM  ", // penggunaan alat musik
           },
         ]
       },
