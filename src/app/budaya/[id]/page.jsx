@@ -1225,6 +1225,10 @@ const provincesData = {
           {
             name: "Imah Julang Ngapak",
             image: "https://blog-static.mamikos.com/wp-content/uploads/2021/03/Rumah-Adat-Imah-Julang-Ngapak.jpg.webp"
+          },
+          {
+            name: "Jolopong",
+            image: "https://cdn.medcom.id/dynamic/content/2023/11/14/1630978/s3MoWbkj9X.jpg?w=640"
           }
         ]
       },
@@ -1523,6 +1527,10 @@ const provincesData = {
           {
             name: "Dhurung (Bawean)",
             image: "https://akcdn.detik.net.id/community/media/visual/2023/08/25/rumah-adat-dhurung-bawean.jpeg?w=1068"
+          },
+          {
+            name: "Joglo",
+            image: "https://cdn.rri.co.id/berita/Surabaya/o/1741934915220-Rumah-Adat-Joglo/3235okqsbh5ca1t.jpeg"
           }
         ]
       },
@@ -1542,7 +1550,12 @@ const provincesData = {
             name: "Gandrung Banyuwangi",
             image: "",
             ytUrl: "https://www.youtube.com/watch?v=PCYtzoE3-cg&list=RDPCYtzoE3-cg&start_radio=1&ab_channel=JiwaEtnikBlambangan"
-          }
+          },
+          {
+            name: "Reog Ponorogo",
+            image: "",
+            ytUrl: "https://www.youtube.com/watch?v=NmT7b6wZszw&ab_channel=Kompas.com"
+          },
         ]
       },
       {
@@ -1634,6 +1647,11 @@ const provincesData = {
             name: "Tari Katuran",
             image: "",
             ytUrl: "https://youtu.be/xdXR8ZTozrs"
+          },
+          {
+            name: "Tari Rampak Bedug",
+            image: "",
+            ytUrl: "https://www.youtube.com/watch?v=Gj3CiU15CKI&ab_channel=Indonesia5"
           }
         ]
       },
