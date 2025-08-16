@@ -7,34 +7,30 @@ import BottomNav from '../../components/BottomNav';
 const provincesData = {
   "11": {
     name: "Aceh",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
+    capital: "Banda Aceh",
+    area: "58,376", // dalam km²
+    population: "5.555 juta (2024)" ,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Coat_of_arms_of_Aceh.svg/120px-Coat_of_arms_of_Aceh.svg.png",
     cultures: [
       {
         name: "Rumah Adat",
         data: [
           {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
+            name: "Krong Bade",
+            image: "https://asset.kompas.com/crops/AflJ1cFIJYKCCwXb0aXhRyRYLfY=/114x139:398x329/1200x800/data/photo/2022/02/07/6200b9a37e755.png"
           },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
         ]
       },
       {
         name: "Baju Adat",
         data: [
           {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
+            name: "Baju Meukeusah",
+            image: "https://cnc-magazine.oramiland.com/parenting/images/Pakaian-Adat-Pengantin-Aceh-untuk.width-800.format-webp.webp"
+          },
+          {
+            name: "Celana Sileuweu",
+            image: "https://cnc-magazine.oramiland.com/parenting/images/Pakaian_Adat_Aceh_Sileuwu.width-800.format-webp.webp"
           },
         ]
       },
@@ -42,9 +38,9 @@ const provincesData = {
         name: "Tarian",
         data: [
           {
-            name: "Tari Topeng Betawi",
+            name: "Tari Saman",
             image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
+            ytUrl: "https://www.youtube.com/watch?v=q-8tMZKBgrA&list=RDq-8tMZKBgrA&start_radio=1&ab_channel=osh"
           }
         ]
       },
@@ -52,8 +48,8 @@ const provincesData = {
         name: "Senjata",
         data: [
           {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
+            name: "Rencong",
+            image: "https://cnc-magazine.oramiland.com/parenting/images/Rencong-pakaian-adat-aceh.width-800.format-webp.webp"
           }
         ]
       },
@@ -61,8 +57,8 @@ const provincesData = {
         name: "Makanan Khas",
         data: [
           {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
+            name: "Mie Aceh",
+            image: "https://www.unileverfoodsolutions.co.id/id/inspirasi-chef/kuliner-autentik-indonesia/10-makanan-terkenal-khas-aceh-untuk-ide-menu-resto/jcr:content/parsys/set1/row3/span8/textimage_copy_1950509490/image.transform/jpeg-optimized/image.1715080196715.jpg"
           }
         ]
       },
@@ -70,45 +66,27 @@ const provincesData = {
         name: "Alat Musik",
         data: [
           {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
+            name: "Serune kale",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4xbv4NRIzWgAcc1nAHo_OWLJnWjmfKLK2Ag&s",
+            ytUrl: "https://youtu.be/LXNNUnfa06E?si=nj23QdgQY7naVHDx ", // penggunaan alat musik
           },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
         ]
       },
       {
         name: "Lagu Daerah",
         data: [
           {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
+            name: "Bungong Jeumpa",
+            ytUrl: "https://youtu.be/lAVi2OE2bRY?si=hPAz-x6EuM_Mefil"
           },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
         ]
       },
       {
         name: "Seni Pertunjukan",
         data: [
           {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
+            name: "Ratoh Jaroe",
+            ytUrl: "https://www.youtube.com/watch?v=SG-Aw5_v8BQ&list=RDSG-Aw5_v8BQ&start_radio=1&ab_channel=SanggarSeniKenarGumilar"
           }
         ]
       }
@@ -4219,6 +4197,7 @@ const provinceSongs = {
   "33": "/music/jawa_tengah.mp3",
   "34": "/music/yogyakarta.mp3",
   "35": "/music/jawa_timur.mp3",
+  "11": "/music/aceh.mp3",
   // dst...
 };
 
