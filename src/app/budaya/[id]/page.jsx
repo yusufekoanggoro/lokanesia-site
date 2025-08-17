@@ -479,111 +479,115 @@ const provincesData = {
   },
   "16": {
     name: "Sumatera Selatan",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
-    cultures: [
-      {
-        name: "Rumah Adat",
-        data: [
-          {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
-          },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
-        ]
-      },
-      {
-        name: "Baju Adat",
-        data: [
-          {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
-          },
-        ]
-      },
-      {
-        name: "Tarian",
-        data: [
-          {
-            name: "Tari Topeng Betawi",
-            image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
-          }
-        ]
-      },
-      {
-        name: "Senjata",
-        data: [
-          {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
-          }
-        ]
-      },
-      {
-        name: "Makanan Khas",
-        data: [
-          {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
-          }
-        ]
-      },
-      {
-        name: "Alat Musik",
-        data: [
-          {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
-          },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
-        ]
-      },
-      {
-        name: "Lagu Daerah",
-        data: [
-          {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
-          },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
-        ]
-      },
-      {
-        name: "Seni Pertunjukan",
-        data: [
-          {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
-          }
-        ]
-      }
+    capital: "Palembang",
+    area: "86,771", // dalam km²
+    population: "9.064.690 juta (2024)" ,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coat_of_arms_of_South_Sumatra.svg/120px-Coat_of_arms_of_South_Sumatra.svg.png",
+    "cultures": [
+        {
+          "name": "Rumah Adat",
+          "data": [
+            {
+              "name": "Rumah Limas",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rumah_Limas_Palembang.jpg/500px-Rumah_Limas_Palembang.jpg"
+            },
+            {
+              "name": "Rumah Ulu",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Rumah_Ulu_Palembang.jpg/500px-Rumah_Ulu_Palembang.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Baju Adat",
+          "data": [
+            {
+              "name": "Aesan Gede",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Baju_Adat_Palembang_Aesan_Gede.jpg/400px-Baju_Adat_Palembang_Aesan_Gede.jpg"
+            },
+            {
+              "name": "Aesan Paksangko",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Aesan_Paksangko_Palembang.jpg/400px-Aesan_Paksangko_Palembang.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Tarian",
+          "data": [
+            {
+              "name": "Tari Gending Sriwijaya",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tari_Gending_Sriwijaya.jpg/500px-Tari_Gending_Sriwijaya.jpg",
+              "ytUrl": "https://www.youtube.com/watch?v=ttnnx8yFYRw"
+            },
+            {
+              "name": "Tari Tanggai",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tari_Tanggai_Palembang.jpg/500px-Tari_Tanggai_Palembang.jpg",
+              "ytUrl": "https://www.youtube.com/watch?v=4MyKkC4dQSk"
+            }
+          ]
+        },
+        {
+          "name": "Senjata",
+          "data": [
+            {
+              "name": "Keris Palembang",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Keris_Palembang.jpg/400px-Keris_Palembang.jpg"
+            },
+            {
+              "name": "Tombak Trisula",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Trisula_indonesia.jpg/400px-Trisula_indonesia.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Makanan Khas",
+          "data": [
+            {
+              "name": "Pempek",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Indonesian_cuisine-Pempek-03.jpg/400px-Indonesian_cuisine-Pempek-03.jpg"
+            },
+            {
+              "name": "Tekwan",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Tekwan_Palembang.jpg/400px-Tekwan_Palembang.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Alat Musik",
+          "data": [
+            {
+              "name": "Gong",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gong_Indonesia.jpg/400px-Gong_Indonesia.jpg",
+              "ytUrl": "https://www.youtube.com/watch?v=CEeqfpU4Fj0"
+            },
+            {
+              "name": "Gendang Melayu",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gendang_Melayu.jpg/400px-Gendang_Melayu.jpg",
+              "ytUrl": "https://www.youtube.com/watch?v=5u49N9RDkNg"
+            }
+          ]
+        },
+        {
+          "name": "Lagu Daerah",
+          "data": [
+            {
+              "name": "Dek Sangke",
+              "ytUrl": "https://www.youtube.com/watch?v=Vi8CmY2s4fM"
+            },
+            {
+              "name": "Cuk Mak Ilang",
+              "ytUrl": "https://www.youtube.com/watch?v=02waP5ud8yM"
+            }
+          ]
+        },
+        {
+          "name": "Seni Pertunjukan",
+          "data": [
+            {
+              "name": "Dulmuluk (Teater Tradisional Palembang)",
+              "ytUrl": "https://www.youtube.com/watch?v=ViL1oQ6lTjE"
+            }
+          ]
+        }
     ]
   },
   "17": {
@@ -4134,6 +4138,7 @@ const provinceSongs = {
   "14": "/music/riau.mp3",
   "15": "/music/jambi.mp3",
   "21": "/music/kepriau.mp3",
+  "16": "/music/sumsel.mp3",
   // dst...
 };
 
