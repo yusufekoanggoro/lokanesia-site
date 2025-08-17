@@ -2706,442 +2706,458 @@ const provincesData = {
   ]
 },
 
-  "37": {
-    name: "Sulawesi Selatan",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
-    cultures: [
-      {
-        name: "Rumah Adat",
-        data: [
-          {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
-          },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
-        ]
-      },
-      {
-        name: "Baju Adat",
-        data: [
-          {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
-          },
-        ]
-      },
-      {
-        name: "Tarian",
-        data: [
-          {
-            name: "Tari Topeng Betawi",
-            image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
-          }
-        ]
-      },
-      {
-        name: "Senjata",
-        data: [
-          {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
-          }
-        ]
-      },
-      {
-        name: "Makanan Khas",
-        data: [
-          {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
-          }
-        ]
-      },
-      {
-        name: "Alat Musik",
-        data: [
-          {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
-          },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
-        ]
-      },
-      {
-        name: "Lagu Daerah",
-        data: [
-          {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
-          },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
-        ]
-      },
-      {
-        name: "Seni Pertunjukan",
-        data: [
-          {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
-          }
-        ]
-      }
-    ]
-  },
-  "38": {
-    name: "Sulawesi Tenggara",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
-    cultures: [
-      {
-        name: "Rumah Adat",
-        data: [
-          {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
-          },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
-        ]
-      },
-      {
-        name: "Baju Adat",
-        data: [
-          {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
-          },
-        ]
-      },
-      {
-        name: "Tarian",
-        data: [
-          {
-            name: "Tari Topeng Betawi",
-            image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
-          }
-        ]
-      },
-      {
-        name: "Senjata",
-        data: [
-          {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
-          }
-        ]
-      },
-      {
-        name: "Makanan Khas",
-        data: [
-          {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
-          }
-        ]
-      },
-      {
-        name: "Alat Musik",
-        data: [
-          {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
-          },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
-        ]
-      },
-      {
-        name: "Lagu Daerah",
-        data: [
-          {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
-          },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
-        ]
-      },
-      {
-        name: "Seni Pertunjukan",
-        data: [
-          {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
-          }
-        ]
-      }
-    ]
-  },
-  "39": {
-    name: "Gorontalo",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
-    cultures: [
-      {
-        name: "Rumah Adat",
-        data: [
-          {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
-          },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
-        ]
-      },
-      {
-        name: "Baju Adat",
-        data: [
-          {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
-          },
-        ]
-      },
-      {
-        name: "Tarian",
-        data: [
-          {
-            name: "Tari Topeng Betawi",
-            image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
-          }
-        ]
-      },
-      {
-        name: "Senjata",
-        data: [
-          {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
-          }
-        ]
-      },
-      {
-        name: "Makanan Khas",
-        data: [
-          {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
-          }
-        ]
-      },
-      {
-        name: "Alat Musik",
-        data: [
-          {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
-          },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
-        ]
-      },
-      {
-        name: "Lagu Daerah",
-        data: [
-          {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
-          },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
-        ]
-      },
-      {
-        name: "Seni Pertunjukan",
-        data: [
-          {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
-          }
-        ]
-      }
-    ]
-  },
-  "39": {
-    name: "Sulawesi Barat",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
-    cultures: [
-      {
-        name: "Rumah Adat",
-        data: [
-          {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
-          },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
-        ]
-      },
-      {
-        name: "Baju Adat",
-        data: [
-          {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
-          },
-        ]
-      },
-      {
-        name: "Tarian",
-        data: [
-          {
-            name: "Tari Topeng Betawi",
-            image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
-          }
-        ]
-      },
-      {
-        name: "Senjata",
-        data: [
-          {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
-          }
-        ]
-      },
-      {
-        name: "Makanan Khas",
-        data: [
-          {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
-          }
-        ]
-      },
-      {
-        name: "Alat Musik",
-        data: [
-          {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
-          },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
-        ]
-      },
-      {
-        name: "Lagu Daerah",
-        data: [
-          {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
-          },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
-        ]
-      },
-      {
-        name: "Seni Pertunjukan",
-        data: [
-          {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
-          }
-        ]
-      }
-    ]
-  },
+"73": {
+  "name": "Sulawesi Selatan",
+  "capital": "Makassar",
+  "area": 46717,
+  "population": 9097000,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Coat_of_arms_of_South_Sulawesi.svg/800px-Coat_of_arms_of_South_Sulawesi.svg.png",
+  "cultures": [
+    {
+      "name": "Rumah Adat",
+      "data": [
+        {
+          "name": "Tongkonan (Toraja)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tongkonan_Toraja.JPG/500px-Tongkonan_Toraja.JPG"
+        },
+        {
+          "name": "Balla Lompoa (Bugis/Makassar)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Balla_Lompoa.jpg/500px-Balla_Lompoa.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Baju Adat",
+      "data": [
+        {
+          "name": "Baju Bodo (Bugis/Makassar)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Baju_Bodo_Bugis.jpg/500px-Baju_Bodo_Bugis.jpg"
+        },
+        {
+          "name": "Seppa Tallung (Toraja)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pakaian_Adat_Toraja.jpg/500px-Pakaian_Adat_Toraja.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Tarian",
+      "data": [
+        {
+          "name": "Tari Pakarena (Makassar)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Tari_Pakarena.jpg/500px-Tari_Pakarena.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=xtX95V-3ztU"
+        },
+        {
+          "name": "Tari Ma’randing (Toraja)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tari_Maranding_Toraja.jpg/500px-Tari_Maranding_Toraja.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=3LItUYoIwFE"
+        }
+      ]
+    },
+    {
+      "name": "Senjata",
+      "data": [
+        {
+          "name": "Badik (Bugis/Makassar)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Badik_Bugis.jpg/500px-Badik_Bugis.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Makanan Khas",
+      "data": [
+        {
+          "name": "Coto Makassar",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Coto_Makassar.jpg/500px-Coto_Makassar.jpg"
+        },
+        {
+          "name": "Konro",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Sop_Konro.jpg/500px-Sop_Konro.jpg"
+        },
+        {
+          "name": "Pallubasa",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Pallubasa_Makassar.jpg/500px-Pallubasa_Makassar.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Alat Musik",
+      "data": [
+        {
+          "name": "Keso-keso (Biola Tradisional Bugis)",
+          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-3cf37a2cbf464b58b9dd55d0a10e4b42.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=1cJyoFQygPw"
+        },
+        {
+          "name": "Gandang (Gendang Bugis/Makassar)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gendang_Bugis.jpg/500px-Gendang_Bugis.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=PR5a-fDDn1E"
+        }
+      ]
+    },
+    {
+      "name": "Lagu Daerah",
+      "data": [
+        {
+          "name": "Anging Mammiri",
+          "ytUrl": "https://www.youtube.com/watch?v=7bQYHcfVAmc"
+        },
+        {
+          "name": "Pakarena",
+          "ytUrl": "https://www.youtube.com/watch?v=5qNkb52sQKg"
+        },
+        {
+          "name": "Tana Toraja",
+          "ytUrl": "https://www.youtube.com/watch?v=dQ4Z7vqwhpA"
+        }
+      ]
+    },
+    {
+      "name": "Seni Pertunjukan",
+      "data": [
+        {
+          "name": "Ma’badong (Toraja)",
+          "ytUrl": "https://www.youtube.com/watch?v=ZBkAX9sGe9Q"
+        },
+        {
+          "name": "Kelong (Seni Musik Bugis)",
+          "ytUrl": "https://www.youtube.com/watch?v=7tn2-4QBlL0"
+        }
+      ]
+    }
+  ]
+},
+
+"74": {
+  "name": "Sulawesi Tenggara",
+  "capital": "Kendari",
+  "area": 38140,
+  "population": 2970000,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Coat_of_arms_of_Southeast_Sulawesi.svg/800px-Coat_of_arms_of_Southeast_Sulawesi.svg.png",
+  "cultures": [
+    {
+      "name": "Rumah Adat",
+      "data": [
+        {
+          "name": "Banua Tada (Buton)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rumah_adat_Banua_Tada.jpg/500px-Rumah_adat_Banua_Tada.jpg"
+        },
+        {
+          "name": "Laika (Muna)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Laika_Taha_Muna.jpg/500px-Laika_Taha_Muna.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Baju Adat",
+      "data": [
+        {
+          "name": "Babu Nggawi (Tolaki)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Baju_Adat_Tolaki.jpg/500px-Baju_Adat_Tolaki.jpg"
+        },
+        {
+          "name": "Babu Nggawi Langgai (Buton)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Baju_Adat_Buton.jpg/500px-Baju_Adat_Buton.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Tarian",
+      "data": [
+        {
+          "name": "Tari Lulo (Tolaki)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tari_Lulo_Sulawesi_Tenggara.jpg/500px-Tari_Lulo_Sulawesi_Tenggara.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=QYi1q9rUwBk"
+        },
+        {
+          "name": "Tari Linda (Muna)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tari_Linda_Muna.jpg/500px-Tari_Linda_Muna.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=x4nYyPq4wLE"
+        }
+      ]
+    },
+    {
+      "name": "Senjata",
+      "data": [
+        {
+          "name": "Kris Buton",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Keris_Buton.jpg/500px-Keris_Buton.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Makanan Khas",
+      "data": [
+        {
+          "name": "Sinonggi (Tolaki)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sinonggi_Tolaki.jpg/500px-Sinonggi_Tolaki.jpg"
+        },
+        {
+          "name": "Kabuto (Makanan Buton)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kabuto_Buton.jpg/500px-Kabuto_Buton.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Alat Musik",
+      "data": [
+        {
+          "name": "Ganda (Gendang Tolaki)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gendang_Tolaki.jpg/500px-Gendang_Tolaki.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=TLXlAfeUnhA"
+        },
+        {
+          "name": "Kacapi Buton",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Kacapi_Buton.jpg/500px-Kacapi_Buton.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=9mUTXZamEoQ"
+        }
+      ]
+    },
+    {
+      "name": "Lagu Daerah",
+      "data": [
+        {
+          "name": "Peia Tawa-tawa (Tolaki)",
+          "ytUrl": "https://www.youtube.com/watch?v=cAI-T4dm7JQ"
+        },
+        {
+          "name": "Inde Inde (Buton)",
+          "ytUrl": "https://www.youtube.com/watch?v=gfkaYyNTl10"
+        }
+      ]
+    },
+    {
+      "name": "Seni Pertunjukan",
+      "data": [
+        {
+          "name": "Tarian Lulo Massal",
+          "ytUrl": "https://www.youtube.com/watch?v=ooD8IbnTR2o"
+        },
+        {
+          "name": "Kande-kandea (Buton)",
+          "ytUrl": "https://www.youtube.com/watch?v=t1S2rFe7eUM"
+        }
+      ]
+    }
+  ]
+},
+
+"75": {
+  "name": "Gorontalo",
+  "capital": "Gorontalo",
+  "area": 12215,
+  "population": 1182000,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Coat_of_arms_of_Gorontalo.svg/800px-Coat_of_arms_of_Gorontalo.svg.png",
+  "cultures": [
+    {
+      "name": "Rumah Adat",
+      "data": [
+        {
+          "name": "Dulohupa",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Rumah_Adat_Dulohupa.jpg/500px-Rumah_Adat_Dulohupa.jpg"
+        },
+        {
+          "name": "Bantayo Poboide",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bantayo_Poboide_Gorontalo.jpg/500px-Bantayo_Poboide_Gorontalo.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Baju Adat",
+      "data": [
+        {
+          "name": "Bili'u (Pengantin Wanita)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Baju_Adat_Bilihu_Gorontalo.jpg/500px-Baju_Adat_Bilihu_Gorontalo.jpg"
+        },
+        {
+          "name": "Payunga (Pengantin Pria)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Baju_Adat_Payunga_Gorontalo.jpg/500px-Baju_Adat_Payunga_Gorontalo.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Tarian",
+      "data": [
+        {
+          "name": "Tari Saronde",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tari_Saronde_Gorontalo.jpg/500px-Tari_Saronde_Gorontalo.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=pRhWbXjCgFQ"
+        },
+        {
+          "name": "Tari Dana-dana",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tari_Dana-Dana_Gorontalo.jpg/500px-Tari_Dana-Dana_Gorontalo.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=3gO5Mij1ddM"
+        }
+      ]
+    },
+    {
+      "name": "Senjata",
+      "data": [
+        {
+          "name": "Wamilo",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wamilo_Gorontalo.jpg/500px-Wamilo_Gorontalo.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Makanan Khas",
+      "data": [
+        {
+          "name": "Binte Biluhuta",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Binte_Biluhuta.jpg/500px-Binte_Biluhuta.jpg"
+        },
+        {
+          "name": "Ilabulo",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Ilabulo_Gorontalo.jpg/500px-Ilabulo_Gorontalo.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Alat Musik",
+      "data": [
+        {
+          "name": "Polopalo",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Polopalo_Gorontalo.jpg/500px-Polopalo_Gorontalo.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=w7C69U6l2bI"
+        },
+        {
+          "name": "Gambusi",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gambusi_Gorontalo.jpg/500px-Gambusi_Gorontalo.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=X0uOBtN2cEQ"
+        }
+      ]
+    },
+    {
+      "name": "Lagu Daerah",
+      "data": [
+        {
+          "name": "Hu’ilo Hu’ilo",
+          "ytUrl": "https://www.youtube.com/watch?v=HVRvXcC7ayQ"
+        },
+        {
+          "name": "Binthe Biluhuta",
+          "ytUrl": "https://www.youtube.com/watch?v=TOqIYQ9k5qM"
+        }
+      ]
+    },
+    {
+      "name": "Seni Pertunjukan",
+      "data": [
+        {
+          "name": "Tarian Saronde (pertunjukan pernikahan)",
+          "ytUrl": "https://www.youtube.com/watch?v=pRhWbXjCgFQ"
+        }
+      ]
+    }
+  ]
+},
+
+"76": {
+  "name": "Sulawesi Barat",
+  "capital": "Mamuju",
+  "area": 16787, 
+  "population": 1581000,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Coat_of_arms_of_West_Sulawesi.svg/800px-Coat_of_arms_of_West_Sulawesi.svg.png",
+  "cultures": [
+    {
+      "name": "Rumah Adat",
+      "data": [
+        {
+          "name": "Boyang Adaq",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rumah_Adat_Boyang_Mandar.jpg/500px-Rumah_Adat_Boyang_Mandar.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Baju Adat",
+      "data": [
+        {
+          "name": "Baju Pokko (Wanita)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Baju_Pokko_Mandar.jpg/500px-Baju_Pokko_Mandar.jpg"
+        },
+        {
+          "name": "Baju Pattuqduq Towaine (Pria)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Baju_Adat_Mandar_Sulawesi_Barat.jpg/500px-Baju_Adat_Mandar_Sulawesi_Barat.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Tarian",
+      "data": [
+        {
+          "name": "Tari Pattuqduq Towaine",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tari_Pattuqduq_Towaine_Mandar.jpg/500px-Tari_Pattuqduq_Towaine_Mandar.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=F1sQbK5pCrg"
+        },
+        {
+          "name": "Tari Sayyang Pattuddu’",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sayyang_Pattudu%27_Mandar.jpg/500px-Sayyang_Pattudu%27_Mandar.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=Gx9FHeG7G9o"
+        }
+      ]
+    },
+    {
+      "name": "Senjata",
+      "data": [
+        {
+          "name": "Badik Mandar",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Badik_Mandar.jpg/500px-Badik_Mandar.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Makanan Khas",
+      "data": [
+        {
+          "name": "Jepa",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Jepa_Mandar.jpg/500px-Jepa_Mandar.jpg"
+        },
+        {
+          "name": "Kue Kui-kui",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kui-kui_Mandar.jpg/500px-Kui-kui_Mandar.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Alat Musik",
+      "data": [
+        {
+          "name": "Kacaping",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Kacaping_Mandar.jpg/500px-Kacaping_Mandar.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=gFMptipPz7o"
+        },
+        {
+          "name": "Gendang Mandar",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gendang_Mandar.jpg/500px-Gendang_Mandar.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=5dhsHCQtnrU"
+        }
+      ]
+    },
+    {
+      "name": "Lagu Daerah",
+      "data": [
+        {
+          "name": "Sayang-sayang Mandar",
+          "ytUrl": "https://www.youtube.com/watch?v=RM1yHUVdHUI"
+        },
+        {
+          "name": "Paiya",
+          "ytUrl": "https://www.youtube.com/watch?v=hhcb0A1Y5no"
+        }
+      ]
+    },
+    {
+      "name": "Seni Pertunjukan",
+      "data": [
+        {
+          "name": "Sayyang Pattu’du (kuda menari tradisional)",
+          "ytUrl": "https://www.youtube.com/watch?v=Gx9FHeG7G9o"
+        }
+      ]
+    }
+  ]
+},
+
   "40": {
     name: "Maluku",
     capital: "Jakarta",
