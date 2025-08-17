@@ -2052,119 +2052,120 @@ const provincesData = {
     ]
   },
   "62": {
-    name: "Kalimantan Tengah",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
-    cultures: [
+    "name": "Kalimantan Tengah",
+    "capital": "Palangka Raya",
+    "area": "153,444", 
+    "population": "2.81 juta (2024)", 
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_Central_Kalimantan.svg/120px-Coat_of_arms_of_Central_Kalimantan.svg.png",
+    "cultures": [
       {
-        name: "Rumah Adat",
-        data: [
+        "name": "Rumah Adat",
+        "data": [
           {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
-          },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
+            "name": "Rumah Betang",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Rumah_Betang_Kalimantan_Tengah.jpg"
           }
         ]
       },
       {
-        name: "Baju Adat",
-        data: [
+        "name": "Baju Adat",
+        "data": [
           {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
+            "name": "Pakaian Sangkarut (Pria)",
+            "image": "https://i0.wp.com/seringjalan.com/wp-content/uploads/2020/08/Pakaian-adat-suku-Dayak-Ngaju.jpg"
           },
-        ]
-      },
-      {
-        name: "Tarian",
-        data: [
           {
-            name: "Tari Topeng Betawi",
-            image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
+            "name": "Pakaian Sangkarut (Wanita)",
+            "image": "https://seringjalan.com/wp-content/uploads/2020/08/pakaian-adat-dayak-wanita.jpg"
           }
         ]
       },
       {
-        name: "Senjata",
-        data: [
+        "name": "Tarian",
+        "data": [
           {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
+            "name": "Tari Tambun dan Bungai",
+            "image": "https://asset.kompas.com/crops/gJpOAGbD8d0gEfa0nUqq3BjXACs=/0x0:780x520/750x500/data/photo/2021/07/22/60f90dd1d2173.jpg",
+            "ytUrl": "https://www.youtube.com/watch?v=gY6_NcAfC3U"
+          },
+          {
+            "name": "Tari Balean Dadas",
+            "image": "https://i.ytimg.com/vi/NfpkT0oEC6E/maxresdefault.jpg",
+            "ytUrl": "https://www.youtube.com/watch?v=NfpkT0oEC6E"
           }
         ]
       },
       {
-        name: "Makanan Khas",
-        data: [
+        "name": "Senjata",
+        "data": [
           {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
+            "name": "Mandau",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mandau_Dayak.jpg"
+          },
+          {
+            "name": "Sipet (Senjata Tiup)",
+            "image": "https://budaya-indonesia.org/storage/app/uploads/public/5ad/0dd/07c/thumb_6800_700_500_0_0_auto.jpg"
           }
         ]
       },
       {
-        name: "Alat Musik",
-        data: [
+        "name": "Makanan Khas",
+        "data": [
           {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
+            "name": "Juhu Singkah (Umbut Rotan)",
+            "image": "https://cdn.idntimes.com/content-images/community/2019/05/59522714-657919648002300-2360954183152041080-n-91df463d1ae2cd64066387d2a97432c6.jpg"
           },
           {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
+            "name": "Kalumpe (Daun Singkong Tumbuk)",
+            "image": "https://cdn.idntimes.com/content-images/post/20190527/60843192-1014177142242319-6062447983219885346-n-f1e7f97928a2c5f5b79bbde74ce37a59.jpg"
           }
         ]
       },
       {
-        name: "Lagu Daerah",
-        data: [
+        "name": "Alat Musik",
+        "data": [
           {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
+            "name": "Garantung",
+            "image": "https://www.pegipegi.com/travel/wp-content/uploads/2019/08/garantung.jpg",
+            "ytUrl": "https://www.youtube.com/watch?v=qPuJ1Zg0LXc"
           },
           {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
+            "name": "Sampe’",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Sape%27%2C_traditioneel_snaarinstrument_van_de_Dayak.jpg",
+            "ytUrl": "https://www.youtube.com/watch?v=5ck-50Nps88"
           }
         ]
       },
       {
-        name: "Seni Pertunjukan",
-        data: [
+        "name": "Lagu Daerah",
+        "data": [
           {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
+            "name": "Tumpi Wayu",
+            "ytUrl": "https://www.youtube.com/watch?v=yyOaQv1N5RM"
+          },
+          {
+            "name": "Karungut",
+            "ytUrl": "https://www.youtube.com/watch?v=9b5ewP2w-YI"
+          }
+        ]
+      },
+      {
+        "name": "Seni Pertunjukan",
+        "data": [
+          {
+            "name": "Mamapas Lewu (Upacara Adat Dayak Ngaju)",
+            "ytUrl": "https://www.youtube.com/watch?v=2ccxP3umQ4s"
           }
         ]
       }
     ]
   },
+
   "63": {
     name: "Kalimantan Selatan",
     capital: "Jakarta",
     area: 661.5, // dalam km²
-    population: 10640000 ,
+    population: "2.81 juta (2024)",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
     cultures: [
       {
@@ -4142,7 +4143,8 @@ const provinceSongs = {
   "19": "/music/kepbanglitunh.mp3",
   "18": "/music/lampung.mp3",
 
-  "61": "/music/kalbar.mp3"
+  "61": "/music/kalbar.mp3",
+  "62": "/music/kalteng.mp3",
   // dst...
 };
 
