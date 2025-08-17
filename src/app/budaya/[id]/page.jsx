@@ -293,7 +293,7 @@ const provincesData = {
   },
   "14": {
     name: "Riau",
-    capital: "Jakarta",
+    capital: "Pekanbaru",
     area: "87,024", // dalam km²
     population: "7.007 juta (2024)" ,
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coat_of_arms_of_Riau.svg/120px-Coat_of_arms_of_Riau.svg.png",
@@ -913,27 +913,19 @@ const provincesData = {
       }
     ]
   },
-  "20": {
+  "21": {
     name: "Kepulauan Riau",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
+    capital: "Tanjung Pinang",
+    area: "8,270", // dalam km²
+    population: "2.162 juta (2023)" ,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Coat_of_arms_of_Riau_Islands.svg/120px-Coat_of_arms_of_Riau_Islands.svg.png",
     cultures: [
       {
         name: "Rumah Adat",
         data: [
           {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
-          },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
+            name: "Belah Bubung",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxQuxFvN7HlEYF7PFiM0xClNAYJFayamAGGu56Ml4iwsvZitg&s"
           }
         ]
       },
@@ -941,8 +933,12 @@ const provincesData = {
         name: "Baju Adat",
         data: [
           {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
+            name: "Pakaian teluk belanga pada pengantin pria",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Aksesoris_pengantin_pria_Melayu_Indonesia_dengan_kain_songket_corak_teluk_berantai_3.jpg/250px-Aksesoris_pengantin_pria_Melayu_Indonesia_dengan_kain_songket_corak_teluk_berantai_3.jpg"
+          },
+          {
+            name: "Pakaian sehari-hari laki-laki Melayu dengan teluk belanga",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pakaian_sehari-hari_pria_Melayu_Deli_berdiri_11.jpg/250px-Pakaian_sehari-hari_pria_Melayu_Deli_berdiri_11.jpg"
           },
         ]
       },
@@ -950,9 +946,9 @@ const provincesData = {
         name: "Tarian",
         data: [
           {
-            name: "Tari Topeng Betawi",
+            name: "Tari Persembahan",
             image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
+            ytUrl: "https://www.youtube.com/watch?v=KvnZLuhVYNM&list=RDKvnZLuhVYNM&start_radio=1&ab_channel=SanggarSeniBintanTelani"
           }
         ]
       },
@@ -960,8 +956,12 @@ const provincesData = {
         name: "Senjata",
         data: [
           {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
+            name: "Keris",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kris_and_scabbard.jpg/250px-Kris_and_scabbard.jpg"
+          },
+          {
+            name: "Badik",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sari_3.jpg/330px-Sari_3.jpg"
           }
         ]
       },
@@ -969,8 +969,8 @@ const provincesData = {
         name: "Makanan Khas",
         data: [
           {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
+            name: "Mie Tarempa",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHWnZiyZK2-e3YGHqqjso0Du2cIfewTfv5bQ&s"
           }
         ]
       },
@@ -978,45 +978,27 @@ const provincesData = {
         name: "Alat Musik",
         data: [
           {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
+            name: "Gendang Panjang",
+            image: "https://asset.kompas.com/crops/gSCKJVG9N85AmI5t3-A_UH0DflU=/23x0:698x450/1200x800/data/photo/2021/05/06/609377cc5835a.png",
+            ytUrl: "https://youtu.be/ZppZJLm2i_k?si=oXOD1X3J5oFlpykD ", // penggunaan alat musik
           },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
         ]
       },
       {
         name: "Lagu Daerah",
         data: [
           {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
+            name: "Pulau Bintan",
+            ytUrl: "https://youtu.be/x7WpDyQGtxk?si=BiZVRRJUn3nLNiQM "
           },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
         ]
       },
       {
         name: "Seni Pertunjukan",
         data: [
           {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
+            name: "Tari Jogi",
+            ytUrl: "https://www.youtube.com/watch?v=tr75gv3Bvyk&ab_channel=AlinAlamanda"
           }
         ]
       }
@@ -4151,6 +4133,7 @@ const provinceSongs = {
   "13": "/music/sumatera_barat.mp3",
   "14": "/music/riau.mp3",
   "15": "/music/jambi.mp3",
+  "21": "/music/kepriau.mp3",
   // dst...
 };
 
