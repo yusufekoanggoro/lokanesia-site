@@ -2482,115 +2482,120 @@ const provincesData = {
     ]
   },
 
-  "71": {
-    name: "Sulawesi Utara",
-    capital: "Jakarta",
-    area: 661.5, // dalam km²
-    population: 10640000 ,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/800px-Coat_of_arms_of_Jakarta.svg.png",
-    cultures: [
-      {
-        name: "Rumah Adat",
-        data: [
-          {
-            name: "Rumah panggung Betawi",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg/500px-Rumah_Panggung_Betawi_di_Kampung_Marunda_Pulo.jpg"
-          },
-          {
-            name: "Rumah Kebaya",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumah_Adat_Kebaya_dari_Jakarta.jpg/500px-Rumah_Adat_Kebaya_dari_Jakarta.jpg"
-          },
-          {
-            name: "Rumah Gudang",
-            image: "https://blog-static.mamikos.com/wp-content/uploads/2023/01/Keunikan-Bentuk-Rumah-Adat-Gudang-Betawi-beserta-Ciri-ciri-dan-Penjelasannya-1.jpg.webp"
-          }
-        ]
-      },
-      {
-        name: "Baju Adat",
-        data: [
-          {
-            name: "Kebaya Encim",
-            image: "https://dynamic.zacdn.com/KN0vp4KmuM2dCYu5eKtV-IjOjVU=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/jamali-kebaya-7253-8128234-5.jpg"
-          },
-        ]
-      },
-      {
-        name: "Tarian",
-        data: [
-          {
-            name: "Tari Topeng Betawi",
-            image: "",
-            ytUrl: "https://www.youtube.com/watch?v=BbX60C0E0P4&list=RDBbX60C0E0P4&start_radio=1"
-          }
-        ]
-      },
-      {
-        name: "Senjata",
-        data: [
-          {
-            name: "Golok",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Golok_naga_indonesia.jpg/500px-Golok_naga_indonesia.jpg"
-          }
-        ]
-      },
-      {
-        name: "Makanan Khas",
-        data: [
-          {
-            name: "Kerak Telor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kerak_telor_Betawi.jpg/330px-Kerak_telor_Betawi.jpg"
-          }
-        ]
-      },
-      {
-        name: "Alat Musik",
-        data: [
-          {
-            name: "Tehyan",
-            image: "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-73097199-460853514540218-7858314336894600811-n-8b84b5c3fa2f492da87d1d921b1e8ed8.jpg?tr=w-730,h-486,fo-center",
-            ytUrl: "https://youtu.be/yUyYvlnVfwc?si=_J_TOjVtwxkfHT0C", // penggunaan alat musik
-          },
-          {
-            name: "Tanjidor",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg/500px-Tanjidor%2C_by_M_Jeffry_Hanafiah.jpg",
-            ytUrl: "https://youtu.be/MHr-Pvb07m0?si=KDzS2NcYD2nMQzH9", // penggunaan alat musik
-          },
-          {
-            name: "Rebana",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-            ytUrl: "https://youtu.be/oaBmWUq57hg?si=uSgUUaoV2WGDeyJe", // penggunaan alat musik
-          }
-        ]
-      },
-      {
-        name: "Lagu Daerah",
-        data: [
-          {
-            name: "Ondel-ondel",
-            ytUrl: "https://www.youtube.com/watch?v=wardyOl-EHo"
-          },
-          {
-            name: "Jali-jali",
-            ytUrl: "https://www.youtube.com/watch?v=iMuoAiycXp4"
-          },
-          {
-            name: "Kicir-kicir",
-            ytUrl: "https://youtu.be/lhZf7qGZzsE?si=1UmuxqCprEEHFDeD"
-          }
-        ]
-      },
-      {
-        name: "Seni Pertunjukan",
-        data: [
-          {
-            name: "Lenong",
-            ytUrl: "https://www.youtube.com/watch?v=2YKZWQ4jEgI"
-          }
-        ]
-      }
-    ]
-  },
+"71": {
+  "name": "Sulawesi Utara",
+  "capital": "Manado",
+  "area": "13,852",
+  "population": "2.645.291 (2024)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Coat_of_arms_of_North_Sulawesi.svg/120px-Coat_of_arms_of_North_Sulawesi.svg.png",
+  "cultures": [
+    {
+      "name": "Rumah Adat",
+      "data": [
+        {
+          "name": "Rumah Wale (Minahasa)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Wale_Kabupaten_Minahasa.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Baju Adat",
+      "data": [
+        {
+          "name": "Pakaian Adat Minahasa",
+          "image": "https://cdn.idntimes.com/content-images/post/20200623/pakaian-adat-minahasa-7b8d5f4e3e6f0c3c5bfc585d6e7d3b9a.jpg"
+        },
+        {
+          "name": "Pakaian Adat Bolaang Mongondow",
+          "image": "https://cdn.idntimes.com/content-images/post/20200623/pakaian-adat-bolaang-mongondow-2b8206c27d0cfe9e9d88abf8e0cf9a0a.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Tarian",
+      "data": [
+        {
+          "name": "Tari Kabasaran (Minahasa)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tari_Kabasaran.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=-DY8VevrM6Y"
+        },
+        {
+          "name": "Tari Maengket",
+          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-7315d70db73454d8a1e7b7e37e13c9ce.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=3wlVbk1d7BE"
+        }
+      ]
+    },
+    {
+      "name": "Senjata",
+      "data": [
+        {
+          "name": "Santi (Tombak Minahasa)",
+          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-836a25551cb50e77b06a14a2ec4c9d39.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Makanan Khas",
+      "data": [
+        {
+          "name": "Tinutuan (Bubur Manado)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Tinutuan_Bubur_Manado.jpg"
+        },
+        {
+          "name": "Cakalang Fufu",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cakalang_Fufu.jpg"
+        },
+        {
+          "name": "Rica-Rica",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ayam_Rica-Rica.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Alat Musik",
+      "data": [
+        {
+          "name": "Kolintang",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Alat_musik_Kolintang.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=Qluhw_SvQzk"
+        },
+        {
+          "name": "Bambu Klarinet (Sulut)",
+          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-7bb6461a3c727d8ee6f95e2c0bb158bb.jpg",
+          "ytUrl": "https://www.youtube.com/watch?v=UyNElbzMPXc"
+        }
+      ]
+    },
+    {
+      "name": "Lagu Daerah",
+      "data": [
+        {
+          "name": "Si Patokaan",
+          "ytUrl": "https://youtu.be/VbN4-j5Tm8Q?si=6oRoQIpGU4-wQIFI "
+        },
+        {
+          "name": "O Ina Ni Keke",
+          "ytUrl": "https://www.youtube.com/watch?v=wrgYPVuVFdU"
+        },
+        {
+          "name": "Esa Mokan",
+          "ytUrl": "https://www.youtube.com/watch?v=bAy6qzlvAIg"
+        }
+      ]
+    },
+    {
+      "name": "Seni Pertunjukan",
+      "data": [
+        {
+          "name": "Kabasaran Show (Tarian Perang)",
+          "ytUrl": "https://www.youtube.com/watch?v=MLLXtF8iTIo"
+        }
+      ]
+    }
+  ]
+},
+
   "72": {
     name: "Sulawesi Tengah",
     capital: "Jakarta",
@@ -4142,6 +4147,8 @@ const provinceSongs = {
   "63": "/music/kalsel.mp3",
   "64": "/music/kaltim.mp3",
   "65": "/music/kalut.mp3",
+
+  "71": "/music/sulut.mp3",
   // dst...
 };
 
