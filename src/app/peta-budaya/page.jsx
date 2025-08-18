@@ -52,7 +52,7 @@ export default function Peta() {
   function onEachFeature(feature, layer) {
     layer.on({
       click: () => {
-        setSelectedProvince(feature.properties.KODE_PROV);
+        setSelectedProvince(feature.id);
         // selectedProvinceName(feature.properties.PROVINSI);
         setSelectedProvinceName(feature.properties.PROVINSI);
         setOpen(true);
