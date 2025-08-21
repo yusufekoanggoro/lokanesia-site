@@ -1627,20 +1627,20 @@ const provincesData = {
 "51": {
   "name": "Bali",
   "capital": "Denpasar",
-  "area": 5780,
-  "population": 4340000,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Coat_of_arms_of_Bali.svg/800px-Coat_of_arms_of_Bali.svg.png",
+  "area": "5.780,06",
+  "population": "4.461 juta (2024)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Official_seal_of_the_Province_of_Bali.png/120px-Official_seal_of_the_Province_of_Bali.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Rumah Gapura Candi Bentar",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Candi_Bentar_Bali.jpg/500px-Candi_Bentar_Bali.jpg"
+          "image": "https://s3.ap-southeast-1.wasabisys.com/c340968/2023/05/W2Rbt6Vb-Gapura-Candi-Bentar.webp"
         },
         {
           "name": "Rumah Bale",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Bale_Bali.jpg/500px-Bale_Bali.jpg"
+          "image": "https://www.daerahkita.com/images/gambar/rumah-bale-tempat-tinggal-adat-suku-sasak-di-lombok-1.webp"
         }
       ]
     },
@@ -1649,11 +1649,11 @@ const provincesData = {
       "data": [
         {
           "name": "Payas Agung",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Busana_Payas_Agung_Bali.jpg/500px-Busana_Payas_Agung_Bali.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_1GeMixQLYZ2DmgMbbskXrcjt7LGmLdDnlg&s"
         },
         {
           "name": "Kebaya Bali",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kebaya_Bali_Modern.jpg/500px-Kebaya_Bali_Modern.jpg"
+          "image": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/7/11/1c273000-b95c-4c82-b62b-2435d97155a1.jpg"
         }
       ]
     },
@@ -1662,18 +1662,18 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Kecak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kecak_Dance_Uluwatu_Bali.jpg/500px-Kecak_Dance_Uluwatu_Bali.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=Y1c8zI-fCkE"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=2I5krxbnrA4&ab_channel=santowardoyo"
         },
         {
           "name": "Tari Pendet",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tari_Pendet_Bali.jpg/500px-Tari_Pendet_Bali.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=uepn6VZgtwY"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=r93o8G3zEbc&list=RDr93o8G3zEbc&start_radio=1&ab_channel=PPSTKENCANAMAS"
         },
         {
           "name": "Tari Barong",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Barong_Bali.jpg/500px-Barong_Bali.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=d2XKY2CgAEQ"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=aS414M6VcWY&ab_channel=MasJarotWibowo"
         }
       ]
     },
@@ -1682,7 +1682,7 @@ const provincesData = {
       "data": [
         {
           "name": "Keris Bali",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Keris_Bali.jpg/500px-Keris_Bali.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp-tOSthdQsChnkUyMcAie40CmGkhXYzwcdw&s"
         }
       ]
     },
@@ -1691,48 +1691,31 @@ const provincesData = {
       "data": [
         {
           "name": "Ayam Betutu",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ayam_Betutu_Bali.jpg/500px-Ayam_Betutu_Bali.jpg"
+          "image": "https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/11/Resep-Ayam-Betutu.jpg?fit=1536%2C1920&ssl=1"
         },
         {
           "name": "Lawar",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lawar_Bali.jpg/500px-Lawar_Bali.jpg"
+          "image": "https://asset.kompas.com/crops/aKHzGiCyRFfjzCWSTPWuyUd9KCs=/0x331:667x775/1200x800/data/photo/2022/06/08/62a00174befad.jpg"
         },
-        {
-          "name": "Babi Guling",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Babi_Guling_Bali.jpg/500px-Babi_Guling_Bali.jpg"
-        }
       ]
     },
     {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Gamelan Bali",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Gamelan_Bali.jpg/500px-Gamelan_Bali.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=4syYgz6F0rE"
+          "name": "Cengceng",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-DcVb_YtZod0WW0OuD6U20EjzgWXpLT6Shw&s",
+          "ytUrl": "https://youtu.be/gFipiNDYRoE?si=XkvwuiqbGNTYLCU8"
         },
-        {
-          "name": "Rindik",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Rindik_Bali.jpg/500px-Rindik_Bali.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=2Uco_pbt0jM"
-        }
       ]
     },
     {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "Janger",
-          "ytUrl": "https://www.youtube.com/watch?v=ywPu6I4lhKs"
+          "name": "Mejangeran",
+          "ytUrl": "https://youtu.be/dHb_eQoUUh8?si=XKBRRdRpOH56WC4G "
         },
-        {
-          "name": "Macepet-cepetan",
-          "ytUrl": "https://www.youtube.com/watch?v=kbT4jY0fDwQ"
-        },
-        {
-          "name": "Dewa Ayu",
-          "ytUrl": "https://www.youtube.com/watch?v=HKx5p2LOEEA"
-        }
       ]
     },
     {
@@ -1740,12 +1723,8 @@ const provincesData = {
       "data": [
         {
           "name": "Wayang Wong Bali",
-          "ytUrl": "https://www.youtube.com/watch?v=gFPj0In6kMI"
+          "ytUrl": "https://www.youtube.com/watch?v=sm0TUopXLQg&ab_channel=MainCreativeBali"
         },
-        {
-          "name": "Drama Gong",
-          "ytUrl": "https://www.youtube.com/watch?v=AGL5OTup-s4"
-        }
       ]
     }
   ]
@@ -3978,7 +3957,7 @@ const provinceSongs = {
   "72": "/music/sulteng.mp3",
 
   // Bali dan Nusa Tenggara
-
+  "51": "/music/bali.mp3",
 
   // maluku & papua
   "81": "/music/maluku.mp3",
