@@ -2494,11 +2494,11 @@ const provincesData = {
       "data": [
         {
           "name": "Rumah Tambi (Suku Kaili)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rumah_Adat_Tambi.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rumah_adat_Tambi.jpg/250px-Rumah_adat_Tambi.jpg"
         },
         {
-          "name": "Banua Mbongko (Pamona)",
-          "image": "https://sultengprov.go.id/uploads/post/image/banua-mbongko.jpg"
+          "name": "Souraja",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Sou_Raja_or_Banua_Oge%2C_Palu%2C_Central_Sulawesi_2018-09-17_01.jpg/250px-Sou_Raja_or_Banua_Oge%2C_Palu%2C_Central_Sulawesi_2018-09-17_01.jpg"
         }
       ]
     },
@@ -2507,11 +2507,11 @@ const provincesData = {
       "data": [
         {
           "name": "Ngata (Pakaian Adat Kaili)",
-          "image": "https://www.celebes.co/wp-content/uploads/2022/04/Pakaian-Adat-Suku-Kaili.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToBBLkIiBjvm3Ow_lA1ZP6OneK-ou6Hoyv3w&s"
         },
         {
           "name": "Pakaian Adat Pamona",
-          "image": "https://cdn.idntimes.com/content-images/community/2021/07/pakaian-adat-pamona-ff42f242b0de6d44e9f7c25d07e27705.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXXte1TiZL1tGx1hKN0_akGGSAJBIIH9zbg&s"
         }
       ]
     },
@@ -2520,13 +2520,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Dero (Pamona)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Tari_Dero_Tentena.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=rxrEbbQqO10"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=4mb5X7XSY4Y&list=RD4mb5X7XSY4Y&start_radio=1&ab_channel=IskandarProject"
         },
         {
           "name": "Tari Pamonte (Kaili)",
-          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-9f6a04de6d8a4634b2cf8c0f14f3c534.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=6m-1o6eJGmg"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=MfG35AAnXXw&list=RDMfG35AAnXXw&start_radio=1&ab_channel=AyuMBahasyuan"
         }
       ]
     },
@@ -2534,8 +2534,8 @@ const provincesData = {
       "name": "Senjata",
       "data": [
         {
-          "name": "Guma (Pedang Suku Kaili)",
-          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-43cc0fda6b270d0e71f4d6ac61412f9b.jpg"
+          "name": "Kanta",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/COLLECTIE_TROPENMUSEUM_Smal_houten_schild_met_banenversiering_van_been_schelpen_en_geitenhaar_TMnr_1772-431.jpg/330px-COLLECTIE_TROPENMUSEUM_Smal_houten_schild_met_banenversiering_van_been_schelpen_en_geitenhaar_TMnr_1772-431.jpg"
         }
       ]
     },
@@ -2544,15 +2544,15 @@ const provincesData = {
       "data": [
         {
           "name": "Kaledo (Kaki Lembu Donggala)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Kaledo.jpg"
+          "image": "https://static.republika.co.id/uploads/images/inpicture_slide/sup-tulang-kaki-lembu-khas-donggala-sulteng-_160523125101-201.jpg"
         },
         {
           "name": "Uta Kelo (Sayur Daun Kelor)",
-          "image": "https://sultengprov.go.id/uploads/post/image/uta-kelo.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzYjJA5Rk6ZzjFglgtwPBCz_frXCHFibDkog&s"
         },
         {
           "name": "Lalampa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Lalampa.jpg"
+          "image": "https://www.finnafood.com/blog/wp-content/uploads/2024/07/lalampa-Adalah.jpg"
         }
       ]
     },
@@ -2560,15 +2560,10 @@ const provincesData = {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Gimba (Gendang Kaili)",
-          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-d89e28f5a1841ad08eb6b69ff5c48f5c.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=_A9X8qvEV5Y"
+          "name": "Lalove",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTua-fpAii6K4fd5Q6GYR1YvLqyDMtKJDFGYw&s",
+          "ytUrl": "https://youtu.be/MJCkSqoT2pM?si=IAPIJTai44VM-YG4 "
         },
-        {
-          "name": "Santuq",
-          "image": "https://sultengprov.go.id/uploads/post/image/santuq.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=AEoydUgFvFg"
-        }
       ]
     },
     {
@@ -2585,7 +2580,7 @@ const provincesData = {
       "data": [
         {
           "name": "Mpae (Pertunjukan Musik & Tari Kaili)",
-          "ytUrl": "https://www.youtube.com/watch?v=Rtj5rMwP9_c"
+          "ytUrl": "https://www.youtube.com/watch?v=XgMXoQSpa8k&list=RDXgMXoQSpa8k&start_radio=1&ab_channel=LFPRODUCTION"
         }
       ]
     }
