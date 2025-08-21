@@ -1838,20 +1838,20 @@ const provincesData = {
 "53": {
   "name": "Nusa Tenggara Timur",
   "capital": "Kupang",
-  "area": 48718,
-  "population": 5600000,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Coat_of_arms_of_East_Nusa_Tenggara.svg/800px-Coat_of_arms_of_East_Nusa_Tenggara.svg.png",
+  "area": "47,876",
+  "population": "5.715 juta (2024)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Coat_of_Arms_of_East_Nusa_Tenggara_NEW.png/120px-Coat_of_Arms_of_East_Nusa_Tenggara_NEW.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Sao Ata Mosa Lakitana (Rumah Raja Sumba)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Rumah_Adat_Sumba.jpg/500px-Rumah_Adat_Sumba.jpg"
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2014/08/03/metaindriyani_nttrmh.jpg"
         },
         {
           "name": "Sao Ria (Rumah Adat Flores)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sao_Ria_Flores.jpg/500px-Sao_Ria_Flores.jpg"
+          "image": "https://cdn.timesmedia.co.id/images/2019/11/24/Sao-Ria-rumah-adat.jpg"
         }
       ]
     },
@@ -1860,11 +1860,11 @@ const provincesData = {
       "data": [
         {
           "name": "Ikat Sumba",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Tenun_Ikat_Sumba.jpg/500px-Tenun_Ikat_Sumba.jpg"
+          "image": "https://www.greeners.co/wp-content/uploads/2017/10/Mode-Tenun-Ikat-Sumba-Eksotisme-Nusa-Tenggara-Timur-dalam-Kain.jpg"
         },
         {
           "name": "Baju Amarasi (Timor)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Baju_Amarasi_Timor.jpg/500px-Baju_Amarasi_Timor.jpg"
+          "image": "https://assets.promediateknologi.id/crop/159x74:826x509/0x0/webp/photo/p3/93/2024/08/05/Desain-tanpa-judul-2-3164229528.png"
         }
       ]
     },
@@ -1873,13 +1873,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Caci (Manggarai, Flores)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tari_Caci_Flores.jpg/500px-Tari_Caci_Flores.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=TLTLZ3LqJrE"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=bhW0LgMaFKg&ab_channel=BKNPDIPerjuangan"
         },
         {
           "name": "Tari Likurai (Belu, Timor)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Tari_Likurai_Timor.jpg/500px-Tari_Likurai_Timor.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=pYFZVzzYy0w"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=LOlhgviLmqw&ab_channel=StudioJero"
         }
       ]
     },
@@ -1888,11 +1888,11 @@ const provincesData = {
       "data": [
         {
           "name": "Parang",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Parang_Sumba.jpg/500px-Parang_Sumba.jpg"
+          "image": "https://img.lazcdn.com/g/ff/kf/S7bb09dbed47d4592a38cf7d9c71dbd7eV.jpg_360x360q80.jpg_.webp"
         },
         {
           "name": "Suri (tombak khas NTT)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tombak_Suri_NTT.jpg/500px-Tombak_Suri_NTT.jpg"
+          "image": "https://asset.kompas.com/crops/NeLRC4nx0lEAqmz2Ze4u5W2dYXQ=/24x18:772x516/375x240/data/photo/2018/11/26/1251555276.jpg"
         }
       ]
     },
@@ -1901,11 +1901,11 @@ const provincesData = {
       "data": [
         {
           "name": "Jagung Bose",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jagung_Bose_NTT.jpg/500px-Jagung_Bose_NTT.jpg"
+          "image": "https://rajominang.id/blog/uploads/images/202504/image_750x_67f645e6cf3c3.jpg"
         },
         {
           "name": "Se'i Sapi",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sei_Sapi_Kupang.jpg/500px-Sei_Sapi_Kupang.jpg"
+          "image": "https://asset.kompas.com/crops/DXz8VuHdCJkniBVJv_YzdB2l6BE=/0x354:1440x1314/750x500/data/photo/2020/07/19/5f13ac00c83fb.jpg"
         }
       ]
     },
@@ -1914,30 +1914,21 @@ const provincesData = {
       "data": [
         {
           "name": "Sasando",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sasando_Alat_Musik_NTT.jpg/500px-Sasando_Alat_Musik_NTT.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=KaTtXwQhKHQ"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ZZKUmUL-YKHi_daz917AKREfXdFkwsoIAg&s",
+          "ytUrl": "https://youtu.be/e8NHPMAOD8w?si=YaomStiacak_J-Uj "
         },
-        {
-          "name": "Tambur Likurai",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Tambur_Likurai_Timor.jpg/500px-Tambur_Likurai_Timor.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=VIrZtJbqvgc"
-        }
       ]
     },
     {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "O Nina No",
-          "ytUrl": "https://www.youtube.com/watch?v=8Af2WnxhdIM"
-        },
-        {
-          "name": "Bolelebo",
-          "ytUrl": "https://www.youtube.com/watch?v=9_7uVtRz7f8"
-        },
-        {
           "name": "Anak Kambing Saya",
-          "ytUrl": "https://www.youtube.com/watch?v=mgHGOIkoK8o"
+          "ytUrl": "https://www.youtube.com/watch?v=UmFzip9EKpY&list=RDUmFzip9EKpY&start_radio=1&ab_channel=BaLiTa-BabaLiliTata"
+        },
+        {
+          "name": "Gemu Famire",
+          "ytUrl": "https://youtu.be/brvQbverqIY?si=Bhhcpxf7J95dHup3"
         }
       ]
     },
@@ -1946,11 +1937,11 @@ const provincesData = {
       "data": [
         {
           "name": "Caci (pertarungan tradisional Manggarai)",
-          "ytUrl": "https://www.youtube.com/watch?v=weFZc7OYXN8"
+          "ytUrl": "https://www.youtube.com/watch?v=BMPYB1WgVig&ab_channel=SAATECHANNEL"
         },
         {
           "name": "Sandelwood Parade (Sumba)",
-          "ytUrl": "https://www.youtube.com/watch?v=GBH5zFzHzSs"
+          "ytUrl": "https://www.youtube.com/watch?v=oevm6lnJDk8&ab_channel=ElangSumba"
         }
       ]
     }
@@ -3938,6 +3929,7 @@ const provinceSongs = {
   // Bali dan Nusa Tenggara
   "51": "/music/bali.mp3",
   "52": "/music/ntb.mp3",
+  "53": "/music/ntt.mp3",
 
   // maluku & papua
   "81": "/music/maluku.mp3",
