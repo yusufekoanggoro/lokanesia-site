@@ -2312,7 +2312,7 @@ const provincesData = {
         "data": [
           {
             "name": "Rumah Baloy (Suku Tidung)",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Rumah_Budaya_Baloy_Mayo.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Baloy_Mayo_Adat_Tidung_%282%29.JPG/250px-Baloy_Mayo_Adat_Tidung_%282%29.JPG"
           }
         ]
       },
@@ -2320,12 +2320,8 @@ const provincesData = {
         "name": "Baju Adat",
         "data": [
           {
-            "name": "Baju Manteren Lalang",
-            "image": "https://cdn.idntimes.com/content-images/post/20210701/pakaian-adat-kalimantan-utara-9a41e7b38de3ee579c6f24c5a1d6c66a.jpg"
-          },
-          {
             "name": "Baju Ta’a & Sapei Sapaq (Dayak)",
-            "image": "https://cdn.idntimes.com/content-images/post/20200623/baju-ta-a-dan-sapei-sapaq-836b38e8e9dfdf0df97c4d2c74f4ed8e.jpg"
+            "image": "https://sdn13.bimakota.sch.id/upload/kontent/1722428979_4e7f68f7e2f72aa98a30.jpeg"
           }
         ]
       },
@@ -2334,8 +2330,8 @@ const provincesData = {
         "data": [
           {
             "name": "Tari Jepen (Pengaruh Melayu & Bugis)",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Tari_Jepen.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=j4NqRJiv9ew"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=3jyQ8afPKNE&list=RD3jyQ8afPKNE&start_radio=1&ab_channel=RumahBudayaIndonesia"
           }
         ]
       },
@@ -2344,7 +2340,7 @@ const provincesData = {
         "data": [
           {
             "name": "Mandau",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mandau_Dayak.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/COLLECTIE_TROPENMUSEUM_Zwaard_met_gevest_van_been_schede_en_mesje_TMnr_391-122.jpg/330px-COLLECTIE_TROPENMUSEUM_Zwaard_met_gevest_van_been_schede_en_mesje_TMnr_391-122.jpg"
           }
         ]
       },
@@ -2353,40 +2349,27 @@ const provincesData = {
         "data": [
           {
             "name": "Ikan Asin Richa",
-            "image": "https://cdn.idntimes.com/content-images/post/20210312/ikan-asin-rica-e7c73e9e28c7b893bb84f645dd40427d.jpg"
+            "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/01/13/denian_Ikan_Asin_Richa.jpg"
           },
-          {
-            "name": "Bubur Pedas",
-            "image": "https://cdn.idntimes.com/content-images/post/20210701/bubur-pedas-3f5c8291483fddf43e91c2f95cb55e14.jpg"
-          }
         ]
       },
       {
         "name": "Alat Musik",
         "data": [
           {
-            "name": "Sampe (Dayak)",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sapeh.jpg/800px-Sapeh.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=Ko74zzAr4hQ"
+            "name": "Sampe/sape",
+            "image": "https://student-activity.binus.ac.id/himdkv/wp-content/uploads/sites/11/2021/06/sape-1.jpg",
+            "ytUrl": " https://youtu.be/-hgIaKJprg0?si=ZqooT8kJuikmhchD "
           },
-          {
-            "name": "Babun (Gendang Khas Tidung)",
-            "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-474f03ee1a29391df53b582af5cc4a0f.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=W_pKlgU7bik"
-          }
         ]
       },
       {
         "name": "Lagu Daerah",
         "data": [
           {
-            "name": "Tidung – Bebalon",
-            "ytUrl": "https://www.youtube.com/watch?v=_t0R6-w8S5o"
+            "name": "Bebalon",
+            "ytUrl": "https://youtu.be/A0DmsTuWQ1E?si=nsr9n-HntJn4IepL "
           },
-          {
-            "name": "Dayak – Salai Jinai",
-            "ytUrl": "https://www.youtube.com/watch?v=O4ix3ovDJck"
-          }
         ]
       },
       {
@@ -2394,7 +2377,7 @@ const provincesData = {
         "data": [
           {
             "name": "Pertunjukan Hudoq (Dayak)",
-            "ytUrl": "https://www.youtube.com/watch?v=6fzwmF1TcbY"
+            "ytUrl": "https://www.youtube.com/watch?v=nVM10FmnTEc&ab_channel=Ucupridhofreund"
           }
         ]
       }
