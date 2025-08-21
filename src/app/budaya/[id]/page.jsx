@@ -3705,17 +3705,17 @@ const provincesData = {
 
 "91-D": {
   "name": "Papua Tengah",
-  "capital": "Nabire",
-  "area": 61_072, // km² (perkiraan luas wilayah)
-  "population": 1_365_600, // perkiraan 2023
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Lambang_Kabupaten_Nabire.png/200px-Lambang_Kabupaten_Nabire.png",
+  "capital": "Wanggar, Nabire",
+  "area": "66,129", // km² (perkiraan luas wilayah)
+  "population": "	1.369.112 (2024)", // perkiraan 2023
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lambang_Papua_Tengah.png/120px-Lambang_Papua_Tengah.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
-          "name": "Rumah Honai",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Rumah_Honai_di_Papua.jpg/500px-Rumah_Honai_di_Papua.jpg"
+          "name": "Rumah Emawa",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Emawa_Mee.png"
         }
       ]
     },
@@ -3724,7 +3724,7 @@ const provincesData = {
       "data": [
         {
           "name": "Koteka dan Rok Rumbai",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Koteka_traditional_dress_Papua.jpg/330px-Koteka_traditional_dress_Papua.jpg"
+          "image": "https://pariwisataindonesia.id/wp-content/uploads/2020/12/Kotake-Papua-foto-carakuscom-640x480.jpg"
         }
       ]
     },
@@ -3733,13 +3733,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Wor",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tari_Wor_Papua.jpg/500px-Tari_Wor_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=5v9U2SVhVsg"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=djWhWkvp7Us&ab_channel=RiauMagz"
         },
         {
           "name": "Tari Sajojo",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tari_Sajojo.jpg/500px-Tari_Sajojo.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=qNftJqvhQ5A"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=DkEJLFhMOAM&list=RDDkEJLFhMOAM&start_radio=1&ab_channel=NasywaAzizah"
         }
       ]
     },
@@ -3748,11 +3748,7 @@ const provincesData = {
       "data": [
         {
           "name": "Busur dan Panah",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Busur_dan_panah_Papua.jpg/500px-Busur_dan_panah_Papua.jpg"
-        },
-        {
-          "name": "Tombak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tombak_Papua.jpg/500px-Tombak_Papua.jpg"
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/05/17/oakirbin_busurpanahpapuabarat.jpg"
         }
       ]
     },
@@ -3761,21 +3757,17 @@ const provincesData = {
       "data": [
         {
           "name": "Papeda",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Papeda_dengan_ikan_kuah_kuning.jpg/500px-Papeda_dengan_ikan_kuah_kuning.jpg"
+          "image": "https://awsimages.detik.net.id/community/media/visual/2019/09/06/14cc42ca-a8d6-43b9-baa5-016660b9cd0e_169.jpeg?w=1200"
         },
-        {
-          "name": "Ikan Bakar Manokwari",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ikan_Bakar_Manokwari.jpg/500px-Ikan_Bakar_Manokwari.jpg"
-        }
       ]
     },
     {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Tifa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tifa_Maluku.jpg/500px-Tifa_Maluku.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=MTpdm5A2OGo"
+          "name": "Fuu",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNdl9Y88aZIdxhssCRHSvTbc-pTQm0ABAbJg&s",
+          "ytUrl": "https://youtu.be/kSQlrcCxlBc?si=CZ7bajcuXY2Lz6uU "
         }
       ]
     },
@@ -3783,13 +3775,9 @@ const provincesData = {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "Sajojo",
-          "ytUrl": "https://www.youtube.com/watch?v=DXHvUjL3lfY"
+          "name": "Akai Bipa Mare",
+          "ytUrl": "https://youtu.be/qO0uisgMrw4?si=bjo-hZElR3dLwMpc"
         },
-        {
-          "name": "Yospan",
-          "ytUrl": "https://www.youtube.com/watch?v=BBfuOrmykUQ"
-        }
       ]
     },
     {
@@ -3797,7 +3785,7 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Yospan",
-          "ytUrl": "https://www.youtube.com/watch?v=86CnnPvJE-0"
+          "ytUrl": "https://www.youtube.com/watch?v=BCkRtls1t08&list=RDBCkRtls1t08&start_radio=1&ab_channel=PIKKPLNPUSAT.youtube.com/watch?v=86CnnPvJE-0"
         }
       ]
     }
@@ -4034,6 +4022,7 @@ const provinceSongs = {
 
 
   "91-A": "/music/papua.mp3",
+  "91-D": "/music/papua_tengah.mp3",
 
   "92-A": "/music/papua_barat.mp3"
   // dst...
