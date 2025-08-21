@@ -1733,20 +1733,20 @@ const provincesData = {
 "52": {
   "name": "Nusa Tenggara Barat",
   "capital": "Mataram",
-  "area": 20153,
-  "population": 5400000,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Coat_of_arms_of_West_Nusa_Tenggara.svg/800px-Coat_of_arms_of_West_Nusa_Tenggara.svg.png",
+  "area": "19,709",
+  "population": "	5.666.314 juta (2024)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Coat_of_arms_of_West_Nusa_Tenggara.svg/120px-Coat_of_arms_of_West_Nusa_Tenggara.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Bale Lumbung",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bale_Lumbung_Sasak.jpg/500px-Bale_Lumbung_Sasak.jpg"
+          "image": "https://image.idntimes.com/post/20190723/sade-00499abad3ffcce1a0ed53acd1e4269a.jpg"
         },
         {
           "name": "Bale Tani",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bale_Tani_Sasak.jpg/500px-Bale_Tani_Sasak.jpg"
+          "image": "https://assets.promediateknologi.id/crop/232x0:1512x959/750x500/webp/photo/2023/01/20/3220035745.jpeg"
         }
       ]
     },
@@ -1755,11 +1755,11 @@ const provincesData = {
       "data": [
         {
           "name": "Baju Adat Sasak (Lambung & Pegon)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Baju_Adat_Sasak.jpg/500px-Baju_Adat_Sasak.jpg"
+          "image": "https://image.idntimes.com/post/20201105/baju-adat-sasak-lombok-at-devina-wo-2-86cfcfe0186f2281c08d99ede8ca4e01.jpg"
         },
         {
           "name": "Baju Bonder (Bima)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Baju_Bonder_Bima.jpg/500px-Baju_Bonder_Bima.jpg"
+          "image": "https://infopublik.id/resources/album/bulan-desember-2019/PicsArt_12-17-07_32_03.jpg"
         }
       ]
     },
@@ -1768,13 +1768,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Gendang Beleq",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Gendang_Beleq_Sasak.jpg/500px-Gendang_Beleq_Sasak.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=v5w2oMweGVE"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=5lAMOLuxFBg&ab_channel=MANDISUARETV"
         },
         {
           "name": "Tari Peresean",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tari_Peresean_Sasak.jpg/500px-Tari_Peresean_Sasak.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=QrcuXvl2mHg"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=WP-wQAxF5uA&ab_channel=IndonesiaTari"
         }
       ]
     },
@@ -1783,12 +1783,8 @@ const provincesData = {
       "data": [
         {
           "name": "Keris Bima",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keris_Bima.jpg/500px-Keris_Bima.jpg"
+          "image": "https://3.bp.blogspot.com/-Mr_sD7DmgmQ/Wv2astltp7I/AAAAAAAAAZw/SdthBD3OLKkEwi17afFC5Fo3mCc7ggXvQCLcBGAs/s640/keris-nusa-tenggara-barat.gif"
         },
-        {
-          "name": "Perisai Kayu",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Perisai_Bima.jpg/500px-Perisai_Bima.jpg"
-        }
       ]
     },
     {
@@ -1796,15 +1792,15 @@ const provincesData = {
       "data": [
         {
           "name": "Ayam Taliwang",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ayam_Taliwang.jpg/500px-Ayam_Taliwang.jpg"
+          "image": "https://awsimages.detik.net.id/community/media/visual/2023/02/01/resep-ayam-taliwang-khas-lombok_43.jpeg?w=1200"
         },
         {
           "name": "Plecing Kangkung",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Plecing_Kangkung.jpg/500px-Plecing_Kangkung.jpg"
+          "image": "https://awsimages.detik.net.id/community/media/visual/2021/11/30/resep-plecing-kangkung-khas-lombok_43.jpeg?w=600&q=90"
         },
         {
           "name": "Sate Rembiga",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Sate_Rembiga.jpg/500px-Sate_Rembiga.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-JBN2GT6_Y2TSrwjgYQf86yGcxGsQVbKyrw&s"
         }
       ]
     },
@@ -1812,14 +1808,9 @@ const provincesData = {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Gendang Beleq",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Gendang_Beleq_Sasak.jpg/500px-Gendang_Beleq_Sasak.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=IUVg7YFrpTw"
-        },
-        {
-          "name": "Serunai Bima",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Serunai_Bima.jpg/500px-Serunai_Bima.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=OCXqpHivSZs"
+          "name": "Serunai",
+          "image": "https://awsimages.detik.net.id/community/media/visual/2024/03/19/serunai-alat-musik-tradisional-ntb-istimewa_169.webp?w=620",
+          "ytUrl": "https://youtu.be/yM8dMrfZ1Uk?si=oqHriLGRLgItg1wz "
         }
       ]
     },
@@ -1827,17 +1818,9 @@ const provincesData = {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "Orong-orong",
-          "ytUrl": "https://www.youtube.com/watch?v=ay9pi7c1rGo"
+          "name": "Tutu Koda",
+          "ytUrl": "https://youtu.be/Ttjb1GBVbdk?si=A_2Mu6L4KY4V9dzY "
         },
-        {
-          "name": "Tebe",
-          "ytUrl": "https://www.youtube.com/watch?v=NeP01F4adYc"
-        },
-        {
-          "name": "Lengso",
-          "ytUrl": "https://www.youtube.com/watch?v=KAtCkWv-KN8"
-        }
       ]
     },
     {
@@ -1845,12 +1828,8 @@ const provincesData = {
       "data": [
         {
           "name": "Peresean (Pertarungan tradisional)",
-          "ytUrl": "https://www.youtube.com/watch?v=j8Y50Nac5uQ"
+          "ytUrl": "https://www.youtube.com/watch?v=Mzhq8glYe1M&ab_channel=TimbangMomot"
         },
-        {
-          "name": "Wayang Sasak",
-          "ytUrl": "https://www.youtube.com/watch?v=GVhzVAD1GmQ"
-        }
       ]
     }
   ]
@@ -3958,6 +3937,7 @@ const provinceSongs = {
 
   // Bali dan Nusa Tenggara
   "51": "/music/bali.mp3",
+  "52": "/music/ntb.mp3",
 
   // maluku & papua
   "81": "/music/maluku.mp3",
