@@ -2110,7 +2110,7 @@ const provincesData = {
         "data": [
           {
             "name": "Rumah Banjar (Bubungan Tinggi)",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Rumah_Bubungan_Tinggi.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/id/thumb/7/76/Fasade_Bubungan_Tinggi_Teluk_Selong_Martapura.JPG/250px-Fasade_Bubungan_Tinggi_Teluk_Selong_Martapura.JPG"
           }
         ]
       },
@@ -2119,11 +2119,11 @@ const provincesData = {
         "data": [
           {
             "name": "Baju Baamar Galung Pancar Mata (Pria)",
-            "image": "https://i0.wp.com/seringjalan.com/wp-content/uploads/2020/09/baju-pancar-mata.jpg"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPtk_bQr0sYwDITCeImBQuEJq_TaQ3XET2g&s"
           },
           {
             "name": "Baju Bagajah Gamuling Baular Lulut (Wanita)",
-            "image": "https://seringjalan.com/wp-content/uploads/2020/09/baju-adat-bagajah-gamuling.jpg"
+            "image": "https://pariwisataindonesia.id/wp-content/uploads/2020/10/baju-bagajah-gamuling-baular-lulut-fot0-by-FB.jpg"
           }
         ]
       },
@@ -2132,13 +2132,13 @@ const provincesData = {
         "data": [
           {
             "name": "Tari Radap Rahayu",
-            "image": "https://asset.kompas.com/crops/wot8dke2ImrA5Da9FgIjtbYioiU=/0x0:780x520/750x500/data/photo/2021/07/22/60f93a0a40a60.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=98xcm2oZb6A"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=Fy2xBb1ydHk&list=RDFy2xBb1ydHk&start_radio=1&ab_channel=NurMardhatillah"
           },
           {
             "name": "Tari Baksa Kembang",
-            "image": "https://kebudayaan.kemdikbud.go.id/ditwdb/wp-content/uploads/sites/6/2017/04/baksa-kembang.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=JURzj7ZHmtI"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=QVDYR0wM_C8&list=RDQVDYR0wM_C8&start_radio=1&ab_channel=HayatiMayangArum"
           }
         ]
       },
@@ -2147,11 +2147,11 @@ const provincesData = {
         "data": [
           {
             "name": "Mandau",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mandau_Dayak.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/COLLECTIE_TROPENMUSEUM_Zwaard_met_gevest_van_been_schede_en_mesje_TMnr_391-122.jpg/330px-COLLECTIE_TROPENMUSEUM_Zwaard_met_gevest_van_been_schede_en_mesje_TMnr_391-122.jpg"
           },
           {
             "name": "Keris Banjar",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Keris_Banjar.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kris_and_scabbard.jpg/250px-Kris_and_scabbard.jpg"
           }
         ]
       },
@@ -2160,11 +2160,11 @@ const provincesData = {
         "data": [
           {
             "name": "Soto Banjar",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Soto_Banjar.jpg"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKKuuSQVVxUX1DyZjdwL0_K_f6YYJVEZX-JQ&s"
           },
           {
             "name": "Ketupat Kandangan",
-            "image": "https://cdn.idntimes.com/content-images/community/2019/11/ketupat-kandangan-7dc7c849bba72758b91e1af8c0f8d309.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ketupat_Kandangan_ikan_haruan.JPG/250px-Ketupat_Kandangan_ikan_haruan.JPG"
           }
         ]
       },
@@ -2172,15 +2172,10 @@ const provincesData = {
         "name": "Alat Musik",
         "data": [
           {
-            "name": "Panting",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Alat_musik_panting.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=J8Zzjv_dGh4"
+            "name": "Sensapi",
+            "image": "https://i.ytimg.com/vi/rl-Vd0_F0TE/maxresdefault.jpg",
+            "ytUrl": " https://youtu.be/KERZGeUhkFI?si=FAjJU7hLwPln42sM "
           },
-          {
-            "name": "Kuriding",
-            "image": "https://cdn.idntimes.com/content-images/community/2019/10/kuriding-f05891a57fc32c57d60a67152d67c9c0.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=JgRhlq3Q2HI"
-          }
         ]
       },
       {
@@ -2190,10 +2185,6 @@ const provincesData = {
             "name": "Ampar-Ampar Pisang",
             "ytUrl": "https://youtu.be/WKXE2Qam_m8?si=dtKxI-mk4oPgvKBy"
           },
-          {
-            "name": "Paris Barantai",
-            "ytUrl": "https://www.youtube.com/watch?v=9kHhxRhJx6g"
-          }
         ]
       },
       {
@@ -2201,7 +2192,7 @@ const provincesData = {
         "data": [
           {
             "name": "Mamanda (Teater Rakyat Banjar)",
-            "ytUrl": "https://www.youtube.com/watch?v=1oXr0c3cgxI"
+            "ytUrl": "https://www.youtube.com/watch?v=YqNEpIc5M70&ab_channel=DAPURTEATERKAL-SEL"
           }
         ]
       }
