@@ -3499,17 +3499,17 @@ const provincesData = {
 
 "91-B": {
   "name": "Papua Pegunungan",
-  "capital": "Wamena",
-  "area": 108_476, // km² (perkiraan luas wilayah)
-  "population": 1_410_000, // perkiraan 2023
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Lambang_Kabupaten_Jayawijaya.png/200px-Lambang_Kabupaten_Jayawijaya.png",
+  "capital": "Jayawijaya",
+  "area": "51,213", // km² (perkiraan luas wilayah)
+  "population": "	1.470.518 (2024)", // perkiraan 2023
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Lambang_Papua_Pegunungan.svg/120px-Lambang_Papua_Pegunungan.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Honai",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Rumah_Honai_di_Papua.jpg/500px-Rumah_Honai_di_Papua.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dani_people_traditional_house_near_Wamena%2C_Papua%2C_Indonesia_04.jpg/250px-Dani_people_traditional_house_near_Wamena%2C_Papua%2C_Indonesia_04.jpg"
         }
       ]
     },
@@ -3518,7 +3518,7 @@ const provincesData = {
       "data": [
         {
           "name": "Koteka dan Rok Rumbai",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Koteka_traditional_dress_Papua.jpg/330px-Koteka_traditional_dress_Papua.jpg"
+          "image": "https://pariwisataindonesia.id/wp-content/uploads/2020/12/Kotake-Papua-foto-carakuscom-640x480.jpg"
         }
       ]
     },
@@ -3527,13 +3527,8 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Musyoh",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Tari_Musyoh_Papua.jpg/500px-Tari_Musyoh_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=FksY8vCA8x0"
-        },
-        {
-          "name": "Tari Yospan",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tari_Yospan_Papua.jpg/500px-Tari_Yospan_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=86CnnPvJE-0"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=egTI93mVeo0&ab_channel=MediaEdukatif"
         }
       ]
     },
@@ -3542,11 +3537,7 @@ const provincesData = {
       "data": [
         {
           "name": "Busur dan Panah",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Busur_dan_panah_Papua.jpg/500px-Busur_dan_panah_Papua.jpg"
-        },
-        {
-          "name": "Tombak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tombak_Papua.jpg/500px-Tombak_Papua.jpg"
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/12/26/roro_SenjataKhasDaerahPapua.jpg"
         }
       ]
     },
@@ -3554,12 +3545,8 @@ const provincesData = {
       "name": "Makanan Khas",
       "data": [
         {
-          "name": "Papeda",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Papeda_dengan_ikan_kuah_kuning.jpg/500px-Papeda_dengan_ikan_kuah_kuning.jpg"
-        },
-        {
-          "name": "Ubi Jalar Wamena",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ubi_Jalar_Papua.jpg/500px-Ubi_Jalar_Papua.jpg"
+          "name": "Bubur Sagu",
+          "image": "https://pesonapapua.com/wp-content/uploads/2024/04/Mengenal-Lebih-Dalam-Makanan-Bubur-Sagu-Khas-Papua.webp"
         }
       ]
     },
@@ -3567,9 +3554,9 @@ const provincesData = {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Tifa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tifa_Maluku.jpg/500px-Tifa_Maluku.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=MTpdm5A2OGo"
+          "name": "Pikon (kaido)",
+          "image": "https://cdn.rri.co.id/berita/Bovendigoel/t/1727383303183-Pikon_failfaire/13uroo50kdy6ev1.jpeg",
+          "ytUrl": "https://youtu.be/qhe4wDTT1UU?si=Sxw9OcCnPl3WVmhw"
         }
       ]
     },
@@ -3577,13 +3564,9 @@ const provincesData = {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "Apuse",
-          "ytUrl": "https://www.youtube.com/watch?v=U5ePNGM0cRc"
+          "name": "Jayawijaya Hanorasuok",
+          "ytUrl": "https://youtu.be/v3_lKyfnjqg?si=0bLhWaeP3L6bbvWb"
         },
-        {
-          "name": "E Mambo Simbo",
-          "ytUrl": "https://www.youtube.com/watch?v=ZcEKCMtOnjk"
-        }
       ]
     },
     {
@@ -3591,7 +3574,7 @@ const provincesData = {
       "data": [
         {
           "name": "Festival Budaya Lembah Baliem",
-          "ytUrl": "https://www.youtube.com/watch?v=V08oZ5gE39A"
+          "ytUrl": "https://www.youtube.com/watch?v=F-2DkjKKv5o&ab_channel=GaleryLuhutSiahaan"
         }
       ]
     }
@@ -4022,6 +4005,7 @@ const provinceSongs = {
 
 
   "91-A": "/music/papua.mp3",
+  "91-B": "/music/papua_pegunungan.mp3",
   "91-D": "/music/papua_tengah.mp3",
 
   "92-A": "/music/papua_barat.mp3"
