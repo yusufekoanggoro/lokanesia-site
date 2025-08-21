@@ -2804,20 +2804,20 @@ const provincesData = {
 "75": {
   "name": "Gorontalo",
   "capital": "Gorontalo",
-  "area": 12215,
-  "population": 1182000,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Coat_of_arms_of_Gorontalo.svg/800px-Coat_of_arms_of_Gorontalo.svg.png",
+  "area": "12.025,147",
+  "population": "	1.227.794 (2024)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coat_of_arms_of_Gorontalo.svg/120px-Coat_of_arms_of_Gorontalo.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Dulohupa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Rumah_Adat_Dulohupa.jpg/500px-Rumah_Adat_Dulohupa.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Dulohupa.jpg"
         },
         {
           "name": "Bantayo Poboide",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bantayo_Poboide_Gorontalo.jpg/500px-Bantayo_Poboide_Gorontalo.jpg"
+          "image": "https://geopark.gorontaloprov.go.id/media/images/32._Intangible-One_of_the_rooms_inside_Bantayo.width-800.jpg"
         }
       ]
     },
@@ -2826,11 +2826,11 @@ const provincesData = {
       "data": [
         {
           "name": "Bili'u (Pengantin Wanita)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Baju_Adat_Bilihu_Gorontalo.jpg/500px-Baju_Adat_Bilihu_Gorontalo.jpg"
+          "image": "https://i.pinimg.com/736x/aa/07/8d/aa078d94c325fac6c0d2fa137d99dd7f.jpg"
         },
         {
           "name": "Payunga (Pengantin Pria)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Baju_Adat_Payunga_Gorontalo.jpg/500px-Baju_Adat_Payunga_Gorontalo.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pakaian_adat_Payunga.png/1200px-Pakaian_adat_Payunga.png"
         }
       ]
     },
@@ -2839,13 +2839,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Saronde",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tari_Saronde_Gorontalo.jpg/500px-Tari_Saronde_Gorontalo.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=pRhWbXjCgFQ"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=QSssVDheaCo&list=RDQSssVDheaCo&start_radio=1"
         },
         {
           "name": "Tari Dana-dana",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tari_Dana-Dana_Gorontalo.jpg/500px-Tari_Dana-Dana_Gorontalo.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=3gO5Mij1ddM"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=g1QdNZhFca0&list=RDg1QdNZhFca0&start_radio=1&ab_channel=ceritabudayabahasa"
         }
       ]
     },
@@ -2854,7 +2854,7 @@ const provincesData = {
       "data": [
         {
           "name": "Wamilo",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wamilo_Gorontalo.jpg/500px-Wamilo_Gorontalo.jpg"
+          "image": "https://asset.kompas.com/crops/jBspLQLqlAHhXtTESZLVv8srFTI=/178x72:742x448/750x500/data/photo/2021/05/19/60a4d9a74cd03.png"
         }
       ]
     },
@@ -2863,11 +2863,11 @@ const provincesData = {
       "data": [
         {
           "name": "Binte Biluhuta",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Binte_Biluhuta.jpg/500px-Binte_Biluhuta.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQyVDDEPeNEQJjwiBjDMUzUCB2jkZm_b-F8w&s"
         },
         {
           "name": "Ilabulo",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Ilabulo_Gorontalo.jpg/500px-Ilabulo_Gorontalo.jpg"
+          "image": "https://indonesiakaya.com/wp-content/uploads/2025/03/Edited-pictures_illabullo_04-1.jpeg"
         }
       ]
     },
@@ -2876,26 +2876,17 @@ const provincesData = {
       "data": [
         {
           "name": "Polopalo",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Polopalo_Gorontalo.jpg/500px-Polopalo_Gorontalo.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=w7C69U6l2bI"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz0jAco6b368c6SMgM3LMlnhNmdD2y0kcijw&s",
+          "ytUrl": ""
         },
-        {
-          "name": "Gambusi",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gambusi_Gorontalo.jpg/500px-Gambusi_Gorontalo.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=X0uOBtN2cEQ"
-        }
       ]
     },
     {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "Hu’ilo Hu’ilo",
-          "ytUrl": "https://www.youtube.com/watch?v=HVRvXcC7ayQ"
-        },
-        {
           "name": "Binthe Biluhuta",
-          "ytUrl": "https://www.youtube.com/watch?v=TOqIYQ9k5qM"
+          "ytUrl": "https://youtu.be/VPJNr89QVDI?si=O2KZJ8ZGNaZJz6Ar "
         }
       ]
     },
@@ -2904,7 +2895,7 @@ const provincesData = {
       "data": [
         {
           "name": "Tarian Saronde (pertunjukan pernikahan)",
-          "ytUrl": "https://www.youtube.com/watch?v=pRhWbXjCgFQ"
+          "ytUrl": "https://www.youtube.com/watch?v=46QylIVFRmA&list=RD46QylIVFRmA&start_radio=1&ab_channel=UMGO"
         }
       ]
     }
@@ -3792,6 +3783,7 @@ const provinceSongs = {
   "72": "/music/sulteng.mp3",
   "73": "/music/sulsel.mp3",
   "74": "/music/sultra.mp3",
+  "75": "/music/gorontalo.mp3",
 
   // Bali dan Nusa Tenggara
   "51": "/music/bali.mp3",
