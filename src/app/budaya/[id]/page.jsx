@@ -3209,16 +3209,16 @@ const provincesData = {
 "81": {
   "name": "Maluku",
   "capital": "Ambon",
-  "area": 46914, // dalam km²
+  "area": "46,914", // dalam km²
   "population": 1849000, // perkiraan 2023
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Coat_of_arms_of_Maluku.png/220px-Coat_of_arms_of_Maluku.png",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Coat_of_arms_of_Maluku.svg/120px-Coat_of_arms_of_Maluku.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Baileo",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Baileo_house_in_Haruku_Maluku.jpg/500px-Baileo_house_in_Haruku_Maluku.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Baileo_Haria.jpg/330px-Baileo_Haria.jpg"
         }
       ]
     },
@@ -3227,7 +3227,7 @@ const provincesData = {
       "data": [
         {
           "name": "Baju Cele",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Baju_Cele_Maluku.jpg/330px-Baju_Cele_Maluku.jpg"
+          "image": "https://i0.wp.com/www.infobudaya.net/wp-content/uploads/2019/03/Baju-Cele-khas-Ambon.png?fit=519%2C800&ssl=1"
         }
       ]
     },
@@ -3236,13 +3236,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Cakalele",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cakalele_Maluku.jpg/500px-Cakalele_Maluku.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=2c3XlA9cF_A"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=dDLsSW0sU2I&ab_channel=DayuSasrani"
         },
         {
           "name": "Tari Saureka-reka",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Saureka_reka.jpg/500px-Saureka_reka.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=ZpU53h7p6-I"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=qv0bXaCFZ00&list=RDqv0bXaCFZ00&start_radio=1&ab_channel=KajhoLakuy"
         }
       ]
     },
@@ -3251,7 +3251,7 @@ const provincesData = {
       "data": [
         {
           "name": "Parang Salawaku",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Parang_Salawaku_Maluku.jpg/500px-Parang_Salawaku_Maluku.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/COLLECTIE_TROPENMUSEUM_Houten_dansschild_versierd_met_porselein_TMnr_3250-3.jpg/250px-COLLECTIE_TROPENMUSEUM_Houten_dansschild_versierd_met_porselein_TMnr_3250-3.jpg"
         }
       ]
     },
@@ -3260,11 +3260,11 @@ const provincesData = {
       "data": [
         {
           "name": "Papeda",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Papeda_dengan_ikan_kuah_kuning.jpg/500px-Papeda_dengan_ikan_kuah_kuning.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Papeda%2C_Kuah_Kuning%2C_Ikan_Tude_Bakar_2.jpg/250px-Papeda%2C_Kuah_Kuning%2C_Ikan_Tude_Bakar_2.jpg"
         },
         {
           "name": "Ikan Kuah Kuning",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ikan_kuah_kuning.jpg/500px-Ikan_kuah_kuning.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9DYOfynG-SbdyoLlVUpv7-PJ_opRQ7ODvDg&s"
         }
       ]
     },
@@ -3273,14 +3273,9 @@ const provincesData = {
       "data": [
         {
           "name": "Tifa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tifa_Maluku.jpg/500px-Tifa_Maluku.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=MTpdm5A2OGo"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/COLLECTIE_TROPENMUSEUM_Enkelvellige_bekervormige_trom_TMnr_18-18.jpg/250px-COLLECTIE_TROPENMUSEUM_Enkelvellige_bekervormige_trom_TMnr_18-18.jpg",
+          "ytUrl": "https://youtu.be/C2xG-3E7Xnk?si=Hm9ZX-GkT7z9kHBJ"
         },
-        {
-          "name": "Ukulele Maluku",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ukulele.jpg/500px-Ukulele.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=4xMZ8dxlQ94"
-        }
       ]
     },
     {
@@ -3288,11 +3283,11 @@ const provincesData = {
       "data": [
         {
           "name": "Rasa Sayange",
-          "ytUrl": "https://www.youtube.com/watch?v=5kR3-IxAqDM"
+          "ytUrl": "https://youtu.be/s9OhPN2LXYc?si=zyVGfc7-WAXueLFo"
         },
         {
           "name": "Ayo Mama",
-          "ytUrl": "https://www.youtube.com/watch?v=5CN7p6eE-44"
+          "ytUrl": "https://youtu.be/I2DqQNSgE50?si=JbDld4FE-YI9G6vV"
         }
       ]
     },
@@ -3301,12 +3296,13 @@ const provincesData = {
       "data": [
         {
           "name": "Totobuang",
-          "ytUrl": "https://www.youtube.com/watch?v=3jhdzDGe7W0"
+          "ytUrl": "https://www.youtube.com/watch?v=BMuUuCGJN7Q&ab_channel=MoluccasStory"
         }
       ]
     }
   ]
 },
+
 "82": {
   "name": "Maluku Utara",
   "capital": "Sofifi",
@@ -4066,7 +4062,9 @@ const provinceSongs = {
   "65": "/music/kalut.mp3",
 
   "71": "/music/sulut.mp3",
-  "72": "/music/sulteng.mp3"
+  "72": "/music/sulteng.mp3",
+
+  "81": "/music/maluku.mp3"
   // dst...
 };
 
