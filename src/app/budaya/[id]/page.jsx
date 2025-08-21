@@ -3584,20 +3584,20 @@ const provincesData = {
 "91-C": {
   "name": "Papua Selatan",
   "capital": "Merauke",
-  "area": 119_749, // km² (perkiraan luas wilayah)
-  "population": 517_000, // perkiraan 2023
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lambang_Kabupaten_Merauke.png/200px-Lambang_Kabupaten_Merauke.png",
+  "area": "117,849", // km² (perkiraan luas wilayah)
+  "population": "	562.220 (2024)", // perkiraan 2023
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Papua_Selatan.png/120px-Logo_Papua_Selatan.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Rumah Rumsram (umum di pesisir Papua)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rumah_Rumsram_di_Papua.jpg/500px-Rumah_Rumsram_di_Papua.jpg"
+          "image": "https://rumahetnikpapua.com/wp-content/uploads/2023/11/IMG_8787-1024x683.jpg"
         },
         {
           "name": "Rumah Kariwari",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rumah_Kariwari.jpg/500px-Rumah_Kariwari.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6a1aPhCYZvm_q5udGwv1UKOVbu24-6w2QhA&s"
         }
       ]
     },
@@ -3606,7 +3606,7 @@ const provincesData = {
       "data": [
         {
           "name": "Koteka & Rok Rumbai Marind",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Koteka_traditional_dress_Papua.jpg/330px-Koteka_traditional_dress_Papua.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLG8DtZCf3bbGrIlQ538f9zXYVUC0d4ijpjw&s"
         }
       ]
     },
@@ -3615,13 +3615,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Yospan",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tari_Yospan_Papua.jpg/500px-Tari_Yospan_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=86CnnPvJE-0"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=BCkRtls1t08&list=RDBCkRtls1t08&start_radio=1&ab_channel=PIKKPLNPUSAT"
         },
         {
           "name": "Tari Suanggi",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Tari_Suanggi_Papua.jpg/500px-Tari_Suanggi_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=8wqE_cWQ5-8"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=I4WyBWm7RhE&list=RDI4WyBWm7RhE&start_radio=1&ab_channel=YoggaFransisco"
         }
       ]
     },
@@ -3629,12 +3629,8 @@ const provincesData = {
       "name": "Senjata",
       "data": [
         {
-          "name": "Tombak Marind",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tombak_Papua.jpg/500px-Tombak_Papua.jpg"
-        },
-        {
           "name": "Busur dan Panah",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Busur_dan_panah_Papua.jpg/500px-Busur_dan_panah_Papua.jpg"
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/12/26/roro_SenjataKhasDaerahPapua.jpg"
         }
       ]
     },
@@ -3643,12 +3639,8 @@ const provincesData = {
       "data": [
         {
           "name": "Sagu Sep (Papeda bakar)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sagu_sep_Papua.jpg/500px-Sagu_sep_Papua.jpg"
+          "image": "https://asset-2.tribunnews.com/papuabarat/foto/bank/images/Gani-Nu-sagu-bakar-makanan-khas-warga-di-Lopintol-Raja-Ampat.jpg"
         },
-        {
-          "name": "Ikan Bakar khas Merauke",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ikan_bakar.jpg/500px-Ikan_bakar.jpg"
-        }
       ]
     },
     {
@@ -3656,21 +3648,25 @@ const provincesData = {
       "data": [
         {
           "name": "Tifa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tifa_Maluku.jpg/500px-Tifa_Maluku.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=MTpdm5A2OGo"
-        }
+          "image": "https://asset.kompas.com/crops/jxPCn_eT0V2gHIu_1ynPHifqr_s=/103x66:897x596/750x500/data/photo/2022/03/20/623716066e1a9.jpg",
+          "ytUrl": "https://youtu.be/C2xG-3E7Xnk?si=Hm9ZX-GkT7z9kHBJ "
+        },
       ]
     },
     {
       "name": "Lagu Daerah",
       "data": [
         {
+          "name": "E mambo simbo",
+          "ytUrl": "https://youtu.be/Kk5_K6S9Vug?si=tsSs6vtokJpAeyUw"
+        },
+        {
           "name": "Apuse",
-          "ytUrl": "https://www.youtube.com/watch?v=U5ePNGM0cRc"
+          "ytUrl": "https://www.youtube.com/watch?v=J_TPrhwM7DI&list=RDJ_TPrhwM7DI&start_radio=1&ab_channel=DivaTheSeriesOfficial"
         },
         {
           "name": "Yamko Rambe Yamko",
-          "ytUrl": "https://www.youtube.com/watch?v=a9sQAZ9z2s4"
+          "ytUrl": "https://www.youtube.com/watch?v=HY_gTFciG70&list=RDHY_gTFciG70&start_radio=1&ab_channel=AnimasiCeritaIndonesia-ACI"
         }
       ]
     },
@@ -3679,7 +3675,7 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Adat Suku Marind",
-          "ytUrl": "https://www.youtube.com/watch?v=9X9NQ2Tt6cY"
+          "ytUrl": "https://www.youtube.com/watch?v=eU5HAFzu6WM&ab_channel=DominikusUlukyananOfficial"
         }
       ]
     }
@@ -3863,21 +3859,17 @@ const provincesData = {
 "92-B": {
   "name": "Papua Barat Daya",
   "capital": "Sorong",
-  "area": 62_386, // km² (perkiraan luas wilayah)
-  "population": 510_000, // perkiraan 2023
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Lambang_Kota_Sorong.png/200px-Lambang_Kota_Sorong.png",
+  "area": "39,123", // km² (perkiraan luas wilayah)
+  "population": "623.186 (2024)", // perkiraan 2023
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_Papua_Barat_Daya1.png/120px-Logo_Papua_Barat_Daya1.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Rumah Kaki Seribu (Arfak)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rumah_Kaki_Seribu_Papua.jpg/500px-Rumah_Kaki_Seribu_Papua.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rumah_Kaki_Seribu_%28Mod_Aki_Aksa%29.jpg/330px-Rumah_Kaki_Seribu_%28Mod_Aki_Aksa%29.jpg"
         },
-        {
-          "name": "Rumah Honai (umum di pedalaman Papua)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Honai_house_Papua.jpg/500px-Honai_house_Papua.jpg"
-        }
       ]
     },
     {
@@ -3885,7 +3877,7 @@ const provincesData = {
       "data": [
         {
           "name": "Rok Rumbai & Hiasan Kepala Cendrawasih",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Pakaian_adat_Papua.jpg/330px-Pakaian_adat_Papua.jpg"
+          "image": "https://kabarbaik.co/wp-content/uploads/2024/04/baju-adat.jpeg"
         }
       ]
     },
@@ -3893,14 +3885,9 @@ const provincesData = {
       "name": "Tarian",
       "data": [
         {
-          "name": "Tari Yospan",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tari_Yospan_Papua.jpg/500px-Tari_Yospan_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=86CnnPvJE-0"
-        },
-        {
           "name": "Tari Sajojo",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tari_Sajojo.jpg/500px-Tari_Sajojo.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=zPpXc7On1yM"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=DkEJLFhMOAM&list=RDDkEJLFhMOAM&start_radio=1&ab_channel=NasywaAzizah"
         }
       ]
     },
@@ -3909,11 +3896,11 @@ const provincesData = {
       "data": [
         {
           "name": "Busur dan Panah",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Busur_dan_panah_Papua.jpg/500px-Busur_dan_panah_Papua.jpg"
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/02/27/reginaberliani_busurdanpanah.jpg"
         },
         {
           "name": "Parang Papua",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Parang_tradisional_Papua.jpg/500px-Parang_tradisional_Papua.jpg"
+          "image": "https://radarmukomuko.disway.id/upload/81835513b89222c52d062008c754842d.jpg"
         }
       ]
     },
@@ -3922,27 +3909,18 @@ const provincesData = {
       "data": [
         {
           "name": "Papeda (dari sagu)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Papeda_dengan_ikan_kuah_kuning.jpg/500px-Papeda_dengan_ikan_kuah_kuning.jpg"
+          "image": "https://img.inews.co.id/media/1200/files/inews_new/2023/10/20/Papeda.jpg"
         },
-        {
-          "name": "Ikan Kuah Kuning",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Ikan_kuah_kuning.jpg/500px-Ikan_kuah_kuning.jpg"
-        }
       ]
     },
     {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Tifa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tifa_Maluku.jpg/500px-Tifa_Maluku.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=MTpdm5A2OGo"
+          "name": "Triton",
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2016/04/22/novalkarom_TritondariPapua.JPG",
+          "ytUrl": "https://youtu.be/0mCoSmfzJtQ "
         },
-        {
-          "name": "Pikon (alat musik tiup pegunungan Papua)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pikon_Papua.jpg/500px-Pikon_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=8eG-1SHtL9w"
-        }
       ]
     },
     {
@@ -3950,12 +3928,8 @@ const provincesData = {
       "data": [
         {
           "name": "Sajojo",
-          "ytUrl": "https://www.youtube.com/watch?v=zPpXc7On1yM"
+          "ytUrl": "https://youtu.be/SsqiWAJj7n8?si=LmnzoyLLqHQzRt_6 "
         },
-        {
-          "name": "Yamko Rambe Yamko",
-          "ytUrl": "https://www.youtube.com/watch?v=a9sQAZ9z2s4"
-        }
       ]
     },
     {
@@ -3963,7 +3937,7 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Perang Papua",
-          "ytUrl": "https://www.youtube.com/watch?v=YrCd7l8lKqM"
+          "ytUrl": "https://www.youtube.com/watch?v=-LbpPKmZ43g&ab_channel=Mrok"
         }
       ]
     }
@@ -3973,6 +3947,7 @@ const provincesData = {
 };
 
 const provinceSongs = {
+  // p jawa
   "31": "/music/jakarta.mp3",
   "32": "/music/jawa_barat.mp3",
   "36": "/music/banten.mp3",
@@ -3980,6 +3955,7 @@ const provinceSongs = {
   "34": "/music/yogyakarta.mp3",
   "35": "/music/jawa_timur.mp3",
 
+  // p sumatera
   "11": "/music/aceh.mp3",
   "12": "/music/sumatera_utara.mp3",
   "13": "/music/sumatera_barat.mp3",
@@ -3990,25 +3966,31 @@ const provinceSongs = {
   "19": "/music/kepbanglitunh.mp3",
   "18": "/music/lampung.mp3",
 
+  // p kalimantan
   "61": "/music/kalbar.mp3",
   "62": "/music/kalteng.mp3",
   "63": "/music/kalsel.mp3",
   "64": "/music/kaltim.mp3",
   "65": "/music/kalut.mp3",
 
+  // p sulawesi
   "71": "/music/sulut.mp3",
   "72": "/music/sulteng.mp3",
+
+  // Bali dan Nusa Tenggara
+
 
   // maluku & papua
   "81": "/music/maluku.mp3",
   "82": "/music/maluku_utara.mp3",
 
-
   "91-A": "/music/papua.mp3",
   "91-B": "/music/papua_pegunungan.mp3",
+  "91-C": "/music/papua_selatan.mp3",
   "91-D": "/music/papua_tengah.mp3",
 
-  "92-A": "/music/papua_barat.mp3"
+  "92-A": "/music/papua_barat.mp3",
+  "92-B": "/music/papua_barat_daya.mp3"
   // dst...
 };
 
