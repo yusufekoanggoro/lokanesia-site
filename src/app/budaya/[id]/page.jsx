@@ -694,14 +694,14 @@ const provincesData = {
     "capital": "Bandar Lampung",
     "area": "33,575", // dalam km²
     "population": "9.2 juta (2023)",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Coat_of_arms_of_Lampung.svg/120px-Coat_of_arms_of_Lampung.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Coat_of_arms_of_Lampung.svg/120px-Coat_of_arms_of_Lampung.svg.png",
     "cultures": [
       {
         "name": "Rumah Adat",
         "data": [
           {
             "name": "Nuwo Sesat",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Rumah_Adat_Lampung_Nuwo_Sesat.jpg/500px-Rumah_Adat_Lampung_Nuwo_Sesat.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rumah_adat_Nuwo_Sesat_lampung.jpg/330px-Rumah_adat_Nuwo_Sesat_lampung.jpg"
           }
         ]
       },
@@ -710,11 +710,11 @@ const provincesData = {
         "data": [
           {
             "name": "Baju Adat Saibatin",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Baju_Adat_Saibatin_Lampung.jpg/400px-Baju_Adat_Saibatin_Lampung.jpg"
+            "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/27/baju-adat-lampung-saibatin.jpeg?w=1080"
           },
           {
             "name": "Baju Adat Pepadun",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Baju_Adat_Pepadun_Lampung.jpg/400px-Baju_Adat_Pepadun_Lampung.jpg"
+            "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/27/baju-adat-lampung-pepadun.jpeg?w=1080"
           }
         ]
       },
@@ -723,13 +723,13 @@ const provincesData = {
         "data": [
           {
             "name": "Tari Sigeh Pengunten",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Tari_Sigeh_Pengunten_Lampung.jpg/500px-Tari_Sigeh_Pengunten_Lampung.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=CEZ8I4t-2aI"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=oPjREWreEhE&list=RDoPjREWreEhE&start_radio=1&ab_channel=GenBIProvinsiLampung"
           },
           {
             "name": "Tari Melinting",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Tari_Melinting_Lampung.jpg/500px-Tari_Melinting_Lampung.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=V3aKk4Xro4Q"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=FL2dxHKipq8&ab_channel=MuhammadZopi"
           }
         ]
       },
@@ -737,13 +737,9 @@ const provincesData = {
         "name": "Senjata",
         "data": [
           {
-            "name": "Tumbak",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Tombak_Adat_Lampung.jpg/400px-Tombak_Adat_Lampung.jpg"
+            "name": "Badik",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/BADIK_PEJUANG_SELIKUKH_LIMA.jpg/250px-BADIK_PEJUANG_SELIKUKH_LIMA.jpg"
           },
-          {
-            "name": "Payan",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Payan_Lampung.jpg/400px-Payan_Lampung.jpg"
-          }
         ]
       },
       {
@@ -751,11 +747,11 @@ const provincesData = {
         "data": [
           {
             "name": "Seruit",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Seruit_Lampung.jpg/400px-Seruit_Lampung.jpg"
+            "image": "https://www.kelampung.com/wp-content/uploads/2023/03/seruit.jpg"
           },
           {
             "name": "Gulai Taboh",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gulai_Taboh_Lampung.jpg/400px-Gulai_Taboh_Lampung.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/id/c/c0/Gulai_Taboh_Lampung.jpg"
           }
         ]
       },
@@ -763,15 +759,10 @@ const provincesData = {
         "name": "Alat Musik",
         "data": [
           {
-            "name": "Gamelan Lampung",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Gamelan_Lampung.jpg/400px-Gamelan_Lampung.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=mc0gW04Pfl0"
+            "name": "Bende",
+            "image": "https://cdn.rri.co.id/berita/Bandar_Lampung/o/1735308598150-IMG_20241227_210842/ip9mo1vb0pa0cm6.jpeg",
+            "ytUrl": ""
           },
-          {
-            "name": "Gendang Lampung",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Gendang_Lampung.jpg/400px-Gendang_Lampung.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=yffrKZwoU_0"
-          }
         ]
       },
       {
@@ -781,10 +772,6 @@ const provincesData = {
             "name": "Cangget Agung",
             "ytUrl": "https://youtu.be/ODDVfgXST4E?si=pcgIYANl4SEBwC9e "
           },
-          {
-            "name": "Lipang Lipang Dang",
-            "ytUrl": "https://www.youtube.com/watch?v=9OE-0WdpABw"
-          }
         ]
       },
       {
@@ -792,7 +779,7 @@ const provincesData = {
         "data": [
           {
             "name": "Cangget",
-            "ytUrl": "https://www.youtube.com/watch?v=hqlBvwPxlT4"
+            "ytUrl": "https://www.youtube.com/watch?v=Hq_Yyq3-oBU&ab_channel=AprizalMirzha"
           }
         ]
       }
