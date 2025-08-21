@@ -2397,7 +2397,7 @@ const provincesData = {
       "data": [
         {
           "name": "Rumah Wale (Minahasa)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Wale_Kabupaten_Minahasa.jpg"
+          "image": "https://asset.kompas.com/crops/KM5fAg7wgvb4EkqrrPAYaVywe4I=/0x0:750x500/750x500/data/photo/2022/02/06/61ffc02d15390.jpeg"
         }
       ]
     },
@@ -2406,11 +2406,11 @@ const provincesData = {
       "data": [
         {
           "name": "Pakaian Adat Minahasa",
-          "image": "https://cdn.idntimes.com/content-images/post/20200623/pakaian-adat-minahasa-7b8d5f4e3e6f0c3c5bfc585d6e7d3b9a.jpg"
+          "image": "https://telusurkultur.com/cdn/shop/articles/Cover_Blog_Dienvibi_-_2023-08-17T144426.841.jpg?v=1692258577"
         },
         {
           "name": "Pakaian Adat Bolaang Mongondow",
-          "image": "https://cdn.idntimes.com/content-images/post/20200623/pakaian-adat-bolaang-mongondow-2b8206c27d0cfe9e9d88abf8e0cf9a0a.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLO8lb8jIVIgcqh6MLM0ThM-f_-DmJulTHaw&s"
         }
       ]
     },
@@ -2419,13 +2419,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Kabasaran (Minahasa)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tari_Kabasaran.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=-DY8VevrM6Y"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=27CqwfBq5No&ab_channel=Omze"
         },
         {
           "name": "Tari Maengket",
-          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-7315d70db73454d8a1e7b7e37e13c9ce.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=3wlVbk1d7BE"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=Tfzf9rX1OfQ&list=RDTfzf9rX1OfQ&start_radio=1&ab_channel=JOHANSUJIVLOG"
         }
       ]
     },
@@ -2433,8 +2433,8 @@ const provincesData = {
       "name": "Senjata",
       "data": [
         {
-          "name": "Santi (Tombak Minahasa)",
-          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-836a25551cb50e77b06a14a2ec4c9d39.jpg"
+          "name": "Perisai Sulawesi Utara",
+          "image": "https://cdngnfi2.sgp1.cdn.digitaloceanspaces.com/gnfi/uploads/images/2023/07/1311172023-Perisai-Sulawesi-Utara.jpg"
         }
       ]
     },
@@ -2443,16 +2443,12 @@ const provincesData = {
       "data": [
         {
           "name": "Tinutuan (Bubur Manado)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Tinutuan_Bubur_Manado.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSEYKhmUFY2mADAic2WqPc6HPv3p7eILo_A&s"
         },
         {
           "name": "Cakalang Fufu",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cakalang_Fufu.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi93PCwhhfPJyD4-RkAVnfMZSjA17NdYzOJg&s"
         },
-        {
-          "name": "Rica-Rica",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ayam_Rica-Rica.jpg"
-        }
       ]
     },
     {
@@ -2460,14 +2456,9 @@ const provincesData = {
       "data": [
         {
           "name": "Kolintang",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Alat_musik_Kolintang.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=Qluhw_SvQzk"
+          "image": "https://asset-2.tstatic.net/tribunnews/foto/bank/images/kolintang-alat-musik-titin.jpg",
+          "ytUrl": "https://youtu.be/dy4gt-IYpKs?si=kEV5OUL4ysLh1fSN "
         },
-        {
-          "name": "Bambu Klarinet (Sulut)",
-          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-7bb6461a3c727d8ee6f95e2c0bb158bb.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=UyNElbzMPXc"
-        }
       ]
     },
     {
@@ -2477,14 +2468,6 @@ const provincesData = {
           "name": "Si Patokaan",
           "ytUrl": "https://youtu.be/VbN4-j5Tm8Q?si=6oRoQIpGU4-wQIFI "
         },
-        {
-          "name": "O Ina Ni Keke",
-          "ytUrl": "https://www.youtube.com/watch?v=wrgYPVuVFdU"
-        },
-        {
-          "name": "Esa Mokan",
-          "ytUrl": "https://www.youtube.com/watch?v=bAy6qzlvAIg"
-        }
       ]
     },
     {
@@ -2492,7 +2475,7 @@ const provincesData = {
       "data": [
         {
           "name": "Kabasaran Show (Tarian Perang)",
-          "ytUrl": "https://www.youtube.com/watch?v=MLLXtF8iTIo"
+          "ytUrl": "https://www.youtube.com/watch?v=q88VLvq_5Hc&ab_channel=jemsboychannel"
         }
       ]
     }
