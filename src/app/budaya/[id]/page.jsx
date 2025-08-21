@@ -589,15 +589,15 @@ const provincesData = {
     "name": "Bengkulu",
     "capital": "Bengkulu",
     "area": "19,919", // dalam km²
-    "population": "2.06 juta (2023)",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_arms_of_Bengkulu.png/120px-Coat_of_arms_of_Bengkulu.png",
+    "population": "	2.115.024 (2024)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Coat_of_arms_of_Bengkulu.svg/120px-Coat_of_arms_of_Bengkulu.svg.png",
     "cultures": [
       {
         "name": "Rumah Adat",
         "data": [
           {
             "name": "Rumah Bubungan Lima",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Rumah_Bubungan_Lima_Bengkulu.jpg/500px-Rumah_Bubungan_Lima_Bengkulu.jpg"
+            "image": "https://www.lamudi.co.id/journal/wp-content/uploads/2023/11/bengkulu.jpg"
           }
         ]
       },
@@ -606,11 +606,11 @@ const provincesData = {
         "data": [
           {
             "name": "Baju Rejang",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Baju_Adat_Bengkulu_Rejang.jpg/400px-Baju_Adat_Bengkulu_Rejang.jpg"
+            "image": "https://asset.kompas.com/crops/6Vp35nMUIlT4fk49HOpFKlzxiXM=/25x19:634x425/780x390/data/photo/2021/03/16/60506fc949f08.png"
           },
           {
             "name": "Baju Melayu Bengkulu",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Baju_Melayu_Bengkulu.jpg/400px-Baju_Melayu_Bengkulu.jpg"
+            "image": "https://cdn.rri.co.id/berita/Bintuhan/o/1745837088368-1000080595/hk3llekil12loge.jpeg"
           }
         ]
       },
@@ -619,13 +619,13 @@ const provincesData = {
         "data": [
           {
             "name": "Tari Andun",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Tari_Andun_Bengkulu.jpg/500px-Tari_Andun_Bengkulu.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=gFhGz3-MR3E"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=Eke_n36NBt0&ab_channel=AYUWULANDARI"
           },
           {
             "name": "Tari Bidadari Teminang Anak",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tari_Bidadari_Teminang_Anak.jpg/500px-Tari_Bidadari_Teminang_Anak.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=BeE7aq74hRo"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=aUDNBMgNIN8&ab_channel=LovelyIndonesia"
           }
         ]
       },
@@ -634,11 +634,11 @@ const provincesData = {
         "data": [
           {
             "name": "Keris Bengkulu",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Keris_Bengkulu.jpg/400px-Keris_Bengkulu.jpg"
+            "image": "https://asset.kompas.com/crops/MzswZJCyPWTaiDZZTGdzGDBN6u4=/170x115:840x562/750x500/data/photo/2021/05/18/60a37e1eec263.png"
           },
           {
             "name": "Pedang Jenawi",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pedang_Jenawi.jpg/400px-Pedang_Jenawi.jpg"
+            "image": "https://inakoran.com/uploads/2022/04/02/1648893984-p8e884e94537e2f3d5612ebc25e4d321c.jpg"
           }
         ]
       },
@@ -647,15 +647,15 @@ const provincesData = {
         "data": [
           {
             "name": "Pendap",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pendap_Bengkulu.jpg/400px-Pendap_Bengkulu.jpg"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Jd506aji93N7_K8bFQF5AmQ5H-KMz1fhsQ&s"
           },
           {
             "name": "Lemea",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Lemea_Bengkulu.jpg/400px-Lemea_Bengkulu.jpg"
+            "image": "https://cdn.rri.co.id/berita/Bengkulu/o/1727413013195-IMG-20240927-WA0044/f1zn8coldjxrqsi.jpeg"
           },
           {
             "name": "Bagar Hiu",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bagar_Hiu_Bengkulu.jpg/400px-Bagar_Hiu_Bengkulu.jpg"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDx3z49hdgvyc_neRN-pAAeYVurQKSTFi8Bg&s"
           }
         ]
       },
@@ -664,27 +664,18 @@ const provincesData = {
         "data": [
           {
             "name": "Doll",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Alat_Musik_Doll_Bengkulu.jpg/400px-Alat_Musik_Doll_Bengkulu.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=4-JBa7OluEY"
+            "image": "https://osccdn.medcom.id/images/content/2020/04/05/183db23a75f86dfa1760d494f7f36820.jpg",
+            "ytUrl": ""
           },
-          {
-            "name": "Serunai",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Serunai_Bengkulu.jpg/400px-Serunai_Bengkulu.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=ApvAE14dcSY"
-          }
         ]
       },
       {
         "name": "Lagu Daerah",
         "data": [
           {
-            "name": "Jibeak Awang",
-            "ytUrl": "https://www.youtube.com/watch?v=a3qtD8oh2Ro"
+            "name": "Ikan Pais",
+            "ytUrl": " https://youtu.be/JsHExksLj6s?si=Avw9UGbbuobUEd2z "
           },
-          {
-            "name": "Lagu Lalan Belek",
-            "ytUrl": "https://www.youtube.com/watch?v=emN3nnycCSs"
-          }
         ]
       },
       {
@@ -692,7 +683,7 @@ const provincesData = {
         "data": [
           {
             "name": "Tabot",
-            "ytUrl": "https://www.youtube.com/watch?v=jAMF2HlzA4k"
+            "ytUrl": "https://www.youtube.com/watch?v=pmxjdGMUF0o&ab_channel=MasAMtv"
           }
         ]
       }
