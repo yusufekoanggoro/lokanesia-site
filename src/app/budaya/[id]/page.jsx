@@ -3483,10 +3483,6 @@ const provincesData = {
           "name": "Yamko Rambe Yamko",
           "ytUrl": "https://youtu.be/I8bYDzEJVnk?si=6kjfXyBNF8FxxlIb"
         },
-        {
-          "name": "Apuse",
-          "ytUrl": "https://www.youtube.com/watch?v=J_TPrhwM7DI&list=RDJ_TPrhwM7DI&start_radio=1&ab_channel=DivaTheSeriesOfficial"
-        }
       ]
     },
     {
@@ -3812,16 +3808,16 @@ const provincesData = {
 "92-A": {
   "name": "Papua Barat",
   "capital": "Manokwari",
-  "area": 102955, // dalam km²
-  "population": 1143000, // perkiraan 2023
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Coat_of_arms_of_West_Papua.png/220px-Coat_of_arms_of_West_Papua.png",
+  "area": "140,376", // dalam km²
+  "population": "578,760 (2024)", // perkiraan 2023
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_West_Papua.svg/120px-Coat_of_arms_of_West_Papua.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Rumah Kaki Seribu",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Rumah_Kaki_Seribu_di_Papua_Barat.jpg/500px-Rumah_Kaki_Seribu_di_Papua_Barat.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rumah_Kaki_Seribu_%28Mod_Aki_Aksa%29.jpg/330px-Rumah_Kaki_Seribu_%28Mod_Aki_Aksa%29.jpg"
         }
       ]
     },
@@ -3830,7 +3826,7 @@ const provincesData = {
       "data": [
         {
           "name": "Koteka & Rok Rumbai",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Koteka_traditional_dress_Papua.jpg/330px-Koteka_traditional_dress_Papua.jpg"
+          "image": "https://pariwisataindonesia.id/wp-content/uploads/2020/12/Kotake-Papua-foto-carakuscom-640x480.jpg"
         }
       ]
     },
@@ -3838,15 +3834,10 @@ const provincesData = {
       "name": "Tarian",
       "data": [
         {
-          "name": "Tari Yospan",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tari_Yospan.jpg/500px-Tari_Yospan.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=fM34dXlNQeA"
+          "name": "Tarian Tumbu Tanah",
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=yAggW5bwaQI&ab_channel=Danang.WR"
         },
-        {
-          "name": "Tari Suanggi",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Tari_Suanggi_Papua.jpg/500px-Tari_Suanggi_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=KQ0j4pSPaGA"
-        }
       ]
     },
     {
@@ -3854,7 +3845,7 @@ const provincesData = {
       "data": [
         {
           "name": "Busur dan Panah",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Busur_dan_panah_Papua.jpg/500px-Busur_dan_panah_Papua.jpg"
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/05/17/oakirbin_busurpanahpapuabarat.jpg"
         }
       ]
     },
@@ -3863,27 +3854,18 @@ const provincesData = {
       "data": [
         {
           "name": "Ikan Bakar Manokwari",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ikan_Bakar_Manokwari.jpg/500px-Ikan_Bakar_Manokwari.jpg"
+          "image": "https://cdn.rri.co.id/berita/66/images/1709454651458-i/pd9h0cazg3b2epb.jpeg"
         },
-        {
-          "name": "Papeda Kuah Kuning",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Papeda_dengan_ikan_kuah_kuning.jpg/500px-Papeda_dengan_ikan_kuah_kuning.jpg"
-        }
       ]
     },
     {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Tifa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tifa_Maluku.jpg/500px-Tifa_Maluku.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=MTpdm5A2OGo"
+          "name": "Guoto",
+          "image": "https://asset.kompas.com/crops/T08c2o1G8Ncv0GpwjNowUq7FPa0=/110x0:911x534/1200x800/data/photo/2021/05/11/609a88d76d343.jpg",
+          "ytUrl": ""
         },
-        {
-          "name": "Pikon",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Pikon_Papua.jpg/500px-Pikon_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=2zM6M5kGQGo"
-        }
       ]
     },
     {
@@ -3891,12 +3873,8 @@ const provincesData = {
       "data": [
         {
           "name": "Apuse",
-          "ytUrl": "https://www.youtube.com/watch?v=riNxM0DtwM8"
+          "ytUrl": "https://youtu.be/VlyDN-yQMuk?si=ln4oRBGLQPDpaU7c"
         },
-        {
-          "name": "E Mambo Simbo",
-          "ytUrl": "https://www.youtube.com/watch?v=Uk95EZVh6rM"
-        }
       ]
     },
     {
@@ -3904,7 +3882,7 @@ const provincesData = {
       "data": [
         {
           "name": "Tarian Perang",
-          "ytUrl": "https://www.youtube.com/watch?v=Wrw2ypl42LY"
+          "ytUrl": "https://www.youtube.com/watch?v=-LbpPKmZ43g&ab_channel=Mrok"
         }
       ]
     }
@@ -4055,8 +4033,9 @@ const provinceSongs = {
   "82": "/music/maluku_utara.mp3",
 
 
-  "91-A": "/music/papua.mp3"
+  "91-A": "/music/papua.mp3",
 
+  "92-A": "/music/papua_barat.mp3"
   // dst...
 };
 
