@@ -3403,16 +3403,16 @@ const provincesData = {
 "91-A": {
   "name": "Papua",
   "capital": "Jayapura",
-  "area": 319036, // dalam km²
-  "population": 4437000, // perkiraan 2023
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Coat_of_arms_of_Papua.png/220px-Coat_of_arms_of_Papua.png",
+  "area": "319,036", // dalam km²
+  "population": "1.061 juta (2024)", // perkiraan 2023
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Coat_of_arms_of_Papua_2.svg/120px-Coat_of_arms_of_Papua_2.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
-          "name": "Honai",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Rumah_Honai_di_Papua.jpg/500px-Rumah_Honai_di_Papua.jpg"
+          "name": "Kariwari",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Raiyani_Muharramah_Rumah_Karwari_Papua_DSC_8244.jpg/250px-Raiyani_Muharramah_Rumah_Karwari_Papua_DSC_8244.jpg"
         }
       ]
     },
@@ -3421,7 +3421,7 @@ const provincesData = {
       "data": [
         {
           "name": "Koteka & Rok Rumbai",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Koteka_traditional_dress_Papua.jpg/330px-Koteka_traditional_dress_Papua.jpg"
+          "image": "https://pariwisataindonesia.id/wp-content/uploads/2020/12/Kotake-Papua-foto-carakuscom-640x480.jpg"
         }
       ]
     },
@@ -3430,13 +3430,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Selamat Datang",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tari_Selamat_Datang_Papua.jpg/500px-Tari_Selamat_Datang_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=86CnnPvJE-0"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=bA4llOELaUA&ab_channel=MansaiPapua"
         },
         {
           "name": "Tari Musyoh",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tari_Musyoh_Papua.jpg/500px-Tari_Musyoh_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=PY3LkMwlZ28"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=egTI93mVeo0&ab_channel=MediaEdukatif"
         }
       ]
     },
@@ -3445,11 +3445,11 @@ const provincesData = {
       "data": [
         {
           "name": "Tombak",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tombak_Papua.jpg/500px-Tombak_Papua.jpg"
+          "image": "https://www.papuaerfgoed.org/sites/default/files/styles/max_1300x1300/public/collectie/images/2005-04/EA_55_19.jpg?itok=RwkkyVlP"
         },
         {
           "name": "Busur dan Panah",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Busur_dan_panah_Papua.jpg/500px-Busur_dan_panah_Papua.jpg"
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/12/26/roro_SenjataKhasDaerahPapua.jpg"
         }
       ]
     },
@@ -3458,11 +3458,11 @@ const provincesData = {
       "data": [
         {
           "name": "Papeda",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Papeda_dengan_ikan_kuah_kuning.jpg/500px-Papeda_dengan_ikan_kuah_kuning.jpg"
+          "image": "https://cdn1-production-images-kly.akamaized.net/VYo2v8fXvwGNOy7RluB7-sPQR30=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3225045/original/030810800_1598943228-PAPEDA.jpg"
         },
         {
           "name": "Sagu Lempeng",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sagu_Lempeng_Papua.jpg/500px-Sagu_Lempeng_Papua.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHhuuUKfri180I-4V8pHvjZ8FeELza0UQUA&s"
         }
       ]
     },
@@ -3471,14 +3471,9 @@ const provincesData = {
       "data": [
         {
           "name": "Tifa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tifa_Maluku.jpg/500px-Tifa_Maluku.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=MTpdm5A2OGo"
+          "image": "https://asset.kompas.com/crops/jxPCn_eT0V2gHIu_1ynPHifqr_s=/103x66:897x596/750x500/data/photo/2022/03/20/623716066e1a9.jpg",
+          "ytUrl": "https://youtu.be/C2xG-3E7Xnk?si=Hm9ZX-GkT7z9kHBJ "
         },
-        {
-          "name": "Pikon",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Pikon_Papua.jpg/500px-Pikon_Papua.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=2zM6M5kGQGo"
-        }
       ]
     },
     {
@@ -3486,11 +3481,11 @@ const provincesData = {
       "data": [
         {
           "name": "Yamko Rambe Yamko",
-          "ytUrl": "https://www.youtube.com/watch?v=b5tGq4RmvbQ"
+          "ytUrl": "https://youtu.be/I8bYDzEJVnk?si=6kjfXyBNF8FxxlIb"
         },
         {
           "name": "Apuse",
-          "ytUrl": "https://www.youtube.com/watch?v=riNxM0DtwM8"
+          "ytUrl": "https://www.youtube.com/watch?v=J_TPrhwM7DI&list=RDJ_TPrhwM7DI&start_radio=1&ab_channel=DivaTheSeriesOfficial"
         }
       ]
     },
@@ -3499,7 +3494,7 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Perang",
-          "ytUrl": "https://www.youtube.com/watch?v=Wrw2ypl42LY"
+          "ytUrl": "https://www.youtube.com/watch?v=-LbpPKmZ43g&ab_channel=Mrok"
         }
       ]
     }
@@ -4055,8 +4050,13 @@ const provinceSongs = {
   "71": "/music/sulut.mp3",
   "72": "/music/sulteng.mp3",
 
+  // maluku & papua
   "81": "/music/maluku.mp3",
-  "82": "/music/maluku_utara.mp3"
+  "82": "/music/maluku_utara.mp3",
+
+
+  "91-A": "/music/papua.mp3"
+
   // dst...
 };
 
