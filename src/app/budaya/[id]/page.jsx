@@ -477,7 +477,7 @@ const provincesData = {
       }
     ]
   },
-  "16": {
+  "16": { // blm
     name: "Sumatera Selatan",
     capital: "Palembang",
     area: "86,771", // dalam km²
@@ -489,11 +489,11 @@ const provincesData = {
           "data": [
             {
               "name": "Rumah Limas",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rumah_Limas_Palembang.jpg/500px-Rumah_Limas_Palembang.jpg"
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Rumah_Limas_of_IDR_10000_banknote.jpg/250px-Rumah_Limas_of_IDR_10000_banknote.jpg"
             },
             {
               "name": "Rumah Ulu",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Rumah_Ulu_Palembang.jpg/500px-Rumah_Ulu_Palembang.jpg"
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Rumah_ulu.jpg/250px-Rumah_ulu.jpg"
             }
           ]
         },
@@ -502,11 +502,11 @@ const provincesData = {
           "data": [
             {
               "name": "Aesan Gede",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Baju_Adat_Palembang_Aesan_Gede.jpg/400px-Baju_Adat_Palembang_Aesan_Gede.jpg"
+              "image": "https://backpackerjakarta.com/wp-content/uploads/2018/02/Gambar-Aesan-Gede-Pria-dan-Wanita-1.jpg"
             },
             {
               "name": "Aesan Paksangko",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Aesan_Paksangko_Palembang.jpg/400px-Aesan_Paksangko_Palembang.jpg"
+              "image": "https://sumateraekspres.bacakoran.co/upload/b871da48380b35abad1e670af85e6dd4.jpg"
             }
           ]
         },
@@ -515,13 +515,13 @@ const provincesData = {
           "data": [
             {
               "name": "Tari Gending Sriwijaya",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tari_Gending_Sriwijaya.jpg/500px-Tari_Gending_Sriwijaya.jpg",
-              "ytUrl": "https://www.youtube.com/watch?v=ttnnx8yFYRw"
+              "image": "",
+              "ytUrl": "https://www.youtube.com/watch?v=_iOgonp5hEk&list=RD_iOgonp5hEk&start_radio=1&ab_channel=PesonaSriwijaya"
             },
             {
               "name": "Tari Tanggai",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tari_Tanggai_Palembang.jpg/500px-Tari_Tanggai_Palembang.jpg",
-              "ytUrl": "https://www.youtube.com/watch?v=4MyKkC4dQSk"
+              "image": "",
+              "ytUrl": "https://www.youtube.com/watch?v=dwPrUIta8g0&list=RDdwPrUIta8g0&start_radio=1&ab_channel=SanggarRumahElokPalembang"
             }
           ]
         },
@@ -530,11 +530,11 @@ const provincesData = {
           "data": [
             {
               "name": "Keris Palembang",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Keris_Palembang.jpg/400px-Keris_Palembang.jpg"
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyJG6FpUwn8NSawi2QOHZNjT_uspdP1no4QQ&s"
             },
             {
               "name": "Tombak Trisula",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Trisula_indonesia.jpg/400px-Trisula_indonesia.jpg"
+              "image": "https://cdn0-production-images-kly.akamaized.net/Z6y0k7o9BgvzdaXSxyPAwbZBI3g=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/5197833/original/016475400_1745484931-Tombak_Trisula_Sumsel.jpg"
             }
           ]
         },
@@ -543,11 +543,11 @@ const provincesData = {
           "data": [
             {
               "name": "Pempek",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Indonesian_cuisine-Pempek-03.jpg/400px-Indonesian_cuisine-Pempek-03.jpg"
+              "image": "https://lingkar.news/wp-content/uploads/2023/03/Aneka-Resep-Pempek-Makanan-Tradisional-Khas-Palembang.jpg"
             },
             {
               "name": "Tekwan",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Tekwan_Palembang.jpg/400px-Tekwan_Palembang.jpg"
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzwRoXQ0VPi__FktYDoCH1VVhYuQwSV2kFqA&s"
             }
           ]
         },
@@ -556,14 +556,9 @@ const provincesData = {
           "data": [
             {
               "name": "Accordion",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gong_Indonesia.jpg/400px-Gong_Indonesia.jpg",
+              "image": "https://img.inews.co.id/media/600/files/inews_new/2022/08/15/akordieon.jpg",
               "ytUrl": "https://youtu.be/f-bFv0c38_Q?si=HlKRc6ERpwW2vHN3"
             },
-            {
-              "name": "Gendang Melayu",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gendang_Melayu.jpg/400px-Gendang_Melayu.jpg",
-              "ytUrl": "https://www.youtube.com/watch?v=5u49N9RDkNg"
-            }
           ]
         },
         {
@@ -571,11 +566,11 @@ const provincesData = {
           "data": [
             {
               "name": "Dek Sangke",
-              "ytUrl": "https://www.youtube.com/watch?v=Vi8CmY2s4fM"
+              "ytUrl": "https://youtu.be/aGGFDYPWawM?si=lUE80RY5NjHedYwI "
             },
             {
               "name": "Cuk Mak Ilang",
-              "ytUrl": "https://www.youtube.com/watch?v=02waP5ud8yM"
+              "ytUrl": " https://youtu.be/ko-n9IY1Z78?si=T44XvepYtxK_I-ae "
             }
           ]
         },
@@ -584,7 +579,7 @@ const provincesData = {
           "data": [
             {
               "name": "Dulmuluk (Teater Tradisional Palembang)",
-              "ytUrl": "https://www.youtube.com/watch?v=ViL1oQ6lTjE"
+              "ytUrl": "https://www.youtube.com/watch?v=J3LPoY5AJ_A&ab_channel=ZONALITERASI"
             }
           ]
         }
@@ -1016,6 +1011,8 @@ const provincesData = {
       }
     ]
   },
+
+  // p jawa
   "31": {
     name: "DKI Jakarta",
     capital: "Jakarta",
@@ -1624,6 +1621,8 @@ const provincesData = {
       }
     ]
   },
+
+// p bali dan nt
 "51": {
   "name": "Bali",
   "capital": "Denpasar",
@@ -1948,6 +1947,7 @@ const provincesData = {
   ]
 },
 
+// p kalimantan
   "61": {
     "name": "Kalimantan Barat",
     "capital": "Pontianak",
@@ -2479,6 +2479,7 @@ const provincesData = {
     ]
   },
 
+// p sulawesi
 "71": {
   "name": "Sulawesi Utara",
   "capital": "Manado",
@@ -3154,6 +3155,8 @@ const provincesData = {
     }
   ]
 },
+
+// p maluku dan papua
 
 "81": {
   "name": "Maluku",
@@ -3910,10 +3913,11 @@ const provinceSongs = {
   "13": "/music/sumatera_barat.mp3",
   "14": "/music/riau.mp3",
   "15": "/music/jambi.mp3",
-  "21": "/music/kepriau.mp3",
   "16": "/music/sumsel.mp3",
-  "19": "/music/kepbanglitunh.mp3",
+  "17": "/music/bengkulu.mp3",
   "18": "/music/lampung.mp3",
+  "19": "/music/kepbanglitung.mp3",
+  "21": "/music/kepriau.mp3",
 
   // p kalimantan
   "61": "/music/kalbar.mp3",
