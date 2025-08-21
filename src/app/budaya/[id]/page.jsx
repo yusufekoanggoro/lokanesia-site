@@ -3306,16 +3306,16 @@ const provincesData = {
 "82": {
   "name": "Maluku Utara",
   "capital": "Sofifi",
-  "area": 31982, // dalam km²
-  "population": 1272000, // perkiraan 2023
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coat_of_arms_of_North_Maluku.png/220px-Coat_of_arms_of_North_Maluku.png",
+  "area": "31,982", // dalam km²
+  "population": "1,356 juta (2024)", // perkiraan 2023
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_arms_of_North_Maluku.svg/120px-Coat_of_arms_of_North_Maluku.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Rumah Hibualamo",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Hibualamo_house_in_Tobelo.jpg/500px-Hibualamo_house_in_Tobelo.jpg"
+          "image": "https://haliyora.id/wp-content/uploads/2025/03/Rumah-Adat-Hibualamo-di-Halmahera-Utara.jpg"
         }
       ]
     },
@@ -3324,11 +3324,11 @@ const provincesData = {
       "data": [
         {
           "name": "Baju Manteren Lamo",
-          "image": "https://i.pinimg.com/originals/31/b1/3d/31b13df4376c57a29286216857a11825.jpg"
+          "image": "https://www.lamudi.co.id/journal/wp-content/uploads/2023/07/Manteren-Lamo.jpg"
         },
         {
           "name": "Baju Kimun Gia",
-          "image": "https://i.pinimg.com/originals/71/8c/9e/718c9ef2c06ab8074c2dce3b419038d8.jpg"
+          "image": "https://www.lamudi.co.id/journal/wp-content/uploads/2023/07/Baju-Kimun-Gia.jpg"
         }
       ]
     },
@@ -3337,13 +3337,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Soya-soya",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Soya-soya_dance.jpg/500px-Soya-soya_dance.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=U3Qif1ll3SA"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=ClxtUEred9w&list=RDClxtUEred9w&start_radio=1&ab_channel=RyatHusain"
         },
         {
           "name": "Tari Lalayon",
-          "image": "https://i.pinimg.com/originals/1c/eb/25/1ceb25acb5fa7c7476d5d68c04071b13.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=VIdUj3XyF1E"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=fic2V4LGNoI&list=RDfic2V4LGNoI&start_radio=1&ab_channel=Sitichanel"
         }
       ]
     },
@@ -3352,7 +3352,7 @@ const provincesData = {
       "data": [
         {
           "name": "Parang",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Parang_Ternate.jpg/500px-Parang_Ternate.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/COLLECTIE_TROPENMUSEUM_Houten_dansschild_versierd_met_porselein_TMnr_3250-3.jpg/250px-COLLECTIE_TROPENMUSEUM_Houten_dansschild_versierd_met_porselein_TMnr_3250-3.jpg"
         }
       ]
     },
@@ -3361,11 +3361,11 @@ const provincesData = {
       "data": [
         {
           "name": "Gohu Ikan",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Gohu_ikan_Maluku_Utara.jpg/500px-Gohu_ikan_Maluku_Utara.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gohu_Ikan_in_Ternate.jpg/250px-Gohu_Ikan_in_Ternate.jpg"
         },
         {
           "name": "Halua Kenari",
-          "image": "https://img-global.cpcdn.com/recipes/6d0fd6a4c3a27801/1200x630cq70/photo.jpg"
+          "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/01/22/megaarsitath_halua-kenari-696x464.jpg"
         }
       ]
     },
@@ -3373,27 +3373,18 @@ const provincesData = {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Gambus",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Gambus.jpg/500px-Gambus.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=G22pF2BdL1Y"
+          "name": "Arababu",
+          "image": "https://mmc.tirto.id/image/otf/970x0/2022/12/28/arababu-tropenmuseum_ratio-16x9.jpg",
+          "ytUrl": "https://youtu.be/Q4rGptBelFA?si=F3MYNK3awUEo_nbr "
         },
-        {
-          "name": "Aramba",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Aramba.jpg/500px-Aramba.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=9Ec9AiN5mXc"
-        }
       ]
     },
     {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "Ngana Uli",
-          "ytUrl": "https://www.youtube.com/watch?v=SlWl7c1mskM"
-        },
-        {
-          "name": "Doro Lamo",
-          "ytUrl": "https://www.youtube.com/watch?v=1FO0LNT5YjM"
+          "name": "Borero",
+          "ytUrl": "https://youtu.be/bT1fbqORkA4?si=-E7KANz9BUmKvRqT "
         }
       ]
     },
@@ -3402,7 +3393,7 @@ const provincesData = {
       "data": [
         {
           "name": "Bambu Gila",
-          "ytUrl": "https://www.youtube.com/watch?v=HcUf8hC4dQU"
+          "ytUrl": "https://www.youtube.com/watch?v=cG0o60fdbMM&ab_channel=zulkiflibaim"
         }
       ]
     }
@@ -4064,7 +4055,8 @@ const provinceSongs = {
   "71": "/music/sulut.mp3",
   "72": "/music/sulteng.mp3",
 
-  "81": "/music/maluku.mp3"
+  "81": "/music/maluku.mp3",
+  "82": "/music/maluku_utara.mp3"
   // dst...
 };
 
