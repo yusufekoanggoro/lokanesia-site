@@ -2905,16 +2905,16 @@ const provincesData = {
 "76": {
   "name": "Sulawesi Barat",
   "capital": "Mamuju",
-  "area": 16787, 
-  "population": 1581000,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Coat_of_arms_of_West_Sulawesi.svg/800px-Coat_of_arms_of_West_Sulawesi.svg.png",
+  "area": "16,787", 
+  "population": "1.481 juta (2023)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Coat_of_arms_of_West_Sulawesi.svg/120px-Coat_of_arms_of_West_Sulawesi.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Boyang Adaq",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rumah_Adat_Boyang_Mandar.jpg/500px-Rumah_Adat_Boyang_Mandar.jpg"
+          "image": "https://awsimages.detik.net.id/community/media/visual/2022/09/17/rumah-adat-mandar_169.jpeg?w=650"
         }
       ]
     },
@@ -2923,11 +2923,11 @@ const provincesData = {
       "data": [
         {
           "name": "Baju Pokko (Wanita)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Baju_Pokko_Mandar.jpg/500px-Baju_Pokko_Mandar.jpg"
+          "image": "https://asset.kompas.com/crops/OkuBwDPPGzQwc4ieiHDD96Woam0=/0x7:791x534/1200x800/data/photo/2025/01/20/678e4afd62f0a.jpeg"
         },
         {
           "name": "Baju Pattuqduq Towaine (Pria)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Baju_Adat_Mandar_Sulawesi_Barat.jpg/500px-Baju_Adat_Mandar_Sulawesi_Barat.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuDr44PK6LZN2hehTtuWjl_jgIge44aXNJUA&s"
         }
       ]
     },
@@ -2936,13 +2936,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Pattuqduq Towaine",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tari_Pattuqduq_Towaine_Mandar.jpg/500px-Tari_Pattuqduq_Towaine_Mandar.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=F1sQbK5pCrg"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=WvN9q3GMnWo&list=RDWvN9q3GMnWo&start_radio=1&ab_channel=Perjalananrasa"
         },
         {
           "name": "Tari Sayyang Pattuddu’",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sayyang_Pattudu%27_Mandar.jpg/500px-Sayyang_Pattudu%27_Mandar.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=Gx9FHeG7G9o"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=zHvzmWKAqIY&ab_channel=TRANS7OFFICIAL"
         }
       ]
     },
@@ -2950,8 +2950,8 @@ const provincesData = {
       "name": "Senjata",
       "data": [
         {
-          "name": "Badik Mandar",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Badik_Mandar.jpg/500px-Badik_Mandar.jpg"
+          "name": "Belati Jambia",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Jambiya.jpg/250px-Jambiya.jpg"
         }
       ]
     },
@@ -2960,11 +2960,11 @@ const provincesData = {
       "data": [
         {
           "name": "Jepa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Jepa_Mandar.jpg/500px-Jepa_Mandar.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFPCR8aejkQU-hsIcpEPoSxp73dwKwTivdCA&s"
         },
         {
           "name": "Kue Kui-kui",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kui-kui_Mandar.jpg/500px-Kui-kui_Mandar.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxU6lgFHKa7X6wXD_29Of--RgB_4V52HebOg&s"
         }
       ]
     },
@@ -2972,28 +2972,20 @@ const provincesData = {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Kacaping",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Kacaping_Mandar.jpg/500px-Kacaping_Mandar.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=gFMptipPz7o"
+          "name": "Talindo",
+          "image": "https://cdn.rri.co.id/berita/Makassar/o/1754372410405-talindo/p16jf31ilrzt3uq.png",
+          "ytUrl": "https://youtu.be/ZsWdFCk1u4o?si=5LNgMpeV6UNtHLw3 "
         },
-        {
-          "name": "Gendang Mandar",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gendang_Mandar.jpg/500px-Gendang_Mandar.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=5dhsHCQtnrU"
-        }
+    
       ]
     },
     {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "Sayang-sayang Mandar",
-          "ytUrl": "https://www.youtube.com/watch?v=RM1yHUVdHUI"
+          "name": "Tenggang-tenggang lopi",
+          "ytUrl": "https://youtu.be/17en8Ep5vQE?si=ppRKJe3AxQfrUekE"
         },
-        {
-          "name": "Paiya",
-          "ytUrl": "https://www.youtube.com/watch?v=hhcb0A1Y5no"
-        }
       ]
     },
     {
@@ -3001,7 +2993,7 @@ const provincesData = {
       "data": [
         {
           "name": "Sayyang Pattu’du (kuda menari tradisional)",
-          "ytUrl": "https://www.youtube.com/watch?v=Gx9FHeG7G9o"
+          "ytUrl": "https://www.youtube.com/watch?v=YIdoyfrdo8I&ab_channel=SyaripHasib"
         }
       ]
     }
@@ -3784,6 +3776,7 @@ const provinceSongs = {
   "73": "/music/sulsel.mp3",
   "74": "/music/sultra.mp3",
   "75": "/music/gorontalo.mp3",
+  "76": "/music/sulbar.mp3",
 
   // Bali dan Nusa Tenggara
   "51": "/music/bali.mp3",
