@@ -1917,7 +1917,7 @@ const provincesData = {
         "data": [
           {
             "name": "Rumah Panjang",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Rumah_Panjang_Suku_Dayak.jpg/500px-Rumah_Panjang_Suku_Dayak.jpg"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPusU2UYr1X4yG8pb9bLjNU1KUwzhg5TekA&s"
           }
         ]
       },
@@ -1926,11 +1926,11 @@ const provincesData = {
         "data": [
           {
             "name": "King Baba (Pria)",
-            "image": "https://blogkulo.com/wp-content/uploads/2022/07/Pakaian-Adat-Kalimantan-Barat-King-Baba.jpg"
+            "image": "https://pbs.twimg.com/media/EPCke6YUwAAZ_E1.jpg"
           },
           {
             "name": "King Bibinge (Wanita)",
-            "image": "https://blogkulo.com/wp-content/uploads/2022/07/Pakaian-Adat-Kalimantan-Barat-King-Bibinge.jpg"
+            "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/08/15/oskm18_16918280_shellyana_images4.jpeg"
           }
         ]
       },
@@ -1939,13 +1939,13 @@ const provincesData = {
         "data": [
           {
             "name": "Tari Monong (Tolak Bala)",
-            "image": "https://asset.kompas.com/crops/QDKNdf6a0p6kbdbnlPV-muMEric=/0x0:740x493/750x500/data/photo/2021/07/21/60f7e23e7c63b.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=Q1ohmRrKcBY"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=o8v97-EV_RQ&ab_channel=CinaritaNusantara"
           },
           {
             "name": "Tari Zapin Tembung",
-            "image": "https://i.ytimg.com/vi/R-H3CYwiV9Y/maxresdefault.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=R-H3CYwiV9Y"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=c2rdReouhRc&list=RDc2rdReouhRc&start_radio=1&ab_channel=InneSuryani"
           }
         ]
       },
@@ -1954,7 +1954,7 @@ const provincesData = {
         "data": [
           {
             "name": "Mandau",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mandau_Dayak.jpg"
+            "image": "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/239/2024/12/17/Mandau-2107226971.png"
           }
         ]
       },
@@ -1963,11 +1963,11 @@ const provincesData = {
         "data": [
           {
             "name": "Bubur Pedas Sambas",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Bubur_pedas_sambas.jpg"
+            "image": "https://cdn1-production-images-kly.akamaized.net/QZSeka6HVAti-I5ysjuUWlGpisM=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1309676/original/027544300_1470488585-20160806-bubur-pedas-sambas-kalbar.jpg"
           },
           {
             "name": "Pengkang",
-            "image": "https://i0.wp.com/www.selasar.com/wp-content/uploads/2021/11/pengkang-khas-kalbar.jpg"
+            "image": "https://cdn0-production-images-kly.akamaized.net/i0cgiej0cGxzdkqZjem6T9Rp5_M=/948x0:4597x3649/1200x1200/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3910408/original/016234400_1642738101-shutterstock_2035213286.jpg"
           }
         ]
       },
@@ -1975,9 +1975,9 @@ const provincesData = {
         "name": "Alat Musik",
         "data": [
           {
-            "name": "Sape’",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Sape%27%2C_traditioneel_snaarinstrument_van_de_Dayak.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=5ck-50Nps88"
+            "name": "Tuma",
+            "image": "https://khatulistiwahits.com/wp-content/uploads/2023/07/Alat-musik-unik-1.webp",
+            "ytUrl": ""
           }
         ]
       },
@@ -1988,10 +1988,6 @@ const provincesData = {
             "name": "Cik Cik Periuk",
             "ytUrl": "https://youtu.be/HFaT5PbsXCU?si=wtflm3MDphaNgqTG"
           },
-          {
-            "name": "Alon-Alon",
-            "ytUrl": "https://www.youtube.com/watch?v=wKJQQfCSzV8"
-          }
         ]
       },
       {
@@ -1999,7 +1995,7 @@ const provincesData = {
         "data": [
           {
             "name": "Sandung (Ritual Dayak)",
-            "ytUrl": "https://www.youtube.com/watch?v=r3YbIedq8Nc"
+            "ytUrl": "https://www.youtube.com/watch?v=KGLsChz3ldI&ab_channel=Bayusamudraoxone"
           }
         ]
       }
