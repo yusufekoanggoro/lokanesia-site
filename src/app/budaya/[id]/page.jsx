@@ -2590,20 +2590,20 @@ const provincesData = {
 "73": {
   "name": "Sulawesi Selatan",
   "capital": "Makassar",
-  "area": 46717,
-  "population": 9097000,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Coat_of_arms_of_South_Sulawesi.svg/800px-Coat_of_arms_of_South_Sulawesi.svg.png",
+  "area": "46,717",
+  "population": "9.463 juta (2024)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Coat_of_arms_of_South_Sulawesi.svg/120px-Coat_of_arms_of_South_Sulawesi.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Tongkonan (Toraja)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tongkonan_Toraja.JPG/500px-Tongkonan_Toraja.JPG"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Tongkonan_Toraja.jpg/250px-Tongkonan_Toraja.jpg"
         },
         {
           "name": "Balla Lompoa (Bugis/Makassar)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Balla_Lompoa.jpg/500px-Balla_Lompoa.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Balla%27_Lompoa_Museum.jpg/250px-Balla%27_Lompoa_Museum.jpg"
         }
       ]
     },
@@ -2612,11 +2612,11 @@ const provincesData = {
       "data": [
         {
           "name": "Baju Bodo (Bugis/Makassar)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Baju_Bodo_Bugis.jpg/500px-Baju_Bodo_Bugis.jpg"
+          "image": "https://awsimages.detik.net.id/community/media/visual/2021/03/04/baju-bodo_169.jpeg?w=1200"
         },
         {
           "name": "Seppa Tallung (Toraja)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pakaian_Adat_Toraja.jpg/500px-Pakaian_Adat_Toraja.jpg"
+          "image": "https://awsimages.detik.net.id/community/media/visual/2022/04/01/pakaian-adat-sulawesi-selatan_169.jpeg?w=1200"
         }
       ]
     },
@@ -2625,13 +2625,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Pakarena (Makassar)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Tari_Pakarena.jpg/500px-Tari_Pakarena.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=xtX95V-3ztU"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=PfVyTq3gRDk&list=RDPfVyTq3gRDk&start_radio=1&ab_channel=AndiSyu"
         },
         {
           "name": "Tari Ma’randing (Toraja)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tari_Maranding_Toraja.jpg/500px-Tari_Maranding_Toraja.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=3LItUYoIwFE"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=h7th70IeyLI&ab_channel=Torajaunik"
         }
       ]
     },
@@ -2640,7 +2640,7 @@ const provincesData = {
       "data": [
         {
           "name": "Badik (Bugis/Makassar)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Badik_Bugis.jpg/500px-Badik_Bugis.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sari_3.jpg/330px-Sari_3.jpg"
         }
       ]
     },
@@ -2649,15 +2649,15 @@ const provincesData = {
       "data": [
         {
           "name": "Coto Makassar",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Coto_Makassar.jpg/500px-Coto_Makassar.jpg"
+          "image": "https://asset.kompas.com/crops/jTy2NMcIdQrT_poGigyc8oLGfYc=/0x1226:3000x3226/1200x800/data/photo/2021/06/11/60c2acf88c6f0.jpg"
         },
         {
           "name": "Konro",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Sop_Konro.jpg/500px-Sop_Konro.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Sop_Konro.JPG"
         },
         {
           "name": "Pallubasa",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Pallubasa_Makassar.jpg/500px-Pallubasa_Makassar.jpg"
+          "image": "https://awsimages.detik.net.id/community/media/visual/2024/10/01/pallubasa-enak-di-jakarta-2_43.jpeg?w=1200"
         }
       ]
     },
@@ -2666,14 +2666,9 @@ const provincesData = {
       "data": [
         {
           "name": "Keso-keso (Biola Tradisional Bugis)",
-          "image": "https://www.goodnewsfromindonesia.id/uploads/post/large-3cf37a2cbf464b58b9dd55d0a10e4b42.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=1cJyoFQygPw"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX1W-0NBosHZmdtnss0amXoy7bcZCgADubhg&s",
+          "ytUrl": " https://youtu.be/CD5nXFM5ou8?si=RMWex-aPsh6KQKCb "
         },
-        {
-          "name": "Gandang (Gendang Bugis/Makassar)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gendang_Bugis.jpg/500px-Gendang_Bugis.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=PR5a-fDDn1E"
-        }
       ]
     },
     {
@@ -2681,16 +2676,12 @@ const provincesData = {
       "data": [
         {
           "name": "Anging Mammiri",
-          "ytUrl": "https://www.youtube.com/watch?v=7bQYHcfVAmc"
+          "ytUrl": "https://www.youtube.com/watch?v=IU-3uvRzvyA&list=RDIU-3uvRzvyA&start_radio=1&ab_channel=creative%2B"
         },
         {
           "name": "Pakarena",
-          "ytUrl": "https://www.youtube.com/watch?v=5qNkb52sQKg"
+          "ytUrl": "https://youtu.be/Ia7ryH1YQCI?si=mb79mt1UotH_9WBp"
         },
-        {
-          "name": "Tana Toraja",
-          "ytUrl": "https://www.youtube.com/watch?v=dQ4Z7vqwhpA"
-        }
       ]
     },
     {
@@ -2698,12 +2689,8 @@ const provincesData = {
       "data": [
         {
           "name": "Ma’badong (Toraja)",
-          "ytUrl": "https://www.youtube.com/watch?v=ZBkAX9sGe9Q"
+          "ytUrl": "https://www.youtube.com/watch?v=lmWXKjY1Ls4&ab_channel=ANEKATORAJA"
         },
-        {
-          "name": "Kelong (Seni Musik Bugis)",
-          "ytUrl": "https://www.youtube.com/watch?v=7tn2-4QBlL0"
-        }
       ]
     }
   ]
@@ -3812,6 +3799,7 @@ const provinceSongs = {
   // p sulawesi
   "71": "/music/sulut.mp3",
   "72": "/music/sulteng.mp3",
+  "73": "/music/sulsel.mp3",
 
   // Bali dan Nusa Tenggara
   "51": "/music/bali.mp3",
