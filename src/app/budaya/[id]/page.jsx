@@ -2013,7 +2013,7 @@ const provincesData = {
         "data": [
           {
             "name": "Rumah Betang",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Rumah_Betang_Kalimantan_Tengah.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Rumah_Betang_Sei_Pasah_180505002.JPG/250px-Rumah_Betang_Sei_Pasah_180505002.JPG"
           }
         ]
       },
@@ -2022,11 +2022,11 @@ const provincesData = {
         "data": [
           {
             "name": "Pakaian Sangkarut (Pria)",
-            "image": "https://i0.wp.com/seringjalan.com/wp-content/uploads/2020/08/Pakaian-adat-suku-Dayak-Ngaju.jpg"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHUCiEAIB81L2uf0s5nLfGzXCgj8FRiBNt0Q&s"
           },
           {
             "name": "Pakaian Sangkarut (Wanita)",
-            "image": "https://seringjalan.com/wp-content/uploads/2020/08/pakaian-adat-dayak-wanita.jpg"
+            "image": "https://www.wonderverseindonesia.com/storage/app/uploads/public/654/0b5/ced/6540b5ced2832506326168.jpg"
           }
         ]
       },
@@ -2035,13 +2035,13 @@ const provincesData = {
         "data": [
           {
             "name": "Tari Tambun dan Bungai",
-            "image": "https://asset.kompas.com/crops/gJpOAGbD8d0gEfa0nUqq3BjXACs=/0x0:780x520/750x500/data/photo/2021/07/22/60f90dd1d2173.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=gY6_NcAfC3U"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=LOq1onjSLW8&ab_channel=JalwaJalwa"
           },
           {
             "name": "Tari Balean Dadas",
-            "image": "https://i.ytimg.com/vi/NfpkT0oEC6E/maxresdefault.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=NfpkT0oEC6E"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=rIDsOqaZkdw&ab_channel=FerdinandBundong"
           }
         ]
       },
@@ -2050,12 +2050,8 @@ const provincesData = {
         "data": [
           {
             "name": "Mandau",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mandau_Dayak.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/COLLECTIE_TROPENMUSEUM_Zwaard_met_gevest_van_been_schede_en_mesje_TMnr_391-122.jpg/330px-COLLECTIE_TROPENMUSEUM_Zwaard_met_gevest_van_been_schede_en_mesje_TMnr_391-122.jpg"
           },
-          {
-            "name": "Sipet (Senjata Tiup)",
-            "image": "https://budaya-indonesia.org/storage/app/uploads/public/5ad/0dd/07c/thumb_6800_700_500_0_0_auto.jpg"
-          }
         ]
       },
       {
@@ -2063,11 +2059,11 @@ const provincesData = {
         "data": [
           {
             "name": "Juhu Singkah (Umbut Rotan)",
-            "image": "https://cdn.idntimes.com/content-images/community/2019/05/59522714-657919648002300-2360954183152041080-n-91df463d1ae2cd64066387d2a97432c6.jpg"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hjGBjS6491Rpvt65yNdPCQRDxVZzdMOZQw&s"
           },
           {
             "name": "Kalumpe (Daun Singkong Tumbuk)",
-            "image": "https://cdn.idntimes.com/content-images/post/20190527/60843192-1014177142242319-6062447983219885346-n-f1e7f97928a2c5f5b79bbde74ce37a59.jpg"
+            "image": "https://jadesta.kemenpar.go.id/imgpost/85390.jpg"
           }
         ]
       },
@@ -2075,14 +2071,9 @@ const provincesData = {
         "name": "Alat Musik",
         "data": [
           {
-            "name": "Garantung",
-            "image": "https://www.pegipegi.com/travel/wp-content/uploads/2019/08/garantung.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=qPuJ1Zg0LXc"
-          },
-          {
-            "name": "Sampe’",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Sape%27%2C_traditioneel_snaarinstrument_van_de_Dayak.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=5ck-50Nps88"
+            "name": "Japen",
+            "image": "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/243/2024/10/09/japen-1693024864.jpg",
+            "ytUrl": "https://www.youtube.com/live/g_DJHMdwenk?si=mrsoMujFPXyLQxlP "
           }
         ]
       },
@@ -2090,13 +2081,9 @@ const provincesData = {
         "name": "Lagu Daerah",
         "data": [
           {
-            "name": "Tumpi Wayu",
-            "ytUrl": "https://www.youtube.com/watch?v=yyOaQv1N5RM"
+            "name": "Manari Manasai",
+            "ytUrl": "https://youtu.be/FSa8k-cT7ag?si=s2xGWTIUVTBa72Pb "
           },
-          {
-            "name": "Karungut",
-            "ytUrl": "https://www.youtube.com/watch?v=9b5ewP2w-YI"
-          }
         ]
       },
       {
@@ -2104,7 +2091,7 @@ const provincesData = {
         "data": [
           {
             "name": "Mamapas Lewu (Upacara Adat Dayak Ngaju)",
-            "ytUrl": "https://www.youtube.com/watch?v=2ccxP3umQ4s"
+            "ytUrl": "https://www.youtube.com/watch?v=7OwMWQlv6TA&ab_channel=PeniLisari"
           }
         ]
       }
