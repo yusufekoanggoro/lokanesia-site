@@ -788,20 +788,20 @@ const provincesData = {
   "19": {
     name: "Kepulauan Bangka Belitung",
     capital: "Pangkalpinang",
-    area:  "16,690", // dalam km²
-    population: "1.512 juta (2023)" ,
+    area:  "16.424,23 ", // dalam km²
+    population: "1.512 juta (2024)" ,
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Coat_of_arms_of_Bangka_Belitung_Islands.svg/120px-Coat_of_arms_of_Bangka_Belitung_Islands.svg.png",
     "cultures": [
         {
           "name": "Rumah Adat",
           "data": [
             {
-              "name": "Rumah Rakit",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Rumah_Rakit_Bangka_Belitung.jpg/500px-Rumah_Rakit_Bangka_Belitung.jpg"
+              "name": "Rumah Panggung",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%E7%83%88%E6%B8%AF%E9%A6%AC%E4%BE%86%E5%B1%8B_Rumah_Tua_Parit_Padang.jpg/250px-%E7%83%88%E6%B8%AF%E9%A6%AC%E4%BE%86%E5%B1%8B_Rumah_Tua_Parit_Padang.jpg"
             },
             {
               "name": "Rumah Limas Potong",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Rumah_Adat_Limas_Potong_Bangka.jpg/500px-Rumah_Adat_Limas_Potong_Bangka.jpg"
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Rumah_limas_tradisional_di_Bangka_Selatan.jpg/250px-Rumah_limas_tradisional_di_Bangka_Selatan.jpg"
             }
           ]
         },
@@ -810,7 +810,7 @@ const provincesData = {
           "data": [
             {
               "name": "Paksian",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Baju_Adat_Bangka_Belitung_Paksian.jpg/400px-Baju_Adat_Bangka_Belitung_Paksian.jpg"
+              "image": "https://imgsrv2.voi.id/UH-hg8z0D3cU7E_ai1pTliHK7nN4jLcJkQHErbcPl0Q/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8zNDk2My8yMDIxMDIyMzE0MjItbWFpbi5qcGc.jpg"
             }
           ]
         },
@@ -819,13 +819,13 @@ const provincesData = {
           "data": [
             {
               "name": "Tari Campak",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Tari_Campak_Bangka_Belitung.jpg/500px-Tari_Campak_Bangka_Belitung.jpg",
-              "ytUrl": "https://www.youtube.com/watch?v=aTO9aMBF-6g"
+              "image": "",
+              "ytUrl": "https://www.youtube.com/watch?v=BV31zSft-tk&list=RDBV31zSft-tk&start_radio=1&ab_channel=KWARCABPGK"
             },
             {
               "name": "Tari Sepen",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tari_Sepen_Bangka_Belitung.jpg/500px-Tari_Sepen_Bangka_Belitung.jpg",
-              "ytUrl": "https://www.youtube.com/watch?v=TyPJ8DY_iac"
+              "image": "",
+              "ytUrl": "https://www.youtube.com/watch?v=FJT42jtObnE&list=RDFJT42jtObnE&start_radio=1&ab_channel=LigatBelitungProduction"
             }
           ]
         },
@@ -833,13 +833,9 @@ const provincesData = {
           "name": "Senjata",
           "data": [
             {
-              "name": "Parang Bangka",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Parang_Bangka.jpg/400px-Parang_Bangka.jpg"
+              "name": "Sewir",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/COLLECTIE_TROPENMUSEUM_Kris_met_houten_greep_en_houten_schede_TMnr_A-3916a.jpg/330px-COLLECTIE_TROPENMUSEUM_Kris_met_houten_greep_en_houten_schede_TMnr_A-3916a.jpg"
             },
-            {
-              "name": "Keris Bangka",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Keris_Bangka.jpg/400px-Keris_Bangka.jpg"
-            }
           ]
         },
         {
@@ -847,16 +843,8 @@ const provincesData = {
           "data": [
             {
               "name": "Lempah Kuning",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lempah_Kuning_Bangka_Belitung.jpg/400px-Lempah_Kuning_Bangka_Belitung.jpg"
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Lempah_kuning.JPG/250px-Lempah_kuning.JPG"
             },
-            {
-              "name": "Kemplang",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Kemplang_Bangka_Belitung.jpg/400px-Kemplang_Bangka_Belitung.jpg"
-            },
-            {
-              "name": "Lakse",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Lakse_Bangka_Belitung.jpg/400px-Lakse_Bangka_Belitung.jpg"
-            }
           ]
         },
         {
@@ -864,27 +852,18 @@ const provincesData = {
           "data": [
             {
               "name": "Dambus",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Dambus_Bangka_Belitung.jpg/400px-Dambus_Bangka_Belitung.jpg",
-              "ytUrl": "https://www.youtube.com/watch?v=daA4m5WTKYE"
+              "image": "https://indonesiakaya.com/wp-content/uploads/2020/10/507_Bangka-Belitung-Dambus-2.jpg",
+              "ytUrl": "https://youtu.be/VTXyUSiBuow?si=wPK3u4j72NqB9RVf"
             },
-            {
-              "name": "Rebana",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg/500px-COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg",
-              "ytUrl": "https://www.youtube.com/watch?v=oaBmWUq57hg"
-            }
           ]
         },
         {
           "name": "Lagu Daerah",
           "data": [
             {
-              "name": "Cik Minah",
-              "ytUrl": "https://www.youtube.com/watch?v=GvwOjK1z9eE"
+              "name": "Yok Miak",
+              "ytUrl": "https://youtu.be/h7DgSo9LiGA?si=O7G2Km-dM8hdRoDx "
             },
-            {
-              "name": "Jeritan Batang Gambo",
-              "ytUrl": "https://www.youtube.com/watch?v=HLuK0-QGk3g"
-            }
           ]
         },
         {
@@ -892,7 +871,7 @@ const provincesData = {
           "data": [
             {
               "name": "Sepintu Sedulang",
-              "ytUrl": "https://www.youtube.com/watch?v=pp6UEdxglf4"
+              "ytUrl": "https://www.youtube.com/watch?v=tu79w5lHX38&list=RDtu79w5lHX38&start_radio=1&ab_channel=adishwara"
             }
           ]
         }
