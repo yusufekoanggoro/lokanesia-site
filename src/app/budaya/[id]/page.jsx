@@ -2699,20 +2699,20 @@ const provincesData = {
 "74": {
   "name": "Sulawesi Tenggara",
   "capital": "Kendari",
-  "area": 38140,
-  "population": 2970000,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Coat_of_arms_of_Southeast_Sulawesi.svg/800px-Coat_of_arms_of_Southeast_Sulawesi.svg.png",
+  "area": "36,160",
+  "population": "2.793 juta (2024)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Coat_of_arms_of_Southeast_Sulawesi.svg/120px-Coat_of_arms_of_Southeast_Sulawesi.svg.png",
   "cultures": [
     {
       "name": "Rumah Adat",
       "data": [
         {
           "name": "Banua Tada (Buton)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rumah_adat_Banua_Tada.jpg/500px-Rumah_adat_Banua_Tada.jpg"
+          "image": "https://cdn.rri.co.id/berita/Baubau/o/1719062112240-IMG_20240622_211215/zgiwgx3o62twsol.jpeg"
         },
         {
           "name": "Laika (Muna)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Laika_Taha_Muna.jpg/500px-Laika_Taha_Muna.jpg"
+          "image": "https://awsimages.detik.net.id/community/media/visual/2023/01/22/rumah-adat-laika-sulawesi-tenggara_43.png?w=1200"
         }
       ]
     },
@@ -2721,11 +2721,11 @@ const provincesData = {
       "data": [
         {
           "name": "Babu Nggawi (Tolaki)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Baju_Adat_Tolaki.jpg/500px-Baju_Adat_Tolaki.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlw7rahWKnBY8yDL0jKhgixhZS1E0mwJddoA&s"
         },
         {
           "name": "Babu Nggawi Langgai (Buton)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Baju_Adat_Buton.jpg/500px-Baju_Adat_Buton.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIHMiZLvKCJvj1iCPS-m6gow287-ptA3UuvA&s"
         }
       ]
     },
@@ -2734,13 +2734,13 @@ const provincesData = {
       "data": [
         {
           "name": "Tari Lulo (Tolaki)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tari_Lulo_Sulawesi_Tenggara.jpg/500px-Tari_Lulo_Sulawesi_Tenggara.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=QYi1q9rUwBk"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=b5RQSfe0TUc&ab_channel=BUDAYA%26ALAMNUSANTARA"
         },
         {
           "name": "Tari Linda (Muna)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tari_Linda_Muna.jpg/500px-Tari_Linda_Muna.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=x4nYyPq4wLE"
+          "image": "",
+          "ytUrl": "https://www.youtube.com/watch?v=n-3xl146EgY&ab_channel=RanahSultra"
         }
       ]
     },
@@ -2748,8 +2748,8 @@ const provincesData = {
       "name": "Senjata",
       "data": [
         {
-          "name": "Kris Buton",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Keris_Buton.jpg/500px-Keris_Buton.jpg"
+          "name": "Parang Taawu / Mosehe",
+          "image": "https://awsimages.detik.net.id/community/media/visual/2023/06/05/senjata-tradisional-sulawesi-tenggara.jpeg?w=334"
         }
       ]
     },
@@ -2758,11 +2758,11 @@ const provincesData = {
       "data": [
         {
           "name": "Sinonggi (Tolaki)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sinonggi_Tolaki.jpg/500px-Sinonggi_Tolaki.jpg"
+          "image": "https://ik.imagekit.io/goodid/gnfi/uploads/articles/large-shutterstock-1887566764-e6f6e41199596a8d7da5de998e16742a.jpg?tr=w-768,h-576,fo-center"
         },
         {
           "name": "Kabuto (Makanan Buton)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kabuto_Buton.jpg/500px-Kabuto_Buton.jpg"
+          "image": "https://cdn0-production-images-kly.akamaized.net/fdFBRxRrr43zT5f8iGydtfblx6E=/1x57:1000x620/469x260/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3242002/original/017665300_1600417068-shutterstock_1339481684.jpg"
         }
       ]
     },
@@ -2770,28 +2770,19 @@ const provincesData = {
       "name": "Alat Musik",
       "data": [
         {
-          "name": "Ganda (Gendang Tolaki)",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gendang_Tolaki.jpg/500px-Gendang_Tolaki.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=TLXlAfeUnhA"
+          "name": "Lado-lado",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReoRrPxdFSDyNRugIHaj7NxuiULHhBebZejQ&s",
+          "ytUrl": ""
         },
-        {
-          "name": "Kacapi Buton",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Kacapi_Buton.jpg/500px-Kacapi_Buton.jpg",
-          "ytUrl": "https://www.youtube.com/watch?v=9mUTXZamEoQ"
-        }
       ]
     },
     {
       "name": "Lagu Daerah",
       "data": [
         {
-          "name": "Peia Tawa-tawa (Tolaki)",
-          "ytUrl": "https://www.youtube.com/watch?v=cAI-T4dm7JQ"
+          "name": "Tana wolio",
+          "ytUrl": "https://youtu.be/GC7315013EM?si=mzNhXOzR1fBRdhv9"
         },
-        {
-          "name": "Inde Inde (Buton)",
-          "ytUrl": "https://www.youtube.com/watch?v=gfkaYyNTl10"
-        }
       ]
     },
     {
@@ -2799,11 +2790,11 @@ const provincesData = {
       "data": [
         {
           "name": "Tarian Lulo Massal",
-          "ytUrl": "https://www.youtube.com/watch?v=ooD8IbnTR2o"
+          "ytUrl": "https://www.youtube.com/watch?v=FCDsqF9JJsk&ab_channel=DediSartono"
         },
         {
           "name": "Kande-kandea (Buton)",
-          "ytUrl": "https://www.youtube.com/watch?v=t1S2rFe7eUM"
+          "ytUrl": "https://www.youtube.com/watch?v=QKf4n4qIL3o&ab_channel=AntaraSultra"
         }
       ]
     }
@@ -3800,6 +3791,7 @@ const provinceSongs = {
   "71": "/music/sulut.mp3",
   "72": "/music/sulteng.mp3",
   "73": "/music/sulsel.mp3",
+  "74": "/music/sultra.mp3",
 
   // Bali dan Nusa Tenggara
   "51": "/music/bali.mp3",
