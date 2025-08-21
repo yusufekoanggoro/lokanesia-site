@@ -2211,7 +2211,7 @@ const provincesData = {
         "data": [
           {
             "name": "Rumah Lamin (Dayak Kenyah)",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Rumah_Adat_Lamin_di_Taman_Mini_Indonesia_Indah.jpg/800px-Rumah_Adat_Lamin_di_Taman_Mini_Indonesia_Indah.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Desa_Budaya_Pampang.jpg/330px-Desa_Budaya_Pampang.jpg"
           }
         ]
       },
@@ -2220,11 +2220,11 @@ const provincesData = {
         "data": [
           {
             "name": "Baju Ta’a (Wanita Dayak)",
-            "image": "https://cdn.idntimes.com/content-images/post/20200623/baju-ta-a-dan-sapei-sapaq-836b38e8e9dfdf0df97c4d2c74f4ed8e.jpg"
+            "image": "https://genpi.id/wp-content/uploads/2021/07/Pakaian-Adat-Taa-instagram.com-pesonadayakhitz-1.jpg"
           },
           {
             "name": "Sapei Sapaq (Pria Dayak)",
-            "image": "https://i0.wp.com/seringjalan.com/wp-content/uploads/2020/08/Baju-Sapei-Sapaq.jpg"
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX1jm9WOQjMJz6YvmM1q9tL8uq7cF7Z1hE5g&s"
           }
         ]
       },
@@ -2233,13 +2233,13 @@ const provincesData = {
         "data": [
           {
             "name": "Tari Gong",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tari_Gong.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=drWdfowA5kY"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=qQuha5oCq_E&ab_channel=IntanRezkyPutri"
           },
           {
             "name": "Tari Hudoq",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hudoq_Dance.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=6fzwmF1TcbY"
+            "image": "",
+            "ytUrl": "https://www.youtube.com/watch?v=nVM10FmnTEc&ab_channel=Ucupridhofreund"
           }
         ]
       },
@@ -2248,11 +2248,11 @@ const provincesData = {
         "data": [
           {
             "name": "Mandau",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mandau_Dayak.jpg"
+            "image": "https://awsimages.detik.net.id/community/media/visual/2022/10/14/mandau_169.jpeg?w=1200"
           },
           {
             "name": "Telawang (Perisai Dayak)",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Tameng_telawang_dayak.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/COLLECTIE_TROPENMUSEUM_Houten_schild_met_mens-_en_dierfiguren_TMnr_740-62.jpg"
           }
         ]
       },
@@ -2261,11 +2261,11 @@ const provincesData = {
         "data": [
           {
             "name": "Nasi Bekepor",
-            "image": "https://cdn.idntimes.com/content-images/post/20190704/nasi-bekepor-1-b24c5f6f1f1cbfa4b9b4f4ff2d89c3f4.jpg"
+            "image": "https://jurnalkaltim.com/wp-content/uploads/2023/10/Resep-Nasi-Bekepor.webp"
           },
           {
             "name": "Amplang",
-            "image": "https://cdn.idntimes.com/content-images/community/2022/07/amplang-camilan-khas-kalimantan-2-85dcb66e89c5ff996f8c2d49e6c109f1.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Amplang_on_a_plate.JPG/1200px-Amplang_on_a_plate.JPG"
           }
         ]
       },
@@ -2273,15 +2273,10 @@ const provincesData = {
         "name": "Alat Musik",
         "data": [
           {
-            "name": "Sape (Sampe)",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sapeh.jpg/800px-Sapeh.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=Ko74zzAr4hQ"
+            "name": "Uding",
+            "image": "https://pdbifiles.nos.jkt-1.neo.id/files/2018/05/31/oakirbin_Uding.jpg",
+            "ytUrl": "https://youtu.be/3qWsvrKh0BA?si=fH-nPINd_yPeWGeM "
           },
-          {
-            "name": "Gandang",
-            "image": "https://asset.kompas.com/crops/7v2ZcKwpd7RDBh4iGv3U7aNvnI0=/0x0:780x520/750x500/data/photo/2020/09/24/5f6c1a7aa9db4.jpg",
-            "ytUrl": "https://www.youtube.com/watch?v=kR4CB0-UBAU"
-          }
         ]
       },
       {
@@ -2291,10 +2286,6 @@ const provincesData = {
             "name": "Indung-Indung",
             "ytUrl": "https://youtu.be/uV2RlE4QjMc?si=rnpussNRCeI7u6gi"
           },
-          {
-            "name": "Timang Timang Anakku Sayang",
-            "ytUrl": "https://www.youtube.com/watch?v=F-9V9N1zXOs"
-          }
         ]
       },
       {
@@ -2302,7 +2293,7 @@ const provincesData = {
         "data": [
           {
             "name": "Hudoq Festival",
-            "ytUrl": "https://www.youtube.com/watch?v=Y6fdhObNZcU"
+            "ytUrl": "https://www.youtube.com/watch?v=t9o5e9yVfP0&ab_channel=SeputarPrambanan"
           }
         ]
       }
