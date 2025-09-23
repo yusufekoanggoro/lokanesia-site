@@ -63,7 +63,7 @@ export default function Section4() {
   // Handle klik tombol di modal
   const handleGoQuiz = () => {
     if (selectedProvince) {
-      router.push(`/quiz/${encodeURIComponent(selectedProvince)}`);
+      router.push(`/mulaiquiz/${encodeURIComponent(selectedProvince)}`);
       setOpen(false);
     }
   };
@@ -93,7 +93,7 @@ export default function Section4() {
           </button>
 
           <h2 className="text-3xl font-extrabold text-center mb-8">
-            Jelajah Budaya Lewat Peta Nusantara
+            Quiz Nusantara
           </h2>
           <p className="text-center max-w-xl mx-auto mb-8 text-gray-600">
             Klik pada provinsi untuk melihat pilihan Quiz.
