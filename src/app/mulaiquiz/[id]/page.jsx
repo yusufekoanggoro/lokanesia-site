@@ -5,7 +5,6 @@ import { useRouter, useParams } from 'next/navigation';
 import BottomNav from '../../components/BottomNav';
 
 const provincesData = {
-  // p jawa
   "31": {
     "provinsi": "DKI Jakarta",
     "quiz": [
@@ -111,19 +110,15 @@ const provincesData = {
       }
     ]
   },
-
 };
 
 const provinceSongs = {
-  // p jawa
   "31": "/music/jakarta.mp3",
   "32": "/music/jawa_barat.mp3",
   "36": "/music/banten.mp3",
   "33": "/music/jawa_tengah.mp3",
   "34": "/music/yogyakarta.mp3",
   "35": "/music/jawa_timur.mp3",
-
-  // p sumatera
   "11": "/music/aceh.mp3",
   "12": "/music/sumatera_utara.mp3",
   "13": "/music/sumatera_barat.mp3",
@@ -134,39 +129,28 @@ const provinceSongs = {
   "18": "/music/lampung.mp3",
   "19": "/music/kepbanglitung.mp3",
   "21": "/music/kepriau.mp3",
-
-  // p kalimantan
   "61": "/music/kalbar.mp3",
   "62": "/music/kalteng.mp3",
   "63": "/music/kalsel.mp3",
   "64": "/music/kaltim.mp3",
   "65": "/music/kalut.mp3",
-
-  // p sulawesi
   "71": "/music/sulut.mp3",
   "72": "/music/sulteng.mp3",
   "73": "/music/sulsel.mp3",
   "74": "/music/sultra.mp3",
   "75": "/music/gorontalo.mp3",
   "76": "/music/sulbar.mp3",
-
-  // Bali dan Nusa Tenggara
   "51": "/music/bali.mp3",
   "52": "/music/ntb.mp3",
   "53": "/music/ntt.mp3",
-
-  // maluku & papua
   "81": "/music/maluku.mp3",
   "82": "/music/maluku_utara.mp3",
-
   "91-A": "/music/papua.mp3",
   "91-B": "/music/papua_pegunungan.mp3",
   "91-C": "/music/papua_selatan.mp3",
   "91-D": "/music/papua_tengah.mp3",
-
   "92-A": "/music/papua_barat.mp3",
   "92-B": "/music/papua_barat_daya.mp3"
-  // dst...
 };
 
 export default function ProvinceDetail() {
@@ -174,7 +158,7 @@ export default function ProvinceDetail() {
   const params = useParams();
   const id = params.id;
   const province = provincesData[id];
-  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const audioRef = useRef(null);
 
   const [startQuiz, setStartQuiz] = useState(false);
 
@@ -226,14 +210,12 @@ export default function ProvinceDetail() {
   );
 }
 
-function QuizPage({ quiz }: { quiz: any[] }) {
+function QuizPage({ quiz }) {
   const [current, setCurrent] = useState(0);
-  const [answers, setAnswers] = useState<(number | null)[]>(
-    Array(quiz.length).fill(null)
-  );
+  const [answers, setAnswers] = useState(Array(quiz.length).fill(null));
   const [showResult, setShowResult] = useState(false);
 
-  const handleAnswer = (index: number) => {
+  const handleAnswer = (index) => {
     const updated = [...answers];
     updated[current] = index;
     setAnswers(updated);
@@ -272,7 +254,7 @@ function QuizPage({ quiz }: { quiz: any[] }) {
     <div className="space-y-6">
       <h2 className="text-xl font-semibold">{q.pertanyaan}</h2>
       <div className="grid gap-3">
-        {q.pilihan.map((opt: string, idx: number) => (
+        {q.pilihan.map((opt, idx) => (
           <button
             key={idx}
             onClick={() => handleAnswer(idx)}
