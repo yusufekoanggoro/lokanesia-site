@@ -3799,107 +3799,521 @@ const provinceSongs = {
 
 const provinceQuizzes = {
   "31":[
-      {
-        "pertanyaan": "Berapakah luas wilayah provinsi DKI Jakarta?",
-        "pilihan": [
-          "10.640.000 km2",
-          "66.15 km2",
-          "661.5 km2",
-          "6.615 km2"
-        ],
-        "jawaban": 2
-      },
-      {
-        "pertanyaan": "Apa nama pakaian adat tradisional DKI Jakarta?",
-        "pilihan": [
-          "Pakaian pangsi",
-          "Kebaya encim",
-          "Pakaian ulos",
-          "Baju kurung"
-        ],
-        "jawaban": 1
-      },
-      {
-        "pertanyaan": "Mana saja yang termasuk rumah adat DKI Jakarta?",
-        "pilihan": [
-          "Rumah panggung Betawi",
-          "Rumah Kebaya",
-          "Rumah Gudang",
-          "Semua Benar"
-        ],
-        "jawaban": 3
-      },
-      {
-        "pertanyaan": "Manakah yang merupakan makanan khas DKI Jakarta?",
-        "pilihan": [
-          "Sate lilit",
-          "Kerak telor",
-          "Gudeg",
-          "Sate bandeng"
-        ],
-        "jawaban": 1
-      },
-      {
-        "pertanyaan": "Apa nama senjata dari DKI Jakarta?",
-        "pilihan": [
-          "Keris",
-          "Celurit",
-          "Golok",
-          "Rencong"
-        ],
-        "jawaban": 2
-      },
-      {
-        "pertanyaan": "Apa saja tarian yang berasal dari Banten?",
-        "pilihan": [
-          "Tari Katuran, Tari Saman dan Tari Piring",
-          "Tari Piring dan Tari Rampak Bedug",
-          "Tari Topeng Betawi",
-          "Tari Jaipong dan Tari Tor-tor"
-        ],
-        "jawaban": 2
-      },
-      {
-        "pertanyaan": "Manakah alat musik yang berasal dari DKI Jakarta?",
-        "pilihan": [
-          "Suling dan gambus",
-          "Pantun Bambu",
-          "Tehyan, Tanjidor dan Rebana",
-          "Gamelan dan gendang"
-        ],
-        "jawaban": 2
-      },
-      {
-        "pertanyaan": "Bagaimana cara menggunakan alat musik Tehyan?",
-        "pilihan": [
-          "Dipukul",
-          "Dipetik",
-          "Ditiup",
-          "Digesek"
-        ],
-        "jawaban": 3
-      },
-      {
-        "pertanyaan": "Manakah judul lagu yang berasal dari DKI Jakarta?",
-        "pilihan": [
-          "Suwe ora jamu",
-          "Tabola bale dan Injit-injit semut",
-          "Kicir-kicir, Ondel-ondel dan Jali-jali",
-          "Dayung Sampan"
-        ],
-        "jawaban": 2
-      },
-      {
-        "pertanyaan": "Apa nama seni pertunjukan yang berasal dari Banten?",
-        "pilihan": [
-          "Debus Surosowan",
-          "Wayang",
-          "Lenong",
-          "Ludruk"
-        ],
-        "jawaban": 2
-      }
-    ]
+  {
+    "pertanyaan": "Berapakah luas wilayah provinsi DKI Jakarta?",
+    "pilihan": [
+      "10.640.000 km2",
+      "66.15 km2",
+      "661.5 km2",
+      "6.615 km2"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional DKI Jakarta?",
+    "pilihan": [
+      "Pakaian pangsi",
+      "Kebaya encim",
+      "Pakaian ulos",
+      "Baju kurung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Mana saja yang termasuk rumah adat DKI Jakarta?",
+    "pilihan": [
+      "Rumah panggung Betawi",
+      "Rumah Kebaya",
+      "Rumah Gudang",
+      "Semua benar"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas DKI Jakarta?",
+    "pilihan": [
+      "Sate lilit",
+      "Kerak telor",
+      "Gudeg",
+      "Sate bandeng"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama senjata dari DKI Jakarta?",
+    "pilihan": [
+      "Keris",
+      "Celurit",
+      "Golok",
+      "Rencong"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa saja tarian yang berasal dari DKI Jakarta?",
+    "pilihan": [
+      "Tari Katuran, Tari Saman dan Tari Piring",
+      "Tari Piring dan Tari Rampak Bedug",
+      "Tari Topeng Betawi",
+      "Tari Jaipong dan Tari Tor-tor"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah alat musik yang berasal dari DKI Jakarta?",
+    "pilihan": [
+      "Suling dan gambus",
+      "Pantun Bambu",
+      "Tehyan, Tanjidor dan Rebana",
+      "Gamelan dan gendang"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik Tehyan?",
+    "pilihan": [
+      "Dipukul",
+      "Dipetik",
+      "Ditiup",
+      "Digesek"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah judul lagu yang berasal dari DKI Jakarta?",
+    "pilihan": [
+      "Suwe ora jamu",
+      "Tabola bale dan Injit-injit semut",
+      "Kicir-kicir, Ondel-ondel dan Jali-jali",
+      "Dayung Sampan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama seni pertunjukan yang berasal dari DKI Jakarta?",
+    "pilihan": [
+      "Debus Surosowan",
+      "Wayang",
+      "Lenong",
+      "Ludruk"
+    ],
+    "jawaban": 2
+  }
+],
+
+"32": [
+  {
+    "pertanyaan": "Manakah yang merupakan ibu kota provinsi Jawa Barat?",
+    "pilihan": [
+      "Jakarta",
+      "Tangerang",
+      "Serang",
+      "Bandung"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Jawa Barat?",
+    "pilihan": [
+      "Pakaian pangsi dan kebaya sunda",
+      "Kebaya encim",
+      "Pakaian ulos",
+      "Baju kurung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa saja nama rumah adat daerah Jawa Barat?",
+    "pilihan": [
+      "Imah Sulah nyanda",
+      "Imah Badak Heuay, Imah Togog Anjing, Imah Julang ngapak dan Jolopong",
+      "Imah adat kasepuhan",
+      "Imah adat rakit"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Jawa Barat?",
+    "pilihan": [
+      "Sate lilit",
+      "Kerak telor",
+      "Gudeg",
+      "Batagor"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama senjata yang berasal dari Jawa Barat?",
+    "pilihan": [
+      "Kujang",
+      "Celurit",
+      "Bedog",
+      "Rencong"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa saja tarian yang berasal dari Jawa Barat?",
+    "pilihan": [
+      "Tari Katuran",
+      "Tari Piring dan Tari Rampak Bedug",
+      "Tari Cokek",
+      "Tari Jaipong"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Jawa Barat?",
+    "pilihan": [
+      "Suling dan Angklung",
+      "Pantun Bambu",
+      "Gendang dan Suling",
+      "Gamelan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik suling?",
+    "pilihan": [
+      "Dipukul",
+      "Dipetik",
+      "Ditiup",
+      "Ditekan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah judul lagu yang berasal dari Jawa Barat?",
+    "pilihan": [
+      "Manuk Dadali dan Tokecang",
+      "Jali-jali",
+      "Kicir-kicir",
+      "Dayung Sampan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Jawa Barat?",
+    "pilihan": [
+      "Debus Surosowan",
+      "Angklung bungko",
+      "Lenong",
+      "Ludruk"
+    ],
+    "jawaban": 1
+  }
+],
+
+"33": [
+  {
+    "pertanyaan": "Manakah yang merupakan ibu kota provinsi Jawa Tengah?",
+    "pilihan": [
+      "Jakarta",
+      "Semarang",
+      "Serang",
+      "Bandung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Jawa Tengah?",
+    "pilihan": [
+      "Pakaian Surjan",
+      "Kebaya encim",
+      "Pakaian ulos",
+      "Baju kurung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa saja nama rumah adat daerah Jawa Tengah?",
+    "pilihan": [
+      "Rumah Sulah nyanda",
+      "Rumah Badak Heuay, Imah Togog Anjing, Imah Julang ngapak dan Jolopong",
+      "Rumah adat kasepuhan",
+      "Rumah Joglo, Limasan dan Tajug"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Jawa Tengah?",
+    "pilihan": [
+      "Sate lilit dan Gudeg",
+      "Kerak telor",
+      "Soto Kudus dan Getuk",
+      "Batagor"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Mana saja senjata yang berasal dari Jawa Tengah?",
+    "pilihan": [
+      "Keris dan Wedhung",
+      "Celurit dan Panah",
+      "Bedog dan Tombak",
+      "Rencong dan Bambu Runcing"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Jawa Tengah?",
+    "pilihan": [
+      "Tari Katuran",
+      "Tari Piring dan Tari Rampak Bedug",
+      "Tari Cokek",
+      "Tari Gambyong"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Jawa Tengah?",
+    "pilihan": [
+      "Suling dan Angklung",
+      "Pantun Bambu",
+      "Gendang",
+      "Gamelan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Dipetik",
+      "Ditiup",
+      "Ditekan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah judul lagu yang berasal dari Jawa Tengah?",
+    "pilihan": [
+      "Manuk Dadali dan Tokecang",
+      "Jali-jali",
+      "Lir-ilir dan Gundul-gundul Pacul",
+      "Dayung Sampan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Jawa Tengah?",
+    "pilihan": [
+      "Debus Surosowan",
+      "Tari Kuda Lumping",
+      "Lenong",
+      "Ludruk"
+    ],
+    "jawaban": 1
+  }
+],
+
+"35": [
+  {
+    "pertanyaan": "Manakah yang merupakan ibu kota provinsi Jawa Timur?",
+    "pilihan": [
+      "Surabaya",
+      "Semarang",
+      "Serang",
+      "Bandung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Berapakah luas wilayah Jawa Timur?",
+    "pilihan": [
+      "4,7922 km2",
+      "47,922 km2",
+      "479,22 km2",
+      "4792,2 km2"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Jawa Timur?",
+    "pilihan": [
+      "Baju Gothil",
+      "Kebaya encim",
+      "Pakaian ulos",
+      "Baju kurung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa saja nama rumah adat daerah Jawa Timur?",
+    "pilihan": [
+      "Rumah Sulah nyanda",
+      "Rumah Badak Heuay, Imah Togog Anjing, Imah Julang ngapak dan Jolopong",
+      "Rumah Tanean Lanjhang, Tengger, Dhurung dan Joglo",
+      "Rumah Joglo, Limasan dan Tajug"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Jawa Timur?",
+    "pilihan": [
+      "Sate lilit dan Gudeg",
+      "Kerak telor",
+      "Soto Kudus dan Getuk",
+      "Tahu campur"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Jawa Timur?",
+    "pilihan": [
+      "Keris dan Wedhung",
+      "Celurit",
+      "Bedog dan Tombak",
+      "Rencong"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Jawa Timur?",
+    "pilihan": [
+      "Reog Ponorogo",
+      "Tari Piring dan Tari Rampak Bedug",
+      "A dan D benar",
+      "Gandrung Banyuwangi"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Jawa Timur?",
+    "pilihan": [
+      "Suling dan Angklung",
+      "Pantun Bambu",
+      "Timbal atau Gendang",
+      "Gamelan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Jawa Timur?",
+    "pilihan": [
+      "Manuk dadali dan Tokecang",
+      "Jali-jali",
+      "Lir-ilir dan Gundul-gundul pacul",
+      "Rek ayo rek dan Cublak-cublak suweng"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Jawa Timur?",
+    "pilihan": [
+      "Wayang kulit",
+      "Tari Kuda lumping",
+      "Lenong",
+      "Ludruk"
+    ],
+    "jawaban": 0
+  }
+],
+
+"36": [
+  {
+    "pertanyaan": "Manakah yang merupakan ibu kota provinsi Banten?",
+    "pilihan": [
+      "Jakarta",
+      "Tangerang",
+      "Serang",
+      "Cilegon"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional dari Banten?",
+    "pilihan": [
+      "Pakaian pangsi",
+      "Kebaya encim",
+      "Pakaian ulos",
+      "Baju kurung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Banten?",
+    "pilihan": [
+      "Rumah adat Sulah nyanda",
+      "Rumah adat kebaya",
+      "Rumah adat kasepuhan",
+      "Rumah adat rakit"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Banten?",
+    "pilihan": [
+      "Sate lilit",
+      "Kerak telor",
+      "Gudeg",
+      "Sate bandeng"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama senjata yang berasal dari Banten?",
+    "pilihan": [
+      "Keris",
+      "Celurit",
+      "Bedog",
+      "Rencong"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa saja tarian yang berasal dari Banten?",
+    "pilihan": [
+      "Tari Katuran, Tari Saman dan Tari Piring",
+      "Tari Piring dan Tari Rampak Bedug",
+      "Tari Cokek, Tari Rampak Bedug dan Tari Katuran",
+      "Tari Jaipong dan Tari Tor-tor"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah nama alat musik yang berasal dari Banten?",
+    "pilihan": [
+      "Suling",
+      "Pantun Bambu",
+      "Angklung",
+      "Gamelan"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Dipetik",
+      "Ditiup",
+      "Ditekan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah judul lagu yang berasal dari Banten?",
+    "pilihan": [
+      "Suwe ora jamu",
+      "Tabola bale",
+      "Kicir-kicir",
+      "Dayung Sampan"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama seni pertunjukan yang berasal dari Banten?",
+    "pilihan": [
+      "Debus Surosowan",
+      "Wayang",
+      "Lenong",
+      "Ludruk"
+    ],
+    "jawaban": 0
+  }
+]
+
+
 };
 
 export default function ProvinceDetail() {
