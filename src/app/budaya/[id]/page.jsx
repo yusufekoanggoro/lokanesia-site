@@ -3999,7 +3999,7 @@ export default function ProvinceDetail() {
           ← Kembali
         </button>
 
-        <audio ref={audioRef} preload="auto" />
+        <audio ref={audioRef} preload="auto" loop />
 
         {/* Header provinsi + tombol lagu */}
         <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
