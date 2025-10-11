@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter, useParams } from 'next/navigation';
 import BottomNav from '../../components/BottomNav';
 
@@ -3804,15 +3804,47 @@ export default function ProvinceDetail() {
   const province = provincesData[id];
 
   const audioRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     if (id && provinceSongs[id]) {
-      audioRef.current.src = provinceSongs[id];
-      audioRef.current.play().catch(e => {
+      const audio = audioRef.current;
+      audio.src = provinceSongs[id];
+      audio.play().then(() => setIsPlaying(true)).catch(e => {
         console.log("Audio play error:", e);
       });
     }
+
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+        setIsPlaying(false);
+      }
+    };
   }, [id]);
+
+  const togglePlayPause = () => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    if (isPlaying) {
+      audio.pause();
+      setIsPlaying(false);
+    } else {
+      audio.play().then(() => setIsPlaying(true)).catch(e => {
+        console.log("Audio play error:", e);
+      });
+    }
+  };
+
+  const handleLinkClick = () => {
+    if (audioRef.current && isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    }
+  };
+
 
   if (!province) {
     return (
@@ -3824,7 +3856,7 @@ export default function ProvinceDetail() {
 
   return (
     <>
-      <main className="max-w-4xl mx-auto p-6 pb-[88px] font-sans">
+      <main className="max-w-4xl mx-auto p-6 pb-[88px] font-sans relative">
         <button
           onClick={() => router.back()}
           className="mb-6 px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-md text-gray-800 shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-yellow-400"
@@ -3834,7 +3866,22 @@ export default function ProvinceDetail() {
 
         <audio ref={audioRef} preload="auto" />
 
-        <h1 className="text-4xl font-bold mb-6 text-yellow-900">{province.name}</h1>
+        {/* Header provinsi + tombol lagu */}
+        <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
+          <h1 className="text-4xl font-bold text-yellow-900">{province.name}</h1>
+
+          <button
+            onClick={togglePlayPause}
+            className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-sm transition-all duration-200 focus:outline-none focus:ring-2 ${
+              isPlaying
+                ? "bg-red-500 hover:bg-red-600 text-white focus:ring-red-400"
+                : "bg-yellow-400 hover:bg-yellow-500 text-yellow-900 focus:ring-yellow-300"
+            }`}
+          >
+            {isPlaying ? "⏸ Pause Lagu" : "▶️ Play Lagu"}
+          </button>
+        </div>
+
         <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-8 mb-10">
           <img
             src={province.image}
@@ -3851,7 +3898,9 @@ export default function ProvinceDetail() {
 
         {province.cultures.map((culture) => (
           <section key={culture.name} className="mb-12">
-            <h2 className="text-2xl font-semibold mb-6 text-yellow-800 border-b border-yellow-300 pb-2">{culture.name}</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-yellow-800 border-b border-yellow-300 pb-2">
+              {culture.name}
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
               {culture.data.map((item, idx) => (
                 <div
@@ -3872,6 +3921,7 @@ export default function ProvinceDetail() {
                       href={item.ytUrl}
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={handleLinkClick} 
                       className="text-yellow-600 hover:underline mt-auto"
                     >
                       Tonton Video
@@ -3883,6 +3933,7 @@ export default function ProvinceDetail() {
           </section>
         ))}
       </main>
+
       <BottomNav />
     </>
   );
