@@ -3797,7 +3797,8 @@ const provinceSongs = {
   // dst...
 };
 
-const quizData = [
+const provinceQuizzes = {
+  "31":[
       {
         "pertanyaan": "Berapakah luas wilayah provinsi DKI Jakarta?",
         "pilihan": [
@@ -3898,7 +3899,8 @@ const quizData = [
         ],
         "jawaban": 2
       }
-]
+    ]
+};
 
 export default function ProvinceDetail() {
   const router = useRouter();
@@ -3912,6 +3914,7 @@ export default function ProvinceDetail() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
+  const quizData = provinceQuizzes[id] || []; 
 
   useEffect(() => {
     if (id && provinceSongs[id]) {
@@ -4066,61 +4069,66 @@ export default function ProvinceDetail() {
         ))}
 
         {/* QUIZ Section */}
-        <section className="mt-16 mb-24 text-center bg-yellow-50 p-8 rounded-2xl shadow-md">
-          <h2 className="text-3xl font-bold text-yellow-800 mb-6">🎯 Kuis Pengetahuan</h2>
+{quizData.length > 0 ? (
+  <section className="mt-16 mb-24 text-center bg-yellow-50 p-8 rounded-2xl shadow-md">
+    <h2 className="text-3xl font-bold text-yellow-800 mb-6">🎯 Kuis Pengetahuan</h2>
 
-          {isFinished ? (
-            <div>
-              <p className="text-lg mb-4">
-                Kamu menjawab benar <span className="font-bold">{score}</span> dari{" "}
-                {quizData.length} pertanyaan!
-              </p>
+    {isFinished ? (
+      <div>
+        <p className="text-lg mb-4">
+          Kamu menjawab benar <span className="font-bold">{score}</span> dari{" "}
+          {quizData.length} pertanyaan!
+        </p>
+        <button
+          onClick={restartQuiz}
+          className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 rounded-full shadow font-semibold"
+        >
+          Ulangi Kuis 🔁
+        </button>
+      </div>
+    ) : (
+      <div>
+        <p className="text-lg font-semibold mb-6">
+          {quizIndex + 1}. {quizData[quizIndex].pertanyaan}
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
+          {quizData[quizIndex].pilihan.map((option, idx) => {
+            const isCorrect =
+              selectedAnswer !== null && idx === quizData[quizIndex].jawaban;
+            const isWrong =
+              selectedAnswer === idx && idx !== quizData[quizIndex].jawaban;
+
+            return (
               <button
-                onClick={restartQuiz}
-                className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 rounded-full shadow font-semibold"
+                key={idx}
+                onClick={() => handleAnswer(idx)}
+                disabled={selectedAnswer !== null}
+                className={`p-3 rounded-lg text-base transition-all duration-200 border
+                  ${
+                    selectedAnswer === null
+                      ? "bg-white hover:bg-yellow-100 border-yellow-300"
+                      : isCorrect
+                      ? "bg-green-200 border-green-400"
+                      : isWrong
+                      ? "bg-red-200 border-red-400"
+                      : "bg-gray-100 border-gray-300"
+                  }`}
               >
-                Ulangi Kuis 🔁
+                {option}
               </button>
-            </div>
-          ) : (
-            <div>
-              <p className="text-lg font-semibold mb-6">
-                {quizIndex + 1}. {quizData[quizIndex].pertanyaan}
-              </p>
+            );
+          })}
+        </div>
+      </div>
+    )}
+  </section>
+) : (
+  <div className="text-center mt-16 mb-24 text-gray-600">
+    <p>❓ Kuis belum tersedia untuk provinsi ini.</p>
+  </div>
+)}
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
-                {quizData[quizIndex].pilihan.map((option, idx) => {
-                  const isCorrect =
-                    selectedAnswer !== null &&
-                    idx === quizData[quizIndex].jawaban;
-                  const isWrong =
-                    selectedAnswer === idx &&
-                    idx !== quizData[quizIndex].jawaban;
-
-                  return (
-                    <button
-                      key={idx}
-                      onClick={() => handleAnswer(idx)}
-                      disabled={selectedAnswer !== null}
-                      className={`p-3 rounded-lg text-base transition-all duration-200 border
-                        ${
-                          selectedAnswer === null
-                            ? "bg-white hover:bg-yellow-100 border-yellow-300"
-                            : isCorrect
-                            ? "bg-green-200 border-green-400"
-                            : isWrong
-                            ? "bg-red-200 border-red-400"
-                            : "bg-gray-100 border-gray-300"
-                        }`}
-                    >
-                      {option}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-        </section>
       </main>
 
       <BottomNav />
