@@ -3797,6 +3797,109 @@ const provinceSongs = {
   // dst...
 };
 
+const quizData = [
+      {
+        "pertanyaan": "Berapakah luas wilayah provinsi DKI Jakarta?",
+        "pilihan": [
+          "10.640.000 km2",
+          "66.15 km2",
+          "661.5 km2",
+          "6.615 km2"
+        ],
+        "jawaban": 2
+      },
+      {
+        "pertanyaan": "Apa nama pakaian adat tradisional DKI Jakarta?",
+        "pilihan": [
+          "Pakaian pangsi",
+          "Kebaya encim",
+          "Pakaian ulos",
+          "Baju kurung"
+        ],
+        "jawaban": 1
+      },
+      {
+        "pertanyaan": "Mana saja yang termasuk rumah adat DKI Jakarta?",
+        "pilihan": [
+          "Rumah panggung Betawi",
+          "Rumah Kebaya",
+          "Rumah Gudang",
+          "Semua Benar"
+        ],
+        "jawaban": 3
+      },
+      {
+        "pertanyaan": "Manakah yang merupakan makanan khas DKI Jakarta?",
+        "pilihan": [
+          "Sate lilit",
+          "Kerak telor",
+          "Gudeg",
+          "Sate bandeng"
+        ],
+        "jawaban": 1
+      },
+      {
+        "pertanyaan": "Apa nama senjata dari DKI Jakarta?",
+        "pilihan": [
+          "Keris",
+          "Celurit",
+          "Golok",
+          "Rencong"
+        ],
+        "jawaban": 2
+      },
+      {
+        "pertanyaan": "Apa saja tarian yang berasal dari Banten?",
+        "pilihan": [
+          "Tari Katuran, Tari Saman dan Tari Piring",
+          "Tari Piring dan Tari Rampak Bedug",
+          "Tari Topeng Betawi",
+          "Tari Jaipong dan Tari Tor-tor"
+        ],
+        "jawaban": 2
+      },
+      {
+        "pertanyaan": "Manakah alat musik yang berasal dari DKI Jakarta?",
+        "pilihan": [
+          "Suling dan gambus",
+          "Pantun Bambu",
+          "Tehyan, Tanjidor dan Rebana",
+          "Gamelan dan gendang"
+        ],
+        "jawaban": 2
+      },
+      {
+        "pertanyaan": "Bagaimana cara menggunakan alat musik Tehyan?",
+        "pilihan": [
+          "Dipukul",
+          "Dipetik",
+          "Ditiup",
+          "Digesek"
+        ],
+        "jawaban": 3
+      },
+      {
+        "pertanyaan": "Manakah judul lagu yang berasal dari DKI Jakarta?",
+        "pilihan": [
+          "Suwe ora jamu",
+          "Tabola bale dan Injit-injit semut",
+          "Kicir-kicir, Ondel-ondel dan Jali-jali",
+          "Dayung Sampan"
+        ],
+        "jawaban": 2
+      },
+      {
+        "pertanyaan": "Apa nama seni pertunjukan yang berasal dari Banten?",
+        "pilihan": [
+          "Debus Surosowan",
+          "Wayang",
+          "Lenong",
+          "Ludruk"
+        ],
+        "jawaban": 2
+      }
+]
+
 export default function ProvinceDetail() {
   const router = useRouter();
   const params = useParams();
@@ -3805,6 +3908,10 @@ export default function ProvinceDetail() {
 
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [quizIndex, setQuizIndex] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [score, setScore] = useState(0);
+  const [isFinished, setIsFinished] = useState(false);
 
   useEffect(() => {
     if (id && provinceSongs[id]) {
@@ -3853,6 +3960,31 @@ export default function ProvinceDetail() {
       </div>
     );
   }
+
+  const handleAnswer = (index) => {
+    if (selectedAnswer !== null) return; // cegah klik ulang
+
+    setSelectedAnswer(index);
+    if (index === quizData[quizIndex].jawaban) {
+      setScore((prev) => prev + 1);
+    }
+
+    setTimeout(() => {
+      if (quizIndex + 1 < quizData.length) {
+        setQuizIndex(quizIndex + 1);
+        setSelectedAnswer(null);
+      } else {
+        setIsFinished(true);
+      }
+    }, 1000);
+  };
+
+  const restartQuiz = () => {
+    setQuizIndex(0);
+    setSelectedAnswer(null);
+    setScore(0);
+    setIsFinished(false);
+  };
 
   return (
     <>
@@ -3932,6 +4064,63 @@ export default function ProvinceDetail() {
             </div>
           </section>
         ))}
+
+        {/* QUIZ Section */}
+        <section className="mt-16 mb-24 text-center bg-yellow-50 p-8 rounded-2xl shadow-md">
+          <h2 className="text-3xl font-bold text-yellow-800 mb-6">🎯 Kuis Pengetahuan</h2>
+
+          {isFinished ? (
+            <div>
+              <p className="text-lg mb-4">
+                Kamu menjawab benar <span className="font-bold">{score}</span> dari{" "}
+                {quizData.length} pertanyaan!
+              </p>
+              <button
+                onClick={restartQuiz}
+                className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 rounded-full shadow font-semibold"
+              >
+                Ulangi Kuis 🔁
+              </button>
+            </div>
+          ) : (
+            <div>
+              <p className="text-lg font-semibold mb-6">
+                {quizIndex + 1}. {quizData[quizIndex].pertanyaan}
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
+                {quizData[quizIndex].pilihan.map((option, idx) => {
+                  const isCorrect =
+                    selectedAnswer !== null &&
+                    idx === quizData[quizIndex].jawaban;
+                  const isWrong =
+                    selectedAnswer === idx &&
+                    idx !== quizData[quizIndex].jawaban;
+
+                  return (
+                    <button
+                      key={idx}
+                      onClick={() => handleAnswer(idx)}
+                      disabled={selectedAnswer !== null}
+                      className={`p-3 rounded-lg text-base transition-all duration-200 border
+                        ${
+                          selectedAnswer === null
+                            ? "bg-white hover:bg-yellow-100 border-yellow-300"
+                            : isCorrect
+                            ? "bg-green-200 border-green-400"
+                            : isWrong
+                            ? "bg-red-200 border-red-400"
+                            : "bg-gray-100 border-gray-300"
+                        }`}
+                    >
+                      {option}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </section>
       </main>
 
       <BottomNav />
