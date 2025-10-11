@@ -8,10 +8,11 @@ export default function BottomNav() {
   const pathname = usePathname();
 
   const navItems = [
-    { name: "", href: "/", icon: <FaHome size={20} /> },
-    { name: "", href: "/event", icon: <FaCalendarAlt size={20} /> },
-    { name: "", href: "/jelajah", icon: <FaMapMarkedAlt size={20} /> },
-    { name: "", href: "/quiz", icon: <FaQuestion size={20} /> },
+    { name: "Beranda", href: "/", icon: <FaHome size={20} /> },
+    { name: "Event", href: "/event", icon: <FaCalendarAlt size={20} /> },
+    { name: "Jelajah", href: "/jelajah", icon: <FaMapMarkedAlt size={20} /> },
+    // { name: "", href: "/quiz", icon: <FaQuestion size={20} /> },
+    { name: "Evaluasi", href: "/evaluasi", icon: <FaQuestion size={20} /> },
   ];
 
   return (
