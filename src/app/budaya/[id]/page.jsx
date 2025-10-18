@@ -5242,6 +5242,826 @@ const provinceQuizzes = {
   }
 ],
 
+// 
+"11": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Aceh berada?",
+    "pilihan": [
+      "Banda Aceh",
+      "Lhokseumawe",
+      "Subussalam",
+      "Sabang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat khas Aceh?",
+    "pilihan": [
+      "Krong Bade",
+      "Tongkonan",
+      "Gadang",
+      "Honai"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional dari Aceh?",
+    "pilihan": [
+      "Ulee Balang",
+      "Baju Bodo",
+      "Baju Meukeusah",
+      "Baju Cele"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa senjata tradisional yang berasal dari Aceh?",
+    "pilihan": [
+      "Celurit",
+      "Badik",
+      "Mandau",
+      "Rencong"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Tarian tradisional yang terkenal dari Aceh adalah?",
+    "pilihan": [
+      "Tari Serimpi",
+      "Tari Jaipong",
+      "Tari Piring",
+      "Tari Saman"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa alat musik khas yang berasal dari Aceh?",
+    "pilihan": [
+      "Sasando",
+      "Serune Kalee",
+      "Gamelan",
+      "Kolintang"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Dipetik",
+      "Ditiup",
+      "Digoyang"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Makanan tradisional terkenal dari Aceh adalah?",
+    "pilihan": [
+      "Tekwan",
+      "Papeda",
+      "Mie Aceh",
+      "Ayam Betutu"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Lagu daerah yang berasal dari Aceh adalah?",
+    "pilihan": [
+      "Bungong Jeumpa",
+      "Rasa Sayange",
+      "Apuse",
+      "Sajojo"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan dari Aceh?",
+    "pilihan": [
+      "Tari Kecak",
+      "Ratoh Jaroe",
+      "Kuda Lumping",
+      "Debus"
+    ],
+    "jawaban": 1
+  }
+],
+"13": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Sumatera Barat berada?",
+    "pilihan": [
+      "Pariaman",
+      "Padang",
+      "Payakumbuh",
+      "Padang Panjang"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Sumatera Barat?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju King Bibinge",
+      "Baju Rejang",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Sumatera Barat?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Gadang",
+      "Rumah Panggung",
+      "Rumah Betang"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Sumatera Barat?",
+    "pilihan": [
+      "Tekwan",
+      "Lemea",
+      "Tempoyak Ikan Patin",
+      "Rendang"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Sumatera Barat?",
+    "pilihan": [
+      "Badik",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Keris"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Sumatera Barat?",
+    "pilihan": [
+      "Tari Sekapur Sirih",
+      "Tari Melinting",
+      "Tari Piring",
+      "Tari Andun"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Sumatera Barat?",
+    "pilihan": [
+      "Japen",
+      "Accordion",
+      "Gambang Kayu",
+      "Sarunai"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Sumatera Barat?",
+    "pilihan": [
+      "Cangget Agung",
+      "Cuk mak ilang",
+      "Kampuang Nan Jauh di Mato",
+      "Ikan Pais"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Sumatera Barat?",
+    "pilihan": [
+      "Dulmuluk",
+      "Tabot",
+      "Cangget",
+      "Randai"
+    ],
+    "jawaban": 3
+  }
+],
+"14": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Riau berada?",
+    "pilihan": [
+      "Dumai",
+      "Bengkalis",
+      "Pekanbaru",
+      "Selat Panjang"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Riau?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Kebaya Labuh",
+      "Baju Rejang",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Riau?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Gadang",
+      "Rumah Panggung",
+      "Rumah Selaso Jatuh Kembar"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Riau?",
+    "pilihan": [
+      "Mie Sagu",
+      "Lemea",
+      "Tempoyak Ikan Patin",
+      "Mie Gomak"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Riau?",
+    "pilihan": [
+      "Beladau",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Keris"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Riau?",
+    "pilihan": [
+      "Tari Sekapur Sirih",
+      "Tari Melinting",
+      "Tari Zapin",
+      "Tari Andun"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Riau?",
+    "pilihan": [
+      "Japen",
+      "Gambus",
+      "Gambang Kayu",
+      "Sarunai"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Riau?",
+    "pilihan": [
+      "Cangget Agung",
+      "Cuk Mak Ilang",
+      "Kampuang Nan Jauh di Mato",
+      "Pulau Bintan"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Riau?",
+    "pilihan": [
+      "Makyong",
+      "Tabot",
+      "Cangget",
+      "Randai"
+    ],
+    "jawaban": 0
+  }
+],
+"15": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Jambi berada?",
+    "pilihan": [
+      "Jambi",
+      "Tebo",
+      "Muaro Jambi",
+      "Sungai Penuh"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Jambi?",
+    "pilihan": [
+      "Aesan Gede dan Aesan Pasangko",
+      "Baju King Bibinge",
+      "Baju Rejang",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Jambi?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Panggung Kajang Lako",
+      "Rumah Panggung",
+      "Rumah Betang"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Jambi?",
+    "pilihan": [
+      "Tekwan",
+      "Lemea",
+      "Tempoyak Ikan Patin",
+      "Ikan asin Richa"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Jambi?",
+    "pilihan": [
+      "Badik",
+      "Telawang",
+      "Pedang Jenawi",
+      "Keris"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Jambi?",
+    "pilihan": [
+      "Tari Sekapur Sirih",
+      "Tari Melinting",
+      "Tari Gending Sriwijaya",
+      "Tari Andun"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Jambi?",
+    "pilihan": [
+      "Japen",
+      "Accordion",
+      "Gambang Kayu",
+      "Doll"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Jambi?",
+    "pilihan": [
+      "Cangget Agung",
+      "Cuk mak ilang",
+      "Injit-injit Semut",
+      "Ikan Pais"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Jambi?",
+    "pilihan": [
+      "Dulmuluk",
+      "Tabot",
+      "Cangget",
+      "Tari Sekapur Sirih"
+    ],
+    "jawaban": 3
+  }
+],
+"16": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Sumatera Selatan berada?",
+    "pilihan": [
+      "Prabumulih",
+      "Lubuk Linggau",
+      "Palembang",
+      "Pagar Alam"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Sumatera Selatan?",
+    "pilihan": [
+      "Aesan Gede dan Aesan Pasangko",
+      "Baju King Bibinge",
+      "Pakaian Sangkarut",
+      "Baju adat Saibatin"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Sumatera Selatan?",
+    "pilihan": [
+      "Rumah panggung",
+      "Rumah Lamin",
+      "Rumah Limas dan Rumah Ulu",
+      "Rumah Betang"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Sumatera Selatan?",
+    "pilihan": [
+      "Pempek dan Tekwan",
+      "Seruit",
+      "Nasi Bekepor",
+      "Ikan asin Richa"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Sumatera Selatan?",
+    "pilihan": [
+      "Badik",
+      "Telawang",
+      "Celurit",
+      "Tombak Trisula"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Sumatera Selatan?",
+    "pilihan": [
+      "Tari Zapin Tembung",
+      "Tari Melinting",
+      "Tari Gending Sriwijaya",
+      "Tari Radap Rahayu"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Sumatera Selatan?",
+    "pilihan": [
+      "Japen",
+      "Accordion",
+      "Tuma",
+      "Bende"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Sumatera Selatan?",
+    "pilihan": [
+      "Cangget Agung",
+      "Cuk mak ilang",
+      "Indung-Indung",
+      "Cik-cik periuk"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Sumatera Selatan?",
+    "pilihan": [
+      "Dulmuluk",
+      "Sandung",
+      "Cangget",
+      "Mamapas Lewu"
+    ],
+    "jawaban": 0
+  }
+],
+"17": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Bengkulu berada?",
+    "pilihan": [
+      "Bengkulu",
+      "Lubuk Linggau",
+      "Palembang",
+      "Pagar Alam"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Bengkulu?",
+    "pilihan": [
+      "Aesan Gede dan Aesan Pasangko",
+      "Baju King Bibinge",
+      "Baju Rejang",
+      "Baju adat Saibatin"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Bengkulu?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Lamin",
+      "Rumah Limas dan Rumah Ulu",
+      "Rumah Betang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Bengkulu?",
+    "pilihan": [
+      "Pempek dan Tekwan",
+      "Pendap dan Lemea",
+      "Nasi Bekepor",
+      "Ikan asin Richa"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Bengkulu?",
+    "pilihan": [
+      "Badik",
+      "Telawang",
+      "Pedang Jenawi",
+      "Tombak Trisula"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Bengkulu?",
+    "pilihan": [
+      "Tari Zapin Tembung",
+      "Tari Melinting",
+      "Tari Gending Sriwijaya",
+      "Tari Andun"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Bengkulu?",
+    "pilihan": [
+      "Japen",
+      "Accordion",
+      "Tuma",
+      "Doll"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Bengkulu?",
+    "pilihan": [
+      "Cangget Agung",
+      "Cuk mak ilang",
+      "Indung-Indung",
+      "Ikan Pais"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Bengkulu?",
+    "pilihan": [
+      "Dulmuluk",
+      "Tabot",
+      "Cangget",
+      "Mamapas Lewu"
+    ],
+    "jawaban": 1
+  }
+],
+"18": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Lampung berada?",
+    "pilihan": [
+      "Bandar Lampung",
+      "Way Kanan",
+      "Pringsewu",
+      "Lampung Barat"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Lampung?",
+    "pilihan": [
+      "Baju Ta’a",
+      "Baju King Bibinge",
+      "Pakaian Sangkarut",
+      "Baju adat Saibatin"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Lampung?",
+    "pilihan": [
+      "Rumah Baloy",
+      "Rumah Lamin",
+      "Rumah Nuwo Sesat",
+      "Rumah Betang"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Lampung?",
+    "pilihan": [
+      "Kalumpe",
+      "Seruit",
+      "Nasi Bekepor",
+      "Ikan asin Richa"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Lampung?",
+    "pilihan": [
+      "Badik",
+      "Telawang",
+      "Celurit",
+      "Mandau"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Lampung?",
+    "pilihan": [
+      "Tari Zapin Tembung",
+      "Tari Melinting",
+      "Tari Gong dan Tari Hudoq",
+      "Tari Radap Rahayu"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Lampung?",
+    "pilihan": [
+      "Japen",
+      "Sampe/Sape",
+      "Tuma",
+      "Bende"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Digoyang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Lampung?",
+    "pilihan": [
+      "Cangget Agung",
+      "Bebalon",
+      "Indung-Indung",
+      "Cik-cik periuk"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Lampung?",
+    "pilihan": [
+      "Pertunjukan Hudoq",
+      "Sandung",
+      "Cangget",
+      "Mamapas Lewu"
+    ],
+    "jawaban": 2
+  }
+],
+"19": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Bangka Belitung berada?",
+    "pilihan": [
+      "Bengkulu",
+      "Bangka",
+      "Pangkalpinang",
+      "Belitung"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Bangka Belitung?",
+    "pilihan": [
+      "Baju Paksian",
+      "Baju King Bibinge",
+      "Baju Rejang",
+      "Baju adat Saibatin"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Bangka Belitung?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Lamin",
+      "Rumah Limas dan Rumah Ulu",
+      "Rumah Limas potong"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Bangka Belitung?",
+    "pilihan": [
+      "Pempek",
+      "Pendap",
+      "Nasi Bekepor",
+      "Lempah Kuning"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Bangka Belitung?",
+    "pilihan": [
+      "Badik",
+      "Sewir",
+      "Pedang Jenawi",
+      "Tombak Trisula"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Bangka Belitung?",
+    "pilihan": [
+      "Tari Zapin Tembung",
+      "Tari Melinting",
+      "Tari Campak dan Tari Sepen",
+      "Tari Andun"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Bangka Belitung?",
+    "pilihan": [
+      "Dambus",
+      "Accordion",
+      "Tuma",
+      "Doll"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Bangka Belitung?",
+    "pilihan": [
+      "Cangget Agung",
+      "Yok Miak",
+      "Indung-Indung",
+      "Ikan Pais"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Bangka Belitung?",
+    "pilihan": [
+      "Dulmuluk",
+      "Tabot",
+      "Cangget",
+      "Mamapas Lewu"
+    ],
+    "jawaban": 1
+  }
+]
+
+
+
 };
 
 export default function ProvinceDetail() {
