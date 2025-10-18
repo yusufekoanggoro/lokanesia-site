@@ -4,6 +4,9 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter, useParams } from 'next/navigation';
 import BottomNav from '../../components/BottomNav';
 
+import dynamic from "next/dynamic";
+const MiniMap = dynamic(() => import("../../components/MiniMap"), { ssr: false });
+
 const provincesData = {
   "11": {
     name: "Aceh",
@@ -7519,6 +7522,10 @@ export default function ProvinceDetail() {
   const [quizStarted, setQuizStarted] = useState(false);
   const quizData = provinceQuizzes[id] || []; 
 
+
+  // const geo = indonesiaGeoJSON.find((p) => p.id === id);
+
+
   useEffect(() => {
     if (id && provinceSongs[id]) {
       const audio = audioRef.current;
@@ -7633,6 +7640,9 @@ export default function ProvinceDetail() {
             <p><span className="font-semibold text-yellow-700">Luas Wilayah:</span> {province.area} km²</p>
             <p><span className="font-semibold text-yellow-700">Populasi:</span> {province.population.toLocaleString()}</p>
           </div>
+
+          {/* Mini Map */}
+          <MiniMap provinceName={province.name} />
         </div>
 
         {province.cultures.map((culture) => (
