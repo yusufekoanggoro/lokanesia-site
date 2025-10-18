@@ -6058,7 +6058,1447 @@ const provinceQuizzes = {
     ],
     "jawaban": 1
   }
+],
+
+// sulawesi
+"71": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Sulawesi Utara berada?",
+    "pilihan": [
+      "Manado",
+      "Bitung",
+      "Kotamobagu",
+      "Tomohon"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional wanita dari Sulawesi Utara?",
+    "pilihan": [
+      "Baju Bili’u",
+      "Baju Bolaang Mongondow",
+      "Baju Ngatau",
+      "Baju Pamona"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Sulawesi Utara?",
+    "pilihan": [
+      "Rumah Balla Lompoa",
+      "Rumah Wale",
+      "Rumah Dulohupa",
+      "Rumah Boyang Adaq"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Mana saja yang merupakan makanan Sulawesi Utara?",
+    "pilihan": [
+      "Illabulo dan Binte Biluhuta",
+      "Tinutuan dan Cakalang Fufu",
+      "Kaledo, Uta Kelo dan Lalampa",
+      "Jepa dan Kue kui-kui"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Sulawesi Utara?",
+    "pilihan": [
+      "Wamilo",
+      "Belati Jambia",
+      "Kerambit dan Ruduih",
+      "Perisai"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Sulawesi Utara?",
+    "pilihan": [
+      "Tari Maengket",
+      "Tari Pamonte",
+      "Tari Sayyang Pattuddu’",
+      "Tari Pakarena"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Sulawesi Utara?",
+    "pilihan": [
+      "Lado-lado",
+      "Lalove",
+      "Kolintang",
+      "Polopalo"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Digesek"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Sulawesi Utara?",
+    "pilihan": [
+      "Tenggang-tenggang Lopi",
+      "Binthe Biluhuta",
+      "Palu Ngataku",
+      "SiPatokaan"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Sulawesi Utara?",
+    "pilihan": [
+      "Ma’badong",
+      "Mpae",
+      "Kabasaran Show",
+      "Tari Saronde"
+    ],
+    "jawaban": 2
+  }
+],
+"72": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Sulawesi Tengah berada?",
+    "pilihan": [
+      "Palu",
+      "Poso",
+      "Morowali",
+      "Moutong"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional dari Sulawesi Tengah?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Bodo",
+      "Baju Ngatau",
+      "Baju Pamona"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Sulawesi Tengah?",
+    "pilihan": [
+      "Rumah Balla Lompoa",
+      "Rumah Tambi",
+      "Rumah Panggung",
+      "Rumah Boyang Adaq"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Mana saja yang merupakan makanan Sulawesi Tengah?",
+    "pilihan": [
+      "Mie Sagu dan Konro",
+      "Coto Makassar, Pallubasa dan Konro",
+      "Kaledo, Uta Kelo dan Lalampa",
+      "Jepa dan Kue Kui-kui"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Sulawesi Tengah?",
+    "pilihan": [
+      "Kanta",
+      "Belati Jambia",
+      "Kerambit dan Ruduih",
+      "Parang Taawu/Mosehe"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Sulawesi Tengah?",
+    "pilihan": [
+      "Tari Lulo",
+      "Tari Pamonte",
+      "Tari Sayyang Pattuddu’",
+      "Tari Pakarena"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Sulawesi Tengah?",
+    "pilihan": [
+      "Lado-lado",
+      "Lalove",
+      "Gambang Kayu",
+      "Sarunai"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Digesek"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Sulawesi Tengah?",
+    "pilihan": [
+      "Tenggang-tenggang Lopi",
+      "Cuk Mak Ilang",
+      "Palu Ngataku",
+      "Tana Wolio"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Sulawesi Tengah?",
+    "pilihan": [
+      "Ma’badong",
+      "Mpae",
+      "Sayyang Pattu’du",
+      "Randai"
+    ],
+    "jawaban": 1
+  }
+],
+"73": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Sulawesi Selatan berada?",
+    "pilihan": [
+      "Kendari",
+      "Palopo",
+      "Makassar",
+      "Parepare"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Sulawesi Selatan?",
+    "pilihan": [
+      "Baju Batabue dan Kebaya Labuh",
+      "Baju Bodo dan Seppa Talung",
+      "Baju Rejang",
+      "Baju Babu Nggawi"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Sulawesi Selatan?",
+    "pilihan": [
+      "Rumah Balla Lompoa",
+      "Rumah Banua Tada",
+      "Rumah Panggung",
+      "Rumah Selaso Jatuh Kembar"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Mana saja yang merupakan makanan Sulawesi Selatan?",
+    "pilihan": [
+      "Mie Sagu dan Konro",
+      "Coto Makassar, Pallubasa dan Konro",
+      "Sinonggi dan Kabuton",
+      "Mie Gomak dan Coto Makassar"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Sulawesi Selatan?",
+    "pilihan": [
+      "Badik",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Parang Taawu/Mosehe"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Sulawesi Selatan?",
+    "pilihan": [
+      "Tari Lulo",
+      "Tari Melinting",
+      "Tari Zapin",
+      "Tari Pakarena"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Sulawesi Selatan?",
+    "pilihan": [
+      "Lado-lado",
+      "Keso-keso",
+      "Gambang Kayu",
+      "Sarunai"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Digesek"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Sulawesi Selatan?",
+    "pilihan": [
+      "Cangget Agung",
+      "Cuk Mak Ilang",
+      "Anging Mammiri",
+      "Tana Wolio"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Sulawesi Selatan?",
+    "pilihan": [
+      "Ma’badong",
+      "Kande-kandea",
+      "Cangget",
+      "Randai"
+    ],
+    "jawaban": 0
+  }
+],
+"74": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Sulawesi Tenggara berada?",
+    "pilihan": [
+      "Kendari",
+      "Baubau",
+      "Wakatobi",
+      "Bombana"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Sulawesi Tenggara?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Kebaya Labuh",
+      "Baju Rejang",
+      "Baju Babu Nggawi"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Sulawesi Tenggara?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Banua Tada",
+      "Rumah Panggung",
+      "Rumah Selaso Jatuh Kembar"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Sulawesi Tenggara?",
+    "pilihan": [
+      "Mie Sagu",
+      "Lemea",
+      "Sinonggi dan Kabuton",
+      "Mie Gomak"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Sulawesi Tenggara?",
+    "pilihan": [
+      "Beladau",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Parang Taawu/Mosehe"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Sulawesi Tenggara?",
+    "pilihan": [
+      "Tari Lulo",
+      "Tari Melinting",
+      "Tari Zapin",
+      "Tari Andun"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Sulawesi Tenggara?",
+    "pilihan": [
+      "Lado-lado",
+      "Gambus",
+      "Gambang Kayu",
+      "Sarunai"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Sulawesi Tenggara?",
+    "pilihan": [
+      "Cangget Agung",
+      "Cuk Mak Ilang",
+      "Kampuang Nan Jauh di Mato",
+      "Tana Wolio"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Sulawesi Tenggara?",
+    "pilihan": [
+      "Makyong",
+      "Kande-kandea",
+      "Cangget",
+      "Randai"
+    ],
+    "jawaban": 1
+  }
+],
+"75": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Gorontalo berada?",
+    "pilihan": [
+      "Palu",
+      "Poso",
+      "Gorontalo",
+      "Moutong"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional wanita dari Gorontalo?",
+    "pilihan": [
+      "Baju Bili’u",
+      "Baju Bodo",
+      "Baju Ngatau",
+      "Baju Pamona"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional pria dari Gorontalo?",
+    "pilihan": [
+      "Baju Bili’u",
+      "Baju Bodo",
+      "Baju Ngatau",
+      "Baju Payunga"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Gorontalo?",
+    "pilihan": [
+      "Rumah Balla Lompoa",
+      "Rumah Tambi",
+      "Rumah Dulohupa",
+      "Rumah Boyang Adaq"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Mana saja yang merupakan makanan Gorontalo?",
+    "pilihan": [
+      "Illabulo dan Binte Biluhuta",
+      "Coto Makassar, Pallubasa dan Konro",
+      "Kaledo, Uta Kelo dan Lalampa",
+      "Jepa dan Kue Kui-kui"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Gorontalo?",
+    "pilihan": [
+      "Wamilo",
+      "Belati Jambia",
+      "Kerambit dan Ruduih",
+      "Parang Taawu/Mosehe"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Gorontalo?",
+    "pilihan": [
+      "Tari Saronde",
+      "Tari Pamonte",
+      "Tari Sayyang Pattuddu’",
+      "Tari Pakarena"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Gorontalo?",
+    "pilihan": [
+      "Lado-lado",
+      "Lalove",
+      "Gambang Kayu",
+      "Polopalo"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Gorontalo?",
+    "pilihan": [
+      "Tenggang-tenggang Lopi",
+      "Binthe Biluhuta",
+      "Palu Ngataku",
+      "Tana Wolio"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Gorontalo?",
+    "pilihan": [
+      "Ma’badong",
+      "Mpae",
+      "Sayyang Pattu’du",
+      "Tari Saronde"
+    ],
+    "jawaban": 1
+  }
+],
+"76": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Sulawesi Barat berada?",
+    "pilihan": [
+      "Mamasa",
+      "Mandar",
+      "Majene",
+      "Mamuju"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional wanita dari Sulawesi Barat?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Bodo",
+      "Baju Pokko",
+      "Baju Babu Nggawi"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional pria dari Sulawesi Barat?",
+    "pilihan": [
+      "Baju Pattuqduq Towaine",
+      "Baju Bodo",
+      "Baju Pokko",
+      "Baju Babu Nggawi"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Sulawesi Barat?",
+    "pilihan": [
+      "Rumah Balla Lompoa",
+      "Rumah Banua Tada",
+      "Rumah Panggung",
+      "Rumah Boyang Adaq"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Mana saja yang merupakan makanan Sulawesi Barat?",
+    "pilihan": [
+      "Mie Sagu dan Konro",
+      "Coto Makassar, Pallubasa dan Konro",
+      "Sinonggi dan Kabuton",
+      "Jepa dan Kue Kui-kui"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Sulawesi Barat?",
+    "pilihan": [
+      "Badik",
+      "Belati Jambia",
+      "Kerambit dan Ruduih",
+      "Parang Taawu/Mosehe"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Sulawesi Barat?",
+    "pilihan": [
+      "Tari Lulo",
+      "Tari Melinting",
+      "Tari Sayyang Pattuddu’",
+      "Tari Pakarena"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Sulawesi Barat?",
+    "pilihan": [
+      "Lado-lado",
+      "Talindo",
+      "Gambang Kayu",
+      "Sarunai"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Sulawesi Barat?",
+    "pilihan": [
+      "Tenggang-tenggang Lopi",
+      "Cuk Mak Ilang",
+      "Anging Mammiri",
+      "Tana Wolio"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Sulawesi Barat?",
+    "pilihan": [
+      "Ma’badong",
+      "Kande-kandea",
+      "Sayyang Pattu’du",
+      "Randai"
+    ],
+    "jawaban": 2
+  }
+],
+
+// maluku
+"81": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Maluku berada?",
+    "pilihan": [
+      "Manado",
+      "Ambon",
+      "Kotamobagu",
+      "Tomohon"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional dari Maluku?",
+    "pilihan": [
+      "Baju Bili’u",
+      "Baju Bolaang Mongondow",
+      "Baju Ngatau",
+      "Baju Cele"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Maluku?",
+    "pilihan": [
+      "Rumah Baileo",
+      "Rumah Wale",
+      "Rumah Dulohupa",
+      "Rumah Boyang Adaq"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Mana saja yang merupakan makanan Maluku?",
+    "pilihan": [
+      "Illabulo dan Binte Biluhuta",
+      "Tinutuan dan Cakalang Fufu",
+      "Kaledo, Uta Kelo dan Lalampa",
+      "Papeda dan Ikan Kuah Kuning"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Maluku?",
+    "pilihan": [
+      "Wamilo",
+      "Belati Jambia",
+      "Parang Salawaku",
+      "Perisai"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Maluku?",
+    "pilihan": [
+      "Tari Maengket",
+      "Tari Cakalele",
+      "Tari Sayyang Pattuddu’",
+      "Tari Pakarena"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Maluku?",
+    "pilihan": [
+      "Lado-lado",
+      "Lalove",
+      "Kolintang",
+      "Tifa"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Digesek"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Maluku?",
+    "pilihan": [
+      "Tenggang-tenggang lopi",
+      "Binthe Biluhuta",
+      "Rasa Sayange",
+      "SiPatokaan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Maluku?",
+    "pilihan": [
+      "Ma’badong",
+      "Mpae",
+      "Kabasaran Show",
+      "Totobuang"
+    ],
+    "jawaban": 3
+  }
+],
+"82": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Maluku Utara berada?",
+    "pilihan": [
+      "Manado",
+      "Ambon",
+      "Sofifi",
+      "Tomohon"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional dari Maluku Utara?",
+    "pilihan": [
+      "Baju Bili’u",
+      "Baju Bolaang Mongondow",
+      "Baju Manteren Lamo dan Baju Kimun Gia",
+      "Baju Cele"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Maluku Utara?",
+    "pilihan": [
+      "Rumah Baileo",
+      "Rumah Wale",
+      "Rumah Dulohupa",
+      "Rumah Hibualamo"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Mana saja yang merupakan makanan Maluku Utara?",
+    "pilihan": [
+      "Gohu Ikan dan Halua Kenari",
+      "Tinutuan dan Cakalang Fufu",
+      "Kaledo, Uta Kelo dan Lalampa",
+      "Papeda dan Ikan Kuah Kuning"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Maluku Utara?",
+    "pilihan": [
+      "Parang",
+      "Belati Jambia",
+      "Parang Salawaku",
+      "Perisai"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Maluku Utara?",
+    "pilihan": [
+      "Tari Maengket",
+      "Tari Cakalele",
+      "Tari Sayyang Pattuddu’",
+      "Tari Pakarena"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Maluku Utara?",
+    "pilihan": [
+      "Lado-lado",
+      "Lalove",
+      "Arababu",
+      "Tifa"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Digesek"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Maluku Utara?",
+    "pilihan": [
+      "Tenggang-tenggang lopi",
+      "Binthe Biluhuta",
+      "Rasa Sayange",
+      "Borero"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Maluku Utara?",
+    "pilihan": [
+      "Ma’badong",
+      "Bambu Gila",
+      "Kabasaran Show",
+      "Totobuang"
+    ],
+    "jawaban": 1
+  }
+],
+
+
+"91-A": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Papua berada?",
+    "pilihan": [
+      "Jayapura",
+      "Bengkalis",
+      "Pekanbaru",
+      "Selat Panjang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Papua?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Koteka",
+      "Baju Rejang",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Papua?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Gadang",
+      "Rumah Kariwari",
+      "Rumah Selaso Jatuh Kembar"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Papua?",
+    "pilihan": [
+      "Mie Sagu",
+      "Lemea",
+      "Tempoyak Ikan Patin",
+      "Papeda"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Papua?",
+    "pilihan": [
+      "Beladau",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Tombak, Busur dan Panah"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Papua?",
+    "pilihan": [
+      "Tari Sekapur Sirih",
+      "Tari Melinting",
+      "Tari Musyoh",
+      "Tari Andun"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Papua?",
+    "pilihan": [
+      "Japen",
+      "Tifa",
+      "Gambang Kayu",
+      "Sarunai"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Papua?",
+    "pilihan": [
+      "Cangget Agung",
+      "Cuk Mak Ilang",
+      "Kampuang Nan Jauh di Mato",
+      "Yamko Rambe Yamko"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Papua?",
+    "pilihan": [
+      "Makyong",
+      "Tabot",
+      "Tari Perang",
+      "Randai"
+    ],
+    "jawaban": 2
+  }
+],
+"91-B": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Papua Pegunungan berada?",
+    "pilihan": [
+      "Jayapura",
+      "Bengkalis",
+      "Pekanbaru",
+      "Selat Panjang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Papua Pegunungan?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Koteka",
+      "Baju Rejang",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Papua Pegunungan?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Honai",
+      "Rumah Kariwari",
+      "Rumah Selaso Jatuh Kembar"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Papua Pegunungan?",
+    "pilihan": [
+      "Bubur Sagu",
+      "Lemea",
+      "Tempoyak Ikan Patin",
+      "Papeda"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Papua Pegunungan?",
+    "pilihan": [
+      "Beladau",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Busur dan Panah"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Papua Pegunungan?",
+    "pilihan": [
+      "Tari Sekapur Sirih",
+      "Tari Melinting",
+      "Tari Musyoh",
+      "Tari Andun"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Papua Pegunungan?",
+    "pilihan": [
+      "Japen",
+      "Tifa",
+      "Gambang Kayu",
+      "Pikon (kaido)"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Papua Pegunungan?",
+    "pilihan": [
+      "Jayawijaya Hanorasuok",
+      "Cuk Mak Ilang",
+      "Kampuang Nan Jauh di Mato",
+      "Yamko Rambe Yamko"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Papua Pegunungan?",
+    "pilihan": [
+      "Makyong",
+      "Tabot",
+      "Festival Budaya Lembah Baliem",
+      "Randai"
+    ],
+    "jawaban": 2
+  }
+],
+"91-C": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Papua Selatan berada?",
+    "pilihan": [
+      "Jayapura",
+      "Bengkalis",
+      "Merauke",
+      "Selat Panjang"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Papua Selatan?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Koteka",
+      "Baju Rejang",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Papua Selatan?",
+    "pilihan": [
+      "Rumah Bubungan Lima",
+      "Rumah Honai",
+      "Rumah Kariwari",
+      "Rumah Rumsram"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Papua Selatan?",
+    "pilihan": [
+      "Bubur Sagu",
+      "Sagu Sep (Papeda bakar)",
+      "Tempoyak Ikan Patin",
+      "Papeda"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Papua Selatan?",
+    "pilihan": [
+      "Beladau",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Busur dan Panah"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Papua Selatan?",
+    "pilihan": [
+      "Tari Sekapur Sirih",
+      "Tari Melinting",
+      "Tari Musyoh",
+      "Tari Yospan dan Tari Suanggi"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Papua Selatan?",
+    "pilihan": [
+      "Japen",
+      "Tifa",
+      "Gambang Kayu",
+      "Pikon (kaido)"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Ditiup",
+      "Dipetik",
+      "Ditekan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Papua Selatan?",
+    "pilihan": [
+      "Jayawijaya Hanorasuok",
+      "E mambo simbo",
+      "Kampuang Nan Jauh di Mato",
+      "Yamko Rambe Yambo"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Papua Selatan?",
+    "pilihan": [
+      "Tari Adat Suku Marind",
+      "Tabot",
+      "Festival Budaya Lembah Baliem",
+      "Randai"
+    ],
+    "jawaban": 0
+  }
+],
+"91-D": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Papua Tengah berada?",
+    "pilihan": [
+      "Jayapura",
+      "Bengkalis",
+      "Merauke",
+      "Wanggar, Nabire"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Berapakah luas wilayah provinsi Papua Tengah?",
+    "pilihan": [
+      "661,29 km2",
+      "6612,9 km2",
+      "66,129 km2",
+      "6,6129 km2"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Papua Tengah?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Koteka dan Rok Rumbai",
+      "Baju Rejang",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Papua Tengah?",
+    "pilihan": [
+      "Rumah Emawa",
+      "Rumah Honai",
+      "Rumah Kariwari",
+      "Rumah Rumsram"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Papua Tengah?",
+    "pilihan": [
+      "Bubur Sagu",
+      "Sagu Sep (Papeda bakar)",
+      "Tempoyak Ikan Patin",
+      "Papeda"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Papua Tengah?",
+    "pilihan": [
+      "Beladau",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Busur dan Panah"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Papua Tengah?",
+    "pilihan": [
+      "Tari Sekapur Sirih",
+      "Tari Sajojo",
+      "Tari Musyoh",
+      "Tari Yospan dan Tari Suanggi"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Papua Tengah?",
+    "pilihan": [
+      "Fuu",
+      "Tifa",
+      "Gambang Kayu",
+      "Pikon (kaido)"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Papua Tengah?",
+    "pilihan": [
+      "Jayawijaya Hanorasuok",
+      "E mambo simbo",
+      "Akai Bipa Mare",
+      "Yamko Rambe Yambo"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Papua Tengah?",
+    "pilihan": [
+      "Tari Adat Suku Marind",
+      "Tari Yospan",
+      "Festival Budaya Lembah Baliem",
+      "Randai"
+    ],
+    "jawaban": 1
+  }
+],
+
+"92-A": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Papua Barat berada?",
+    "pilihan": [
+      "Jayapura",
+      "Manokwari",
+      "Merauke",
+      "Wanggar, Nabire"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Berapakah luas wilayah provinsi Papua Barat?",
+    "pilihan": [
+      "140,376 km2",
+      "14,0376 km2",
+      "1,40376 km2",
+      "1403,76 km2"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Papua Barat?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Koteka dan Rok Rumbai",
+      "Baju Rejang",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Papua Barat?",
+    "pilihan": [
+      "Rumah Emawa",
+      "Rumah Honai",
+      "Rumah Kariwari",
+      "Rumah Kaki Seribu"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Papua Barat?",
+    "pilihan": [
+      "Bubur Sagu",
+      "Sagu Sep (Papeda bakar)",
+      "Ikan Bakar Manokwari",
+      "Papeda"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Papua Barat?",
+    "pilihan": [
+      "Beladau",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Busur dan Panah"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Papua Barat?",
+    "pilihan": [
+      "Tari Tumbu Tanah",
+      "Tari Sajojo",
+      "Tari Musyoh",
+      "Tari Yospan dan Tari Suanggi"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Papua Barat?",
+    "pilihan": [
+      "Fuu",
+      "Guoto",
+      "Gambang Kayu",
+      "Pikon (kaido)"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Papua Barat?",
+    "pilihan": [
+      "Jayawijaya Hanorasuok",
+      "E mambo simbo",
+      "Akai Bipa Mare",
+      "Apuse"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Papua Barat?",
+    "pilihan": [
+      "Tari Adat Suku Marind",
+      "Tari Yospan",
+      "Festival Budaya Lembah Baliem",
+      "Tarian Perang"
+    ],
+    "jawaban": 3
+  }
+],
+"92-B": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Papua Barat Daya berada?",
+    "pilihan": [
+      "Jayapura",
+      "Manokwari",
+      "Merauke",
+      "Sorong"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Berapakah luas wilayah provinsi Papua Barat Daya?",
+    "pilihan": [
+      "3912,3 km2",
+      "391,23 km2",
+      "39,123 km2",
+      "3,9123 km2"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Papua Barat Daya?",
+    "pilihan": [
+      "Baju Batabue",
+      "Baju Koteka dan Rok Rumbai",
+      "Rok Rumbai dan Hiasan Kepala Cendrawasih",
+      "Baju Kurung Tanggung"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Papua Barat Daya?",
+    "pilihan": [
+      "Rumah Emawa",
+      "Rumah Honai",
+      "Rumah Kariwari",
+      "Rumah Kaki Seribu (Arfak)"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan Papua Barat Daya?",
+    "pilihan": [
+      "Bubur Sagu",
+      "Sagu Sep (Papeda bakar)",
+      "Ikan Bakar Manokwari",
+      "Papeda"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Papua Barat Daya?",
+    "pilihan": [
+      "Parang Papua",
+      "Telawang",
+      "Kerambit dan Ruduih",
+      "Busur dan Panah"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Papua Barat Daya?",
+    "pilihan": [
+      "Tari Tumbu Tanah",
+      "Tari Sajojo",
+      "Tari Musyoh",
+      "Tari Yospan dan Tari Suanggi"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Papua Barat Daya?",
+    "pilihan": [
+      "Fuu",
+      "Guoto",
+      "Triton",
+      "Pikon (kaido)"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Papua Barat Daya?",
+    "pilihan": [
+      "Sajojo",
+      "E mambo simbo",
+      "Akai Bipa Mare",
+      "Apuse"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Papua Barat Daya?",
+    "pilihan": [
+      "Tari Adat Suku Marind",
+      "Tari Yospan",
+      "Festival Budaya Lembah Baliem",
+      "Tarian Perang Papua"
+    ],
+    "jawaban": 3
+  }
 ]
+
+
+
+
+
 
 
 
