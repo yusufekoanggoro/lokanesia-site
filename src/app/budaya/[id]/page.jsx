@@ -7520,21 +7520,15 @@ export default function ProvinceDetail() {
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
-  const quizData = provinceQuizzes[id] || []; 
+  const quizData = provinceQuizzes[id] || [];
 
-
-  // const geo = indonesiaGeoJSON.find((p) => p.id === id);
-
-
+  // Play audio saat mount & ganti id
   useEffect(() => {
     if (id && provinceSongs[id]) {
       const audio = audioRef.current;
       audio.src = provinceSongs[id];
-      audio.play().then(() => setIsPlaying(true)).catch(e => {
-        console.log("Audio play error:", e);
-      });
+      audio.play().then(() => setIsPlaying(true)).catch(console.log);
     }
-
     return () => {
       if (audioRef.current) {
         audioRef.current.pause();
@@ -7547,14 +7541,11 @@ export default function ProvinceDetail() {
   const togglePlayPause = () => {
     const audio = audioRef.current;
     if (!audio) return;
-
     if (isPlaying) {
       audio.pause();
       setIsPlaying(false);
     } else {
-      audio.play().then(() => setIsPlaying(true)).catch(e => {
-        console.log("Audio play error:", e);
-      });
+      audio.play().then(() => setIsPlaying(true)).catch(console.log);
     }
   };
 
@@ -7565,23 +7556,10 @@ export default function ProvinceDetail() {
     }
   };
 
-
-  if (!province) {
-    return (
-      <div className="p-8 text-center font-sans">
-        <h1 className="text-2xl font-bold">Provinsi tidak ditemukan</h1>
-      </div>
-    );
-  }
-
   const handleAnswer = (index) => {
-    if (selectedAnswer !== null) return; // cegah klik ulang
-
+    if (selectedAnswer !== null) return;
     setSelectedAnswer(index);
-    if (index === quizData[quizIndex].jawaban) {
-      setScore((prev) => prev + 1);
-    }
-
+    if (index === quizData[quizIndex].jawaban) setScore(prev => prev + 1);
     setTimeout(() => {
       if (quizIndex + 1 < quizData.length) {
         setQuizIndex(quizIndex + 1);
@@ -7600,9 +7578,17 @@ export default function ProvinceDetail() {
     setQuizStarted(false);
   };
 
+  if (!province) {
+    return (
+      <div className="p-8 text-center font-sans">
+        <h1 className="text-2xl font-bold text-yellow-800">Provinsi tidak ditemukan</h1>
+      </div>
+    );
+  }
+
   return (
     <>
-      <main className="max-w-4xl mx-auto p-6 pb-[88px] font-sans relative">
+      <main className="max-w-5xl mx-auto p-6 pb-[88px] font-sans relative">
         <button
           onClick={() => router.back()}
           className="mb-6 px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-md text-gray-800 shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-yellow-400"
@@ -7612,13 +7598,12 @@ export default function ProvinceDetail() {
 
         <audio ref={audioRef} preload="auto" loop />
 
-        {/* Header provinsi + tombol lagu */}
-        <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
+        {/* Header */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4">
           <h1 className="text-4xl font-bold text-yellow-900">{province.name}</h1>
-
           <button
             onClick={togglePlayPause}
-            className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-sm transition-all duration-200 focus:outline-none focus:ring-2 ${
+            className={`flex items-center gap-2 px-6 py-3 rounded-2xl shadow-md transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 ${
               isPlaying
                 ? "bg-red-500 hover:bg-red-600 text-white focus:ring-red-400"
                 : "bg-yellow-400 hover:bg-yellow-500 text-yellow-900 focus:ring-yellow-300"
@@ -7628,39 +7613,39 @@ export default function ProvinceDetail() {
           </button>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-8 mb-10">
+        {/* Info Provinsi + Mini Map */}
+        <div className="flex flex-col sm:flex-row sm:items-start gap-6 mb-12">
           <img
             src={province.image}
             alt={`${province.name} emblem`}
-            className="w-32 h-32 object-contain rounded-md shadow"
+            className="w-32 h-32 object-contain rounded-xl shadow-md self-center sm:self-start"
             loading="lazy"
           />
-          <div className="text-gray-800 text-base sm:text-lg space-y-2">
+          <div className="flex-1 text-gray-800 text-base sm:text-lg space-y-2">
             <p><span className="font-semibold text-yellow-700">Ibu Kota:</span> {province.capital}</p>
             <p><span className="font-semibold text-yellow-700">Luas Wilayah:</span> {province.area} km²</p>
             <p><span className="font-semibold text-yellow-700">Populasi:</span> {province.population.toLocaleString()}</p>
           </div>
-
-          {/* Mini Map */}
-          <MiniMap provinceName={province.name} />
+          <MiniMap provinceName={province.name} className="w-full sm:w-64 h-40 rounded-xl shadow-md" />
         </div>
 
+        {/* Budaya */}
         {province.cultures.map((culture) => (
           <section key={culture.name} className="mb-12">
             <h2 className="text-2xl font-semibold mb-6 text-yellow-800 border-b border-yellow-300 pb-2">
               {culture.name}
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               {culture.data.map((item, idx) => (
                 <div
                   key={idx}
-                  className="border rounded-lg p-5 shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col"
+                  className="bg-white border rounded-2xl p-5 shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col"
                 >
                   {item.image && (
                     <img
                       src={item.image}
                       alt={item.name}
-                      className="w-full h-44 object-cover rounded-md mb-4"
+                      className="w-full h-44 object-cover rounded-xl mb-4"
                       loading="lazy"
                     />
                   )}
@@ -7670,10 +7655,10 @@ export default function ProvinceDetail() {
                       href={item.ytUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      onClick={handleLinkClick} 
-                      className="text-yellow-600 hover:underline mt-auto"
+                      onClick={handleLinkClick}
+                      className="text-yellow-600 hover:underline mt-auto font-medium"
                     >
-                      Tonton Video
+                      🎬 Tonton Video
                     </a>
                   )}
                 </div>
@@ -7682,7 +7667,7 @@ export default function ProvinceDetail() {
           </section>
         ))}
 
-        {/* QUIZ Section */}
+        {/* Quiz */}
         {quizData.length > 0 ? (
           <section className="mt-16 mb-24 text-center bg-yellow-50 p-8 rounded-2xl shadow-md">
             <h2 className="text-3xl font-bold text-yellow-800 mb-6">🎯 Kuis Pengetahuan</h2>
@@ -7690,7 +7675,7 @@ export default function ProvinceDetail() {
             {!quizStarted ? (
               <div>
                 <p className="text-lg mb-4 text-gray-700">
-                  Uji pengetahuanmu tentang {province.name}! Klik tombol di bawah ini untuk mulai kuis.
+                  Uji pengetahuanmu tentang {province.name}! Klik tombol di bawah untuk mulai kuis.
                 </p>
                 <button
                   onClick={() => setQuizStarted(true)}
@@ -7702,8 +7687,7 @@ export default function ProvinceDetail() {
             ) : isFinished ? (
               <div>
                 <p className="text-lg mb-4">
-                  Kamu menjawab benar <span className="font-bold">{score}</span> dari{" "}
-                  {quizData.length} pertanyaan!
+                  Kamu menjawab benar <span className="font-bold">{score}</span> dari {quizData.length} pertanyaan!
                 </p>
                 <button
                   onClick={restartQuiz}
@@ -7717,28 +7701,25 @@ export default function ProvinceDetail() {
                 <p className="text-lg font-semibold mb-6">
                   {quizIndex + 1}. {quizData[quizIndex].pertanyaan}
                 </p>
-
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
                   {quizData[quizIndex].pilihan.map((option, idx) => {
-                    const isCorrect =
-                      selectedAnswer !== null && idx === quizData[quizIndex].jawaban;
-                    const isWrong =
-                      selectedAnswer === idx && idx !== quizData[quizIndex].jawaban;
+                    const isCorrect = selectedAnswer !== null && idx === quizData[quizIndex].jawaban;
+                    const isWrong = selectedAnswer === idx && idx !== quizData[quizIndex].jawaban;
 
                     return (
                       <button
                         key={idx}
                         onClick={() => handleAnswer(idx)}
                         disabled={selectedAnswer !== null}
-                        className={`p-3 rounded-lg text-base transition-all duration-200 border
+                        className={`p-4 rounded-xl text-base transition-all duration-200 border font-medium
                           ${
                             selectedAnswer === null
-                              ? "bg-white hover:bg-yellow-100 border-yellow-300"
+                              ? "bg-white hover:bg-yellow-50 border-yellow-200"
                               : isCorrect
                               ? "bg-green-200 border-green-400"
                               : isWrong
                               ? "bg-red-200 border-red-400"
-                              : "bg-gray-100 border-gray-300"
+                              : "bg-gray-50 border-gray-200"
                           }`}
                       >
                         {option}
@@ -7754,7 +7735,6 @@ export default function ProvinceDetail() {
             <p>❓ Kuis belum tersedia untuk provinsi ini.</p>
           </div>
         )}
-
       </main>
 
       <BottomNav />
