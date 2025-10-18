@@ -4725,6 +4725,522 @@ const provinceQuizzes = {
   }
 ],
 
+// p kalimantan
+
+"61": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Kalimantan Barat berada?",
+    "pilihan": [
+      "Pontianak",
+      "Sintang",
+      "Singkawang",
+      "Bontang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional wanita Kalimantan Barat?",
+    "pilihan": [
+      "Baju Ta’a",
+      "Baju King Bibinge",
+      "Pakaian Sangkarut",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional pria Kalimantan Barat?",
+    "pilihan": [
+      "Baju Ta’a",
+      "Baju Baamar Galung Pancar Mata",
+      "King Baba",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Kalimantan Barat?",
+    "pilihan": [
+      "Bale Gapura candi bentar",
+      "Rumah Lamin",
+      "Rumah Panjang",
+      "Rumah Betang"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Kalimantan Barat?",
+    "pilihan": [
+      "Kalumpe dan Juhu Singkah",
+      "Bubur pedas sambas dan Pengkang",
+      "Nasi Bekepor dan Amplang",
+      "Jagung Bose"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Kalimantan Barat?",
+    "pilihan": [
+      "Keris Bima",
+      "Telawang",
+      "Celurit",
+      "Mandau"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Kalimantan Barat?",
+    "pilihan": [
+      "Tari Monong dan Tari Zapin Tembung",
+      "Tari Gendang beleq dan Tari Peresean",
+      "Tari Gong dan Tari Hudoq",
+      "Tari Radap Rahayu dan Tari Baksa Kembang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Kalimantan Barat?",
+    "pilihan": [
+      "Japen",
+      "Sensapi",
+      "Tuma",
+      "Uding"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Kalimantan Barat?",
+    "pilihan": [
+      "Gemufamire",
+      "Ampar-ampar pisang",
+      "Indung-Indung",
+      "Cik-cik periuk"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Kalimantan Barat?",
+    "pilihan": [
+      "Hudoq Festival",
+      "Sandung",
+      "Wayang",
+      "Mamapas Lewu"
+    ],
+    "jawaban": 1
+  }
+],
+
+"62": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Kalimantan Tengah berada?",
+    "pilihan": [
+      "Seruyan",
+      "Sukamara",
+      "Lamandau",
+      "Palangka Raya"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Kalimantan Tengah?",
+    "pilihan": [
+      "Baju adat Sasak",
+      "Baju Baamar Galung Pancar Mata",
+      "Pakaian Sangkarut",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Kalimantan Tengah?",
+    "pilihan": [
+      "Bale Gapura candi bentar",
+      "Bubungan Tinggi",
+      "Sao Ata Lakitana",
+      "Rumah Betang"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Kalimantan Tengah?",
+    "pilihan": [
+      "Kalumpe dan Juhu Singkah",
+      "Gudeg dan sate",
+      "Soto Kudus",
+      "Jagung Bose"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Kalimantan Tengah?",
+    "pilihan": [
+      "Keris Bima",
+      "Suri",
+      "Mandau",
+      "Rencong"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Kalimantan Tengah?",
+    "pilihan": [
+      "Tari Tambun dan Bungai",
+      "Tari Gendang beleq dan Tari Peresean",
+      "Tari Caci dan Tari Likurai",
+      "Tari Radap Rahayu dan Tari Baksa Kembang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Kalimantan Tengah?",
+    "pilihan": [
+      "Japen",
+      "Sensapi",
+      "Sasando",
+      "Serunai"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Ditiup",
+      "Dipetik",
+      "Dipukul",
+      "Digoyang"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Kalimantan Tengah?",
+    "pilihan": [
+      "Gemufamire",
+      "Ampar-ampar pisang",
+      "Suwe ora jamu",
+      "Manari Manasai"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Kalimantan Tengah?",
+    "pilihan": [
+      "Mamanda",
+      "Peresean",
+      "Wayang",
+      "Mamapas Lewu"
+    ],
+    "jawaban": 3
+  }
+],
+
+"63": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Kalimantan Selatan berada?",
+    "pilihan": [
+      "Banjarbaru",
+      "Martapura",
+      "Banjarmasin",
+      "Marabahan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional wanita Kalimantan Selatan?",
+    "pilihan": [
+      "Baju adat Sasak",
+      "Baju Baamar Galung Pancar Mata",
+      "Payas Agung",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional pria Kalimantan Selatan?",
+    "pilihan": [
+      "Baju adat Sasak",
+      "Baju Baamar Galung Pancar Mata",
+      "Payas Agung",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa saja nama rumah adat daerah Kalimantan Selatan?",
+    "pilihan": [
+      "Bale Gapura candi bentar",
+      "Bubungan Tinggi",
+      "Sao Ata Lakitana",
+      "Bale Lumbung"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Kalimantan Selatan?",
+    "pilihan": [
+      "Ketupat Kandangan",
+      "Gudeg",
+      "Soto Kudus",
+      "Jagung Bose"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Kalimantan Selatan?",
+    "pilihan": [
+      "Keris Bima",
+      "Suri",
+      "Mandau",
+      "Rencong"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Kalimantan Selatan?",
+    "pilihan": [
+      "Reog Ponorogo",
+      "Tari Gendang beleq dan Tari Peresean",
+      "Tari Caci dan Tari Likurai",
+      "Tari Radap Rahayu dan Tari Baksa Kembang"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Kalimantan Selatan?",
+    "pilihan": [
+      "Ceng-ceng",
+      "Sensapi",
+      "Sasando",
+      "Serunai"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Kalimantan Selatan?",
+    "pilihan": [
+      "Gemufamire",
+      "Ampar-ampar pisang",
+      "Suwe ora jamu",
+      "Manuk dadali"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Kalimantan Selatan?",
+    "pilihan": [
+      "Mamanda",
+      "Peresean",
+      "Wayang",
+      "Sandelwood Parade"
+    ],
+    "jawaban": 0
+  }
+],
+
+"64": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Kalimantan Timur berada?",
+    "pilihan": [
+      "Mahakam",
+      "Samarinda",
+      "Balikpapan",
+      "Bontang"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional wanita Kalimantan Timur?",
+    "pilihan": [
+      "Baju Ta’a",
+      "Baju Baamar Galung Pancar Mata",
+      "Pakaian Sangkarut",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional pria Kalimantan Timur?",
+    "pilihan": [
+      "Baju Ta’a",
+      "Baju Baamar Galung Pancar Mata",
+      "Sapei Sapaq",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Kalimantan Timur?",
+    "pilihan": [
+      "Bale Gapura candi bentar",
+      "Rumah Lamin",
+      "Sao Ata Lakitana",
+      "Rumah Betang"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Kalimantan Timur?",
+    "pilihan": [
+      "Kalumpe dan Juhu Singkah",
+      "Gudeg dan sate",
+      "Nasi Bekepor dan Amplang",
+      "Jagung Bose"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Kalimantan Timur?",
+    "pilihan": [
+      "Keris Bima",
+      "Telawang",
+      "Celurit",
+      "Rencong"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Kalimantan Timur?",
+    "pilihan": [
+      "Tari Tambun dan Bungai",
+      "Tari Gendang beleq dan Tari Peresean",
+      "Tari Gong dan Tari Hudoq",
+      "Tari Radap Rahayu dan Tari Baksa Kembang"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Kalimantan Timur?",
+    "pilihan": [
+      "Japen",
+      "Sensapi",
+      "Sasando",
+      "Uding"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Kalimantan Timur?",
+    "pilihan": [
+      "Gemufamire",
+      "Ampar-ampar pisang",
+      "Indung-Indung",
+      "Manari Manasai"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Kalimantan Timur?",
+    "pilihan": [
+      "Hudoq Festival",
+      "Peresean",
+      "Wayang",
+      "Mamapas Lewu"
+    ],
+    "jawaban": 0
+  }
+],
+
+"65":[
+  {
+    "pertanyaan": "Dimana ibu kota provinsi Kalimantan Utara berada?",
+    "pilihan": [
+      "Tarakan",
+      "Bulungan",
+      "Tanjung Selor",
+      "Malinau"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional wanita Kalimantan Utara?",
+    "pilihan": [
+      "Baju Ta’a",
+      "Baju King Bibinge",
+      "Pakaian Sangkarut",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional pria Kalimantan Utara?",
+    "pilihan": [
+      "Baju Ta’a",
+      "Baju Baamar Galung Pancar Mata",
+      "King Baba",
+      "Baju Bagajah Gamuling Baular Lulut"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa nama rumah adat daerah Kalimantan Utara?",
+    "pilihan": [
+      "Rumah Baloy",
+      "Rumah Lamin",
+      "Rumah Panjang",
+      "Rumah Betang"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Kalimantan Utara?",
+    "pilihan": [
+      "Kalumpe",
+      "Bubur pedas sambas",
+      "Nasi Bekepor",
+      "Ikan Asin Richa"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Kalimantan Utara?",
+    "pilihan": [
+      "Keris Bima",
+      "Telawang",
+      "Celurit",
+      "Mandau"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Kalimantan Utara?",
+    "pilihan": [
+      "Tari Zapin Tembung",
+      "Tari Jepen",
+      "Tari Gong dan Tari Hudoq",
+      "Tari Radap Rahayu"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Kalimantan Utara?",
+    "pilihan": [
+      "Japen",
+      "Sampe/Sape",
+      "Tuma",
+      "Uding"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Kalimantan Utara?",
+    "pilihan": [
+      "Gemufamire",
+      "Bebalon",
+      "Indung-Indung",
+      "Cik-cik periuk"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Kalimantan Utara?",
+    "pilihan": [
+      "Pertunjukan Hudoq",
+      "Sandung",
+      "Wayang",
+      "Mamapas Lewu"
+    ],
+    "jawaban": 0
+  }
+],
 
 };
 
