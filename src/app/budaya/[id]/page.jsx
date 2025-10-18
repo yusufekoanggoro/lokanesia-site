@@ -4107,6 +4107,109 @@ const provinceQuizzes = {
   }
 ],
 
+"34": [
+  {
+    "pertanyaan": "Manakah yang merupakan ibu kota provinsi Yogyakarta?",
+    "pilihan": [
+      "Jakarta",
+      "Semarang",
+      "Serang",
+      "Yogyakarta"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Yogyakarta?",
+    "pilihan": [
+      "Pakaian Surjan",
+      "Kebaya encim",
+      "Pakaian ulos",
+      "Baju kurung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa saja nama rumah adat Yogyakarta?",
+    "pilihan": [
+      "Rumah Sulah nyanda",
+      "Rumah Badak Heuay, Imah Togog Anjing, Imah Julang ngapak dan Jolopong",
+      "Rumah Bangsal Kencono dan Rumah Joglo",
+      "Rumah Joglo, Limasan dan Tajug"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Yogyakarta?",
+    "pilihan": [
+      "Gudeg Nangka",
+      "Kerak telor",
+      "Soto Kudus",
+      "Batagor"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa senjata yang berasal dari Yogyakarta?",
+    "pilihan": [
+      "Keris",
+      "Celurit dan Panah",
+      "Bedog",
+      "Rencong dan bambu Runcing"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Yogyakarta?",
+    "pilihan": [
+      "Tari Katuran",
+      "Tari Serimpi",
+      "Tari Cokek",
+      "Tari Gambyong"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik dari Yogyakarta?",
+    "pilihan": [
+      "Suling dan Angklung",
+      "Pantun Bambu",
+      "Gendang",
+      "Gamelan"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Dipetik",
+      "Ditiup",
+      "Ditekan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah judul lagu yang berasal dari Yogyakarta?",
+    "pilihan": [
+      "Manuk dadali dan Tokecang",
+      "Suwe Ora Jamu",
+      "Lir-ilir dan Gundul-gundul pacul",
+      "Dayung Sampan"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Yogyakarta?",
+    "pilihan": [
+      "Debus Surosowan",
+      "Tari Kuda lumping",
+      "Lenong",
+      "Wayang Kulit"
+    ],
+    "jawaban": 3
+  }
+],
+
 "35": [
   {
     "pertanyaan": "Manakah yang merupakan ibu kota provinsi Jawa Timur?",
@@ -4311,7 +4414,316 @@ const provinceQuizzes = {
     ],
     "jawaban": 0
   }
-]
+],
+
+"51": [
+  {
+    "pertanyaan": "Manakah yang merupakan ibu kota provinsi Bali?",
+    "pilihan": [
+      "Tabanan",
+      "Garokgak",
+      "Denpasar",
+      "Buleleng"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Berapakah luas wilayah provinsi Bali?",
+    "pilihan": [
+      "5,780,06 km2",
+      "578,006 km2",
+      "57,800,6 km2",
+      "5780,06 km2"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional Bali?",
+    "pilihan": [
+      "Baju Gothil",
+      "Kebaya encim",
+      "Payas Agung",
+      "Baju kurung"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Apa saja nama rumah adat daerah Bali?",
+    "pilihan": [
+      "Rumah Gapura candi bentar dan rumah bale",
+      "Rumah Badak Heuay, Imah Togog Anjing, Imah Julang ngapak dan Jolopong",
+      "Rumah Tanean Lanjhang, Tengger, Dhurung dan Joglo",
+      "Rumah Joglo, Limasan dan Tajug"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas Bali?",
+    "pilihan": [
+      "Sate lilit dan Gudeg",
+      "Kerak telor",
+      "Soto Kudus dan Getuk",
+      "Ayam Betutu"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari Bali?",
+    "pilihan": [
+      "Keris",
+      "Celurit",
+      "Bedog dan Tombak",
+      "Rencong"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari Bali?",
+    "pilihan": [
+      "Reog Ponorogo",
+      "Tari Piring dan Tari Rampak Bedug",
+      "Tari Kecak, Tari Pendet dan Tari Barong",
+      "Gandrung Banyuwangi"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah Bali?",
+    "pilihan": [
+      "Ceng-ceng",
+      "Pantun Bambu",
+      "Timbal atau Gendang",
+      "Gamelan"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari Bali?",
+    "pilihan": [
+      "Manuk dadali dan Tokecang",
+      "Jali-jali",
+      "Lir-ilir dan Gundul-gundul pacul",
+      "Mejangeran"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan Bali?",
+    "pilihan": [
+      "Wayang kulit",
+      "Tari Kuda lumping",
+      "Wayang wong Bali",
+      "Ludruk"
+    ],
+    "jawaban": 2
+  }
+],
+
+"52": [
+  {
+    "pertanyaan": "Manakah yang merupakan ibu kota provinsi NTB?",
+    "pilihan": [
+      "Bima",
+      "Mataram",
+      "Sumbawa",
+      "Lombok"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional NTB?",
+    "pilihan": [
+      "Baju adat Sasak (Lambung & Pegon)",
+      "Kebaya encim",
+      "Payas Agung",
+      "Baju kurung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa saja nama rumah adat daerah NTB?",
+    "pilihan": [
+      "Bale Gapura candi bentar dan rumah bale",
+      "Imah Badak Heuay, Imah Togog Anjing, Imah Julang ngapak dan Jolopong",
+      "Rumah Tanean Lanjhang, Tengger, Dhurung dan Joglo",
+      "Bale Lumbung dan Bale Tani"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas NTB?",
+    "pilihan": [
+      "Sate lilit dan Gudeg",
+      "Ayam taliwang dan Plecing kangkung",
+      "Soto Kudus dan Getuk",
+      "Ayam Betutu dan Sate lilit"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari NTB?",
+    "pilihan": [
+      "Keris Bima",
+      "Celurit",
+      "Bedog dan Tombak",
+      "Rencong"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari NTB?",
+    "pilihan": [
+      "Reog Ponorogo",
+      "Tari Gendang beleq dan Tari Peresean",
+      "Tari kecak, Tari Pendet dan Tari Barong",
+      "Gandrung Banyuwangi"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah NTB?",
+    "pilihan": [
+      "Ceng-ceng",
+      "Pantun Bambu",
+      "Timbal atau Gendang",
+      "Serunai"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Dipetik",
+      "Ditiup",
+      "Ditekan"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari NTB?",
+    "pilihan": [
+      "Manuk dadali dan Tokecang",
+      "Tutu Koda",
+      "Suwe ora jamu",
+      "Mejangeran"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan NTB?",
+    "pilihan": [
+      "Wayang kulit",
+      "Peresean",
+      "Wayang wong NTB",
+      "Ludruk"
+    ],
+    "jawaban": 1
+  }
+],
+
+"53": [
+  {
+    "pertanyaan": "Dimana ibu kota provinsi NTT berada?",
+    "pilihan": [
+      "Kupang",
+      "Atambua",
+      "Kalabahi",
+      "Larantuka"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa nama pakaian adat tradisional NTT?",
+    "pilihan": [
+      "Baju adat Sasak (Lambung & Pegon)",
+      "Kebaya encim",
+      "Payas Agung",
+      "Baju kurung"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Apa saja nama rumah adat daerah NTT?",
+    "pilihan": [
+      "Bale Gapura candi bentar dan rumah bale",
+      "Imah Badak Heuay, Imah Togog Anjing, Imah Julang ngapak dan Jolopong",
+      "Sao Ata Lakitana dan Sao Ria",
+      "Bale Lumbung dan Bale Tani"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan makanan khas NTT?",
+    "pilihan": [
+      "Sate lilit dan Gudeg",
+      "Ayam taliwang dan Plecing kangkung",
+      "Soto Kudus dan Getuk",
+      "Jagung Bose dan Se’I Sapi"
+    ],
+    "jawaban": 3
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan senjata dari NTT?",
+    "pilihan": [
+      "Keris Bima",
+      "Suri",
+      "Bedog dan Tombak",
+      "Rencong"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah tarian yang berasal dari NTT?",
+    "pilihan": [
+      "Reog Ponorogo",
+      "Tari Gendang beleq dan Tari Peresean",
+      "Tari Caci dan Tari Likurai",
+      "Gandrung Banyuwangi"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan alat musik daerah NTT?",
+    "pilihan": [
+      "Ceng-ceng",
+      "Pantun Bambu",
+      "Sasando",
+      "Serunai"
+    ],
+    "jawaban": 2
+  },
+  {
+    "pertanyaan": "Bagaimana cara menggunakan alat musik tersebut?",
+    "pilihan": [
+      "Dipukul",
+      "Dipetik",
+      "Ditiup",
+      "Ditekan"
+    ],
+    "jawaban": 1
+  },
+  {
+    "pertanyaan": "Manakah lagu daerah yang berasal dari NTT?",
+    "pilihan": [
+      "Gemufamire dan Anak kambing saya",
+      "Tutu Koda",
+      "Suwe ora jamu",
+      "Mejangeran"
+    ],
+    "jawaban": 0
+  },
+  {
+    "pertanyaan": "Manakah yang merupakan seni pertunjukan NTT?",
+    "pilihan": [
+      "Wayang kulit",
+      "Peresean",
+      "Wayang wong NTB",
+      "Sandelwood Parade"
+    ],
+    "jawaban": 3
+  }
+],
 
 
 };
