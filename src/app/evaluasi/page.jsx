@@ -53,7 +53,9 @@ export default function EvaluasiPage() {
 
   return (
     <>
-      <main className="min-h-screen flex flex-col items-center justify-center px-6 py-16 bg-gradient-to-b from-yellow-50 to-yellow-100 text-center pb-[88px] font-sans">
+      <main className="min-h-screen flex flex-col items-center justify-center px-6 py-16 bg-gradient-to-b from-yellow-50 to-yellow-100 text-center pb-[88px] font-sans"
+        style={{ backgroundImage: "url('/images/6.jpg')" }}
+      >
         {!started ? (
           <div className="w-full max-w-3xl mx-auto px-4 sm:px-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 text-yellow-900 tracking-tight drop-shadow-md">

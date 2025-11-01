@@ -79,7 +79,11 @@ export default function Peta() {
 
   return (
     <>
-      <section className="h-screen py-16 bg-gray-100 text-gray-900 pb-[88px]">
+      {/* <section className="h-screen py-16 bg-gray-100 text-gray-900 pb-[88px]"> */}
+      <section 
+        className="h-screen py-16 bg-gray-100 text-gray-900 pb-[88px] bg-cover bg-center bg-fixed"
+        style={{ backgroundImage: "url('/images/3.jpg')" }}
+      >
         <div className="container mx-auto px-6 relative">
           {/* Back Button */}
           <button 

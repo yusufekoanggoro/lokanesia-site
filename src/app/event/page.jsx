@@ -33,7 +33,9 @@ const events = [
 export default function Event() {
   return (
     <>
-      <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-gradient-to-b from-yellow-100 via-yellow-50 to-yellow-100 text-center font-sans">
+      <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-gradient-to-b from-yellow-100 via-yellow-50 to-yellow-100 text-center font-sans"
+        style={{ backgroundImage: "url('/images/3.jpg')" }}
+      >
         <div className="bg-white bg-opacity-95 rounded-2xl shadow-xl max-w-3xl w-full sm:w-4/5 md:w-3/4 p-8 sm:p-12 mx-auto mb-10">
           <h2 className="text-3xl font-extrabold mb-4 text-yellow-900 tracking-tight">
             Jelajahi Event Budaya Indonesia

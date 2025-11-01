@@ -7588,6 +7588,10 @@ export default function ProvinceDetail() {
 
   return (
     <>
+     <section
+      className="min-h-screen w-full bg-cover bg-center bg-fixed relative font-sans"
+      style={{ backgroundImage: "url('/images/3.jpg')" }}
+    >
       <main className="max-w-5xl mx-auto p-6 pb-[88px] font-sans relative">
         <button
           onClick={() => router.back()}
@@ -7736,6 +7740,7 @@ export default function ProvinceDetail() {
           </div>
         )}
       </main>
+    </section>
 
       <BottomNav />
     </>
