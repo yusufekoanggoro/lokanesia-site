@@ -81,7 +81,7 @@ export default function Peta() {
     <>
       {/* <section className="h-screen py-16 bg-gray-100 text-gray-900 pb-[88px]"> */}
       <section 
-        className="h-screen py-16 bg-gray-100 text-gray-900 pb-[88px] bg-cover bg-center bg-fixed"
+        className="h-screen py-16 bg-gray-100 text-gray-900 bg-cover bg-center bg-fixed"
                 style={{
           backgroundImage: "url('/images/3.jpg')",
           backgroundRepeat: "repeat",
