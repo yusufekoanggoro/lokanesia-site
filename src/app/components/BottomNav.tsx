@@ -28,7 +28,7 @@ export default function BottomNav() {
             <li key={href} className="flex-1">
               <Link
                 href={href}
-                className={`flex flex-col items-center justify-center py-3 text-sm font-semibold transition-colors duration-300
+                className={`flex flex-col items-center justify-center py-1 text-sm font-semibold transition-colors duration-300
                   ${
                     isActive
                       ? "text-yellow-600"

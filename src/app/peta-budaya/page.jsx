@@ -89,7 +89,7 @@ export default function Peta() {
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",
-          minHeight: `calc(100vh - 75px)`, // tidak menutupi bottomnav
+          minHeight: `calc(100vh - 59px)`, // tidak menutupi bottomnav
         }}
       >
         <div className="container mx-auto px-6 relative">

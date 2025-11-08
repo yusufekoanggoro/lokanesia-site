@@ -27,7 +27,7 @@ export default function Jelajah() {
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",
-          minHeight: `calc(100vh - 75px)`, // tidak menutupi bottomnav
+          minHeight: `calc(100vh - 59px)`, // tidak menutupi bottomnav
         }}
       >
         <div className="w-full max-w-3xl mx-auto px-4 sm:px-6">

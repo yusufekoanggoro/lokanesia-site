@@ -42,7 +42,7 @@ export default function Event() {
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",
-          minHeight: `calc(100vh - 75px)`, // tidak menutupi bottomnav
+          minHeight: `calc(100vh - 59px)`, // tidak menutupi bottomnav
         }}
       >
       </main>
