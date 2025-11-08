@@ -1,7 +1,7 @@
 import BottomNav from './components/BottomNav';
 
 export default function Home() {
-  const bottomNavHeight = 75; // tinggi nav bar (px)
+  const bottomNavHeight = 59; // tinggi nav bar (px)
 
   return (
     <>
