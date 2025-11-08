@@ -7591,7 +7591,7 @@ export default function ProvinceDetail() {
      <section
       className="min-h-screen w-full bg-cover bg-center bg-fixed relative font-sans"
               style={{
-          backgroundImage: "url('/images/6.jpg')",
+          backgroundImage: "url('/images/3.jpg')",
           backgroundRepeat: "repeat",
           // backgroundSize: "contain", // atau "cover"
           backgroundPosition: "center",
