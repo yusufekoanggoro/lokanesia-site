@@ -9,7 +9,7 @@ export default function Home() {
         className="flex flex-col items-center justify-center text-center font-sans text-white"
         style={{
           backgroundImage: "url('/images/1.jpg')",
-          backgroundRepeat: "no-repeat",
+          // backgroundRepeat: "no-repeat",
           backgroundSize: "contain", // atau "cover"
           backgroundPosition: "center",
           // backgroundColor: "#000",
