@@ -54,7 +54,15 @@ export default function EvaluasiPage() {
   return (
     <>
       <main className="min-h-screen flex flex-col items-center justify-center px-6 py-16 bg-gradient-to-b from-yellow-50 to-yellow-100 text-center pb-[88px] font-sans"
-        style={{ backgroundImage: "url('/images/6.jpg')", height: "calc(100vh - 75px)" }}
+        style={{
+          backgroundImage: "url('/images/6.jpg')",
+          backgroundRepeat: "repeat",
+          backgroundSize: "contain", // atau "cover"
+          backgroundPosition: "center",
+          //  width: "100%",
+          // backgroundColor: "#000",
+          minHeight: `calc(100vh - 75px)`, // tidak menutupi bottomnav
+        }}
       >
         {!started ? (
           <div className="w-full max-w-3xl mx-auto px-4 sm:px-6">

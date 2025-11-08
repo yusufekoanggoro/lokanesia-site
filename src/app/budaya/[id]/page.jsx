@@ -7590,7 +7590,15 @@ export default function ProvinceDetail() {
     <>
      <section
       className="min-h-screen w-full bg-cover bg-center bg-fixed relative font-sans"
-      style={{ backgroundImage: "url('/images/3.jpg')", height: "calc(100vh - 75px)" }}
+              style={{
+          backgroundImage: "url('/images/6.jpg')",
+          backgroundRepeat: "repeat",
+          backgroundSize: "contain", // atau "cover"
+          backgroundPosition: "center",
+          //  width: "100%",
+          // backgroundColor: "#000",
+          minHeight: `calc(100vh - 75px)`, // tidak menutupi bottomnav
+        }}
     >
       <main className="max-w-5xl mx-auto p-6 pb-[88px] font-sans relative">
         <button

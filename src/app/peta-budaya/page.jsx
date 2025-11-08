@@ -82,7 +82,15 @@ export default function Peta() {
       {/* <section className="h-screen py-16 bg-gray-100 text-gray-900 pb-[88px]"> */}
       <section 
         className="h-screen py-16 bg-gray-100 text-gray-900 pb-[88px] bg-cover bg-center bg-fixed"
-        style={{ backgroundImage: "url('/images/3.jpg')", height: "calc(100vh - 75px)",}}
+                style={{
+          backgroundImage: "url('/images/3.jpg')",
+          backgroundRepeat: "repeat",
+          backgroundSize: "contain", // atau "cover"
+          backgroundPosition: "center",
+          //  width: "100%",
+          // backgroundColor: "#000",
+          minHeight: `calc(100vh - 75px)`, // tidak menutupi bottomnav
+        }}
       >
         <div className="container mx-auto px-6 relative">
           {/* Back Button */}
