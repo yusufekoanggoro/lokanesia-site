@@ -21,7 +21,7 @@ export default function Jelajah() {
       <main
         className="min-h-screen flex flex-col items-center justify-center px-6 py-16 bg-gradient-to-b from-yellow-50 to-yellow-100 text-center pb-[88px] font-sans"
                 style={{
-          backgroundImage: "url('/images/4.jpg')",
+          backgroundImage: "url('/images/5.jpg')",
           backgroundRepeat: "repeat",
           // backgroundSize: "contain", // atau "cover"
           backgroundPosition: "center",
