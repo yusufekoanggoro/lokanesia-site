@@ -5,6 +5,8 @@ import BottomNav from '../components/BottomNav';
 import { useEffect } from 'react';
 
 export default function Jelajah() {
+  const bottomNavHeight = 59; // tinggi BottomNav (px)
+
   useEffect(() => {
     // Preload audio agar tidak delay saat pertama kali dimainkan
     const audio = new Audio('/sounds/click.mp3');
@@ -18,20 +20,27 @@ export default function Jelajah() {
 
   return (
     <>
-      <main
-        className="min-h-screen flex flex-col items-center justify-center px-6 py-16 bg-gradient-to-b from-yellow-50 to-yellow-100 text-center pb-[88px] font-sans"
-                style={{
-          backgroundImage: "url('/images/5.jpg')",
-          backgroundRepeat: "repeat",
-          // backgroundSize: "contain", // atau "cover"
-          backgroundPosition: "center",
-          //  width: "100%",
-          // backgroundColor: "#000",
-          height: `calc(100vh - 59px)`, // tidak menutupi bottomnav
+      <div
+        style={{
+          position: 'relative',
+          width: '100%',
+          height: `calc(100vh - ${bottomNavHeight}px)`, // agar tidak menutupi BottomNav
           overflow: 'hidden',
         }}
       >
-        <div className="w-full max-w-3xl mx-auto px-4 sm:px-6">
+        <img
+          src="/images/5.jpg"
+          alt="background"
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover', // 'cover' biar memenuhi area, 'contain' biar gambar utuh
+            objectPosition: 'center',
+          }}
+        />
+
+        {/* Konten tombol di atas background */}
+        <div className="absolute inset-0 flex items-center justify-center px-6 py-16">
           <Link
             href="/peta-budaya"
             onClick={playSound}
@@ -41,7 +50,8 @@ export default function Jelajah() {
             Mulai Menjelajah
           </Link>
         </div>
-      </main>
+      </div>
+
       <BottomNav />
     </>
   );
