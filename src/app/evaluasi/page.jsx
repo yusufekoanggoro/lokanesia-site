@@ -3,7 +3,7 @@
 import { useState } from "react";
 import BottomNav from "../components/BottomNav";
 
-export const quizData = [
+const quizData = [
   {
     no: 1,
     question: "Berikut ini yang *bukan* termasuk keberagaman budaya Indonesia adalah …",
