@@ -221,7 +221,7 @@ export default function EvaluasiPage() {
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",
-          minHeight: `calc(100vh - 59px)`, // tidak menutupi bottomnav
+          height: `calc(100vh - 59px)`, // tidak menutupi bottomnav
         }}
       >
         {!started ? (

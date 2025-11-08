@@ -7597,7 +7597,7 @@ export default function ProvinceDetail() {
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",
-          minHeight: `calc(100vh - 59px)`, // tidak menutupi bottomnav
+          height: `calc(100vh - 59px)`, // tidak menutupi bottomnav
         }}
     >
       <main className="max-w-5xl mx-auto p-6 pb-[88px] font-sans relative">
