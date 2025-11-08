@@ -85,7 +85,7 @@ export default function Peta() {
                 style={{
           backgroundImage: "url('/images/3.jpg')",
           backgroundRepeat: "repeat",
-          backgroundSize: "contain", // atau "cover"
+          // backgroundSize: "contain", // atau "cover"
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",

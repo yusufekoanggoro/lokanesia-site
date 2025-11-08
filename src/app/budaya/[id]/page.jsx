@@ -7593,7 +7593,7 @@ export default function ProvinceDetail() {
               style={{
           backgroundImage: "url('/images/6.jpg')",
           backgroundRepeat: "repeat",
-          backgroundSize: "contain", // atau "cover"
+          // backgroundSize: "contain", // atau "cover"
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",

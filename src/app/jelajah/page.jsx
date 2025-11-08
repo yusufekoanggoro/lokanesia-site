@@ -23,7 +23,7 @@ export default function Jelajah() {
                 style={{
           backgroundImage: "url('/images/4.jpg')",
           backgroundRepeat: "repeat",
-          backgroundSize: "contain", // atau "cover"
+          // backgroundSize: "contain", // atau "cover"
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",

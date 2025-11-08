@@ -5,28 +5,26 @@ export default function Home() {
 
   return (
     <>
-      <main
-        className="flex flex-col items-center justify-center text-center font-sans text-white w-full"
-        // style={{
-        //   backgroundImage: "url('/images/1.jpg')",
-        //   backgroundRepeat: "repeat",
-        //   backgroundSize: "contain", // atau "cover"
-        //   backgroundPosition: "center",
-        //   //  width: "100%",
-        //   // backgroundColor: "#000",
-        //   minHeight: `calc(100vh - ${bottomNavHeight}px)`, // tidak menutupi bottomnav
-        // }}
-
-          style={{
-    backgroundImage: "url('/images/1.jpg')",
-    backgroundSize: "100% auto",     // lebar penuh, tinggi menyesuaikan proporsi
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center top",
-    minHeight: `calc(100vh - ${bottomNavHeight}px)`
-  }}
-
+      <div
+        style={{
+          position: 'relative',
+          width: '100%',
+          height: `calc(100vh - ${bottomNavHeight}px)`,
+          overflow: 'hidden',
+        }}
       >
-      </main>
+        <img
+          src="/images/1.jpg"
+          style={{
+            width: '100%',
+            height: '100%',
+            // objectFit: 'contain', // atau 'contain' kalau mau gambar utuh
+            objectPosition: 'top center',
+          }}
+          alt="background"
+        />
+
+      </div>
 
       <BottomNav />
     </>

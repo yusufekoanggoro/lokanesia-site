@@ -57,7 +57,7 @@ export default function EvaluasiPage() {
         style={{
           backgroundImage: "url('/images/5.jpg')",
           backgroundRepeat: "repeat",
-          backgroundSize: "contain", // atau "cover"
+          // backgroundSize: "contain", // atau "cover"
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",

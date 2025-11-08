@@ -38,7 +38,7 @@ export default function Event() {
         style={{
           backgroundImage: "url('/images/2.jpg')",
           backgroundRepeat: "repeat",
-          backgroundSize: "contain", // atau "cover"
+          // backgroundSize: "contain", // atau "cover"
           backgroundPosition: "center",
           //  width: "100%",
           // backgroundColor: "#000",
