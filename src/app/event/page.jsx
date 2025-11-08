@@ -34,7 +34,7 @@ export default function Event() {
   return (
     <>
       <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-gradient-to-b from-yellow-100 via-yellow-50 to-yellow-100 text-center font-sans bg-cover bg-center bg-fixed "
-        style={{ backgroundImage: "url('/images/2.jpg')" }}
+        style={{ backgroundImage: "url('/images/2.jpg')", height: "calc(100vh - 75px)"}}
       >
       </main>
       <BottomNav />
