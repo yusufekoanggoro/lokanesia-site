@@ -7,15 +7,24 @@ export default function Home() {
     <>
       <main
         className="flex flex-col items-center justify-center text-center font-sans text-white w-full"
-        style={{
-          backgroundImage: "url('/images/1.jpg')",
-          backgroundRepeat: "repeat",
-          backgroundSize: "contain", // atau "cover"
-          backgroundPosition: "center",
-          //  width: "100%",
-          // backgroundColor: "#000",
-          minHeight: `calc(100vh - ${bottomNavHeight}px)`, // tidak menutupi bottomnav
-        }}
+        // style={{
+        //   backgroundImage: "url('/images/1.jpg')",
+        //   backgroundRepeat: "repeat",
+        //   backgroundSize: "contain", // atau "cover"
+        //   backgroundPosition: "center",
+        //   //  width: "100%",
+        //   // backgroundColor: "#000",
+        //   minHeight: `calc(100vh - ${bottomNavHeight}px)`, // tidak menutupi bottomnav
+        // }}
+
+          style={{
+    backgroundImage: "url('/images/1.jpg')",
+    backgroundSize: "100% auto",     // lebar penuh, tinggi menyesuaikan proporsi
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center top",
+    minHeight: `calc(100vh - ${bottomNavHeight}px)`
+  }}
+
       >
       </main>
 
