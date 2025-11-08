@@ -6,17 +6,17 @@ export default function Home() {
   return (
     <>
       <main
-        className="flex flex-col items-center justify-center bg-center text-center font-sans text-white"
+        className="flex flex-col items-center justify-center text-center font-sans text-white"
         style={{
           backgroundImage: "url('/images/1.jpg')",
           backgroundRepeat: "no-repeat",
-          minHeight: `calc(100vh - ${bottomNavHeight}px)`, // tinggi menyesuaikan nav
+          backgroundSize: "contain", // atau "cover"
+          backgroundPosition: "center",
+          // backgroundColor: "#000",
+          minHeight: `calc(100vh - ${bottomNavHeight}px)`, // tidak menutupi bottomnav
         }}
       >
       </main>
-
-      {/* <div style={{ height: `${bottomNavHeight}px` }} />  */}
-      {/* spacer agar konten tidak ketutupan bottom nav */}
 
       <BottomNav />
     </>
