@@ -9,7 +9,7 @@ export default function BottomNav() {
 
   const navItems = [
     { name: "Beranda", href: "/", icon: <FaHome size={20} /> },
-    { name: "Event", href: "/event", icon: <FaCalendarAlt size={20} /> },
+    { name: "Tujuan", href: "/event", icon: <FaCalendarAlt size={20} /> },
     { name: "Jelajah", href: "/jelajah", icon: <FaMapMarkedAlt size={20} /> },
     // { name: "", href: "/quiz", icon: <FaQuestion size={20} /> },
     { name: "Evaluasi", href: "/evaluasi", icon: <FaQuestion size={20} /> },
