@@ -230,7 +230,7 @@ export default function EvaluasiPage() {
           style={{
             width: '100%',
             height: '100%',
-            objectFit: 'cover', // 'cover' biar penuh, 'contain' biar utuh
+            // objectFit: 'cover', // 'cover' biar penuh, 'contain' biar utuh
             objectPosition: 'center',
           }}
         />

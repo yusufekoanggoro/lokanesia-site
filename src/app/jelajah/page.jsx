@@ -34,7 +34,7 @@ export default function Jelajah() {
           style={{
             width: '100%',
             height: '100%',
-            objectFit: 'cover', // 'cover' biar memenuhi area, 'contain' biar gambar utuh
+            // objectFit: 'cover', // 'cover' biar memenuhi area, 'contain' biar gambar utuh
             objectPosition: 'center',
           }}
         />
