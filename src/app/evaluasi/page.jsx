@@ -167,7 +167,7 @@ const quizData = [
   { no: 40, question: "Cara menggunakan alat musik ini adalah dengan cara…", image: "/images/soal-40.png", options: { a: "Dipukul", b: "Dipetik", c: "Ditiup", d: "Ditekan" }, answer: "a" },
   { no: 41, question: "Manakah yang merupakan seni pertunjukan Jawa Timur?", image: "/", options: { a: "Wayang Kulit", b: "Tari Kuda Lumping", c: "Lenong", d: "Ludruk" }, answer: "a" },
   { no: 42, question: "Dimana ibu kota provinsi Kalimantan Selatan berada?", image: "/", options: { a: "Banjarbaru", b: "Martapura", c: "Banjarmasin", d: "Marabahan" }, answer: "c" },
-  { no: 43, question: "Apa nama pakaian adat tradisional pria Kalimantan Timur?", image: "/images/soal-43.png", options: { a: "Baju Ta’a", b: "Baju Baamar Galung Pancar Mata", c: "Sapei Sapaq", d: "Baju Bagajah Gamuling Baular Lulut" }, answer: "c" },
+  { no: 43, question: "Apa nama pakaian adat tradisional pria Kalimantan Timur?", image: "/", options: { a: "Baju Ta’a", b: "Baju Baamar Galung Pancar Mata", c: "Sapei Sapaq", d: "Baju Bagajah Gamuling Baular Lulut" }, answer: "c" },
   { no: 44, question: "Dimana ibu kota provinsi Kalimantan Utara berada?", image: "/", options: { a: "Tarakan", b: "Bulungan", c: "Tanjung Selor", d: "Malinau" }, answer: "c" },
   { no: 45, question: "Gambar di atas merupakan rumah limas yang berasal dari provinsi…", image: "/images/soal-45.png", options: { a: "Sulawesi Tenggara", b: "Sumatera Selatan", c: "Kepulauan Riau", d: "Papua Pegunungan" }, answer: "b" },
   { no: 46, question: "Dimana ibu kota provinsi Papua Barat berada?", image: "/", options: { a: "Jayapura", b: "Manokwari", c: "Merauke", d: "Wanggar, Nabire" }, answer: "b" },
