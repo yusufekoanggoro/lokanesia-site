@@ -271,11 +271,11 @@ export default function EvaluasiPage() {
               </p>
 
               {quizData[currentQuestion].image !== "/" && (
-                <img
-                  src={quizData[currentQuestion].image}
-                  alt="Gambar soal"
-                  className="mb-6 rounded-xl w-full object-cover"
-                />
+<img
+  src={quizData[currentQuestion].image}
+  alt="Gambar soal"
+  className="mb-6 rounded-xl w-[350px] h-[150px] object-center mx-auto"
+/>
               )}
 
               <div className="space-y-3">
