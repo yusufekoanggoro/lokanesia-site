@@ -179,7 +179,7 @@ const quizData = [
 
 
 export default function EvaluasiPage() {
-    const bottomNavHeight = 59; // tinggi BottomNav (px)
+  const bottomNavHeight = 59; // tinggi BottomNav (px)
 
   const [started, setStarted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -217,10 +217,10 @@ export default function EvaluasiPage() {
     <>
       <div
         style={{
-          position: 'relative',
-          width: '100%',
+          position: "relative",
+          width: "100%",
           height: `calc(100vh - ${bottomNavHeight}px)`,
-          overflow: 'hidden',
+          overflow: "hidden",
         }}
       >
         {/* Background image */}
@@ -228,15 +228,14 @@ export default function EvaluasiPage() {
           src="/images/5.jpg"
           alt="background"
           style={{
-            width: '100%',
-            height: '100%',
-            // objectFit: 'cover', // 'cover' biar penuh, 'contain' biar utuh
-            objectPosition: 'center',
+            width: "100%",
+            height: "100%",
+            objectPosition: "center",
           }}
         />
 
         {/* Konten quiz */}
-        <div className="absolute inset-0 flex items-center justify-center px-6 py-16">
+        <div className="absolute inset-0 flex items-center justify-center px-4 md:px-8 py-16 overflow-y-auto">
           {!started ? (
             <button
               onClick={handleStart}
@@ -246,24 +245,28 @@ export default function EvaluasiPage() {
               Mulai Evaluasi
             </button>
           ) : finished ? (
-            <div className="text-center bg-white p-6 rounded-2xl shadow-lg">
-              <h2 className="text-2xl font-bold text-green-600 mb-4">Evaluasi Selesai!</h2>
+            <div className="text-center bg-white p-8 md:p-10 rounded-2xl shadow-lg max-w-3xl mx-auto">
+              <h2 className="text-2xl font-bold text-green-600 mb-4">
+                Evaluasi Selesai!
+              </h2>
               <p className="text-lg mb-2">
-                Skor kamu: <span className="font-bold">{score}</span> dari {quizData.length}
+                Skor kamu: <span className="font-bold">{score}</span> dari{" "}
+                {quizData.length}
               </p>
               <button
                 onClick={handleRestart}
-                className="mt-4 px-5 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600"
+                className="mt-4 px-6 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600"
               >
                 Ulangi Evaluasi
               </button>
             </div>
           ) : (
-            <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-6">
+            <div className="w-full max-w-3xl bg-white rounded-2xl shadow-lg p-8 md:p-10 mx-auto text-gray-800 leading-relaxed">
               <h2 className="text-lg font-semibold text-gray-700 mb-4">
                 Soal {quizData[currentQuestion].no} dari {quizData.length}
               </h2>
-              <p className="text-gray-800 font-medium mb-4">
+
+              <p className="mb-6 text-base md:text-lg font-medium">
                 {quizData[currentQuestion].question}
               </p>
 
@@ -271,7 +274,7 @@ export default function EvaluasiPage() {
                 <img
                   src={quizData[currentQuestion].image}
                   alt="Gambar soal"
-                  className="mb-4 rounded-lg w-full"
+                  className="mb-6 rounded-xl w-full object-cover"
                 />
               )}
 
@@ -281,9 +284,9 @@ export default function EvaluasiPage() {
                     <button
                       key={key}
                       onClick={() => handleAnswer(key)}
-                      className={`w-full text-left px-4 py-2 rounded-lg border transition ${
+                      className={`w-full text-left px-5 py-3 rounded-lg border text-base transition ${
                         selectedAnswer === key
-                          ? "bg-yellow-200 border-yellow-500"
+                          ? "bg-yellow-100 border-yellow-500"
                           : "bg-white border-gray-300 hover:bg-yellow-50"
                       }`}
                     >
@@ -294,11 +297,11 @@ export default function EvaluasiPage() {
                 )}
               </div>
 
-              <div className="mt-6 text-right">
+              <div className="mt-8 text-right">
                 <button
                   onClick={handleNext}
                   disabled={!selectedAnswer}
-                  className={`px-5 py-2 rounded-lg font-medium ${
+                  className={`px-6 py-2.5 rounded-lg font-medium ${
                     selectedAnswer
                       ? "bg-yellow-500 text-white hover:bg-yellow-600"
                       : "bg-gray-300 text-gray-500 cursor-not-allowed"
