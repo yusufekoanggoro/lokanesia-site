@@ -225,7 +225,7 @@ export default function EvaluasiPage() {
       >
         {/* Background image */}
         <img
-          src="/images/6.jpg"
+          src="/images/5.jpg"
           alt="background"
           style={{
             width: '100%',

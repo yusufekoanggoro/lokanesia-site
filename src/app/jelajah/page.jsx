@@ -29,7 +29,7 @@ export default function Jelajah() {
         }}
       >
         <img
-          src="/images/5.jpg"
+          src="/images/4.jpg"
           alt="background"
           style={{
             width: '100%',
