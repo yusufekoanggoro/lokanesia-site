@@ -158,7 +158,7 @@ const quizData = [
   { no: 31, question: "Manakah yang merupakan seni pertunjukan Bengkulu?", image: "/", options: { a: "Dulmuluk", b: "Tabot", c: "Cangget", d: "Mamapas Lewu" }, answer: "b" },
   { no: 32, question: "Gambar di atas merupakan rumah adat Lampung yang bernama…", image: "/images/soal-32.png", options: { a: "Nuwo Sesat", b: "Rumah Panggung", c: "Rumah Panjang", d: "Lamin" }, answer: "a" },
   { no: 33, question: "Manakah yang merupakan seni pertunjukan Kalimantan Barat?", image: "/", options: { a: "Hudoq Festival", b: "Sandung", c: "Wayang", d: "Mamapas Lewu" }, answer: "b" },
-  { no: 34, question: "Bagaimana cara menggunakan alat musik Japen?", image: "/images/soal-34.png", options: { a: "Ditiup", b: "Dipetik", c: "Dipukul", d: "Digoyang" }, answer: "b" },
+  { no: 34, question: "Bagaimana cara menggunakan alat musik Japen?", image: "/", options: { a: "Ditiup", b: "Dipetik", c: "Dipukul", d: "Digoyang" }, answer: "b" },
   { no: 35, question: "Manakah lagu daerah yang berasal dari Kalimantan Selatan?", image: "/", options: { a: "Gemufamire", b: "Ampar-Ampar Pisang", c: "Suwe Ora Jamu", d: "Manuk Dadali" }, answer: "b" },
   { no: 36, question: "Alat musik tersebut berasal dari NTT yang bernama…", image: "/images/soal-36.png", options: { a: "Kolintang", b: "Japen", c: "Sasando", d: "Serunai" }, answer: "c" },
   { no: 37, question: "Manakah yang merupakan ibu kota provinsi NTB?", image: "/", options: { a: "Bima", b: "Mataram", c: "Sumbawa", d: "Lombok" }, answer: "b" },
