@@ -144,12 +144,13 @@ const quizData = [
     options: { a: "Banten", b: "Jawa Barat", c: "Jawa Timur", d: "Jawa Tengah" },
     answer: "b",
   },
-  // Soal 21-50
   { no: 21, question: "Makanan khas Papua yang terbuat dari sagu adalah…", image: "/", options: { a: "Soto Banjar", b: "Pepes Ikan", c: "Papeda", d: "Sate Lilit" }, answer: "c" },
   { no: 22, question: "Gambar di atas merupakan pakaian adat dari Papua yang bernama…", image: "/images/soal-22.png", options: { a: "Koteka dan rok rumbai", b: "Baju Pangsi", c: "Baju Ta’a", d: "Sapei Sapaq" }, answer: "a" },
   { no: 23, question: "Manakah yang merupakan seni pertunjukan Papua Barat Daya?", image: "/", options: { a: "Tari Adat Suku Marind", b: "Tari Yospan", c: "Festival Budaya Lembah Baliem", d: "Tarian Perang Papua" }, answer: "d" },
   { no: 24, question: "Manakah yang merupakan alat musik daerah Papua Pegunungan?", image: "/", options: { a: "Japen", b: "Tifa", c: "Gambang Kayu", d: "Pikon (Kaido)" }, answer: "d" },
   { no: 25, question: "Manakah yang merupakan seni pertunjukan Maluku Utara?", image: "/", options: { a: "Ma’badong", b: "Bambu Gila", c: "Kabasaran Show", d: "Totobuang" }, answer: "b" },
+
+  // Soal 26-50
   { no: 26, question: "Manakah tarian yang berasal dari Gorontalo?", image: "/", options: { a: "Tari Saronde", b: "Tari Pamonte", c: "Tari Sayyang Pattuddu’", d: "Tari Pakarena" }, answer: "a" },
   { no: 27, question: "Mana saja yang merupakan makanan Sulawesi Tengah?", image: "/", options: { a: "Mie Sagu dan Konro", b: "Coto Makassar, Pallubasa dan Konro", c: "Kaledo, Uta Kelo dan Lalampa", d: "Jepa dan Kue Kui-kui" }, answer: "c" },
   { no: 28, question: "Apa nama alat musik di bawah ini?", image: "/images/soal-28.png", options: { a: "Keris", b: "Mandau", c: "Golok", d: "Celurit" }, answer: "b" },
