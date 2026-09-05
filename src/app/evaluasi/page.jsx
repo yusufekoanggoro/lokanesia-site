@@ -331,6 +331,16 @@ export default function EvaluasiPage() {
                 {filteredQuizData[currentQuestion].question}
               </p>
 
+              {filteredQuizData[currentQuestion].image !== "/" && (
+                <div className="mb-6 flex justify-center">
+                  <img
+                    src={filteredQuizData[currentQuestion].image}
+                    alt={`Gambar soal ${currentQuestion + 1}`}
+                    className="max-h-64 rounded-lg object-contain"
+                  />
+                </div>
+              )}
+
               <div className="space-y-3">
                 {Object.entries(
                   filteredQuizData[currentQuestion].options
