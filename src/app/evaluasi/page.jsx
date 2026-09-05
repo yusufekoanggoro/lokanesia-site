@@ -177,29 +177,59 @@ const quizData = [
   { no: 50, question: "Apa nama alat musik ini…", image: "/images/soal-50.png", options: { a: "Serunai", b: "Lalove", c: "Palo-palo", d: "Gambang Kayu" }, answer: "c" },
 ];
 
-
 export default function EvaluasiPage() {
-  const bottomNavHeight = 59; // tinggi BottomNav (px)
+  const bottomNavHeight = 59;
+
+  const QUESTIONS_PER_PACKAGE = 25;
+
+  const totalQuestions = quizData.length;
+  const totalPackages = Math.ceil(
+    totalQuestions / QUESTIONS_PER_PACKAGE
+  );
 
   const [started, setStarted] = useState(false);
+  const [finished, setFinished] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
-  const [finished, setFinished] = useState(false);
+  const [selectedPackageIndex, setSelectedPackageIndex] =
+    useState(null);
 
-  const handleStart = () => setStarted(true);
+  // Hitung range soal per paket
+  const startIndex =
+    selectedPackageIndex !== null
+      ? selectedPackageIndex * QUESTIONS_PER_PACKAGE
+      : 0;
 
-  const handleAnswer = (option) => setSelectedAnswer(option);
+  const endIndex =
+    startIndex + QUESTIONS_PER_PACKAGE;
+
+  const filteredQuizData =
+    selectedPackageIndex !== null
+      ? quizData.slice(startIndex, endIndex)
+      : [];
+
+  const handleStart = (pkgIndex) => {
+    setSelectedPackageIndex(pkgIndex);
+    setStarted(true);
+  };
+
+  const handleAnswer = (option) => {
+    setSelectedAnswer(option);
+  };
 
   const handleNext = () => {
-    if (selectedAnswer === quizData[currentQuestion].answer) {
-      setScore(score + 1);
+    if (
+      selectedAnswer ===
+      filteredQuizData[currentQuestion].answer
+    ) {
+      setScore((prev) => prev + 1);
     }
 
     setSelectedAnswer(null);
 
-    if (currentQuestion + 1 < quizData.length) {
-      setCurrentQuestion(currentQuestion + 1);
+    if (currentQuestion + 1 < filteredQuizData.length) {
+      setCurrentQuestion((prev) => prev + 1);
     } else {
       setFinished(true);
     }
@@ -209,8 +239,9 @@ export default function EvaluasiPage() {
     setStarted(false);
     setFinished(false);
     setCurrentQuestion(0);
-    setScore(0);
     setSelectedAnswer(null);
+    setScore(0);
+    setSelectedPackageIndex(null);
   };
 
   return (
@@ -223,7 +254,6 @@ export default function EvaluasiPage() {
           overflow: "hidden",
         }}
       >
-        {/* Background image */}
         <img
           src="/images/5.jpg"
           alt="background"
@@ -234,25 +264,54 @@ export default function EvaluasiPage() {
           }}
         />
 
-        {/* Konten quiz */}
-        <div className="absolute inset-0 flex items-center justify-center px-4 md:px-8 py-16 overflow-y-auto">
+        <div className="absolute inset-0 flex items-center justify-center px-4 py-16 overflow-y-auto">
+
+          {/* PILIH PAKET */}
           {!started ? (
-            <button
-              onClick={handleStart}
-              className="inline-block px-10 py-3 bg-yellow-600 text-white font-semibold rounded-full shadow-md hover:bg-yellow-700 focus:outline-none focus:ring-4 focus:ring-yellow-500 focus:ring-offset-2 transition-transform transform hover:scale-105"
-              aria-label="Mulai Evaluasi"
-            >
-              Mulai Evaluasi
-            </button>
+            <div className="flex flex-col items-center gap-6">
+              <div className="flex gap-4 flex-wrap justify-center">
+                {Array.from({ length: totalPackages }).map(
+                  (_, index) => {
+                    const start = index * QUESTIONS_PER_PACKAGE + 1;
+                    const end = Math.min(
+                      (index + 1) * QUESTIONS_PER_PACKAGE,
+                      totalQuestions
+                    );
+
+                    return (
+                      <button
+                        key={index}
+                        onClick={() => handleStart(index)}
+                        className="px-8 py-3 bg-yellow-500 text-white font-semibold rounded-full hover:bg-yellow-600"
+                      >
+                        Soal {String.fromCharCode(65 + index)} (
+                        {start}–{end})
+                      </button>
+                    );
+                  }
+                )}
+              </div>
+            </div>
           ) : finished ? (
-            <div className="text-center bg-white p-8 md:p-10 rounded-2xl shadow-lg max-w-3xl mx-auto">
+            /* HASIL */
+            <div className="text-center bg-white p-8 rounded-2xl shadow-lg max-w-3xl mx-auto">
               <h2 className="text-2xl font-bold text-green-600 mb-4">
                 Evaluasi Selesai!
               </h2>
+
               <p className="text-lg mb-2">
-                Skor kamu: <span className="font-bold">{score}</span> dari{" "}
-                {quizData.length}
+                Paket Soal:{" "}
+                <span className="font-bold">
+                  {String.fromCharCode(65 + selectedPackageIndex)}
+                </span>
               </p>
+
+              <p className="text-lg mb-4">
+                Skor kamu:{" "}
+                <span className="font-bold">{score}</span> dari{" "}
+                {filteredQuizData.length}
+              </p>
+
               <button
                 onClick={handleRestart}
                 className="mt-4 px-6 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600"
@@ -261,53 +320,52 @@ export default function EvaluasiPage() {
               </button>
             </div>
           ) : (
-            <div className="w-full max-w-3xl bg-white rounded-2xl shadow-lg p-8 md:p-10 mx-auto text-gray-800 leading-relaxed">
-              <h2 className="text-lg font-semibold text-gray-700 mb-4">
-                Soal {quizData[currentQuestion].no} dari {quizData.length}
+            /* SOAL */
+            <div className="w-full max-w-3xl bg-white rounded-2xl shadow-lg p-8 mx-auto">
+              <h2 className="text-lg font-semibold mb-4">
+                Soal {currentQuestion + 1} dari{" "}
+                {filteredQuizData.length}
               </h2>
 
-              <p className="mb-6 text-base md:text-lg font-medium">
-                {quizData[currentQuestion].question}
+              <p className="mb-6 text-lg">
+                {filteredQuizData[currentQuestion].question}
               </p>
 
-              {quizData[currentQuestion].image !== "/" && (
-<img
-  src={quizData[currentQuestion].image}
-  alt="Gambar soal"
-  className="mb-6 rounded-xl w-[350px] h-[150px] object-center mx-auto"
-/>
-              )}
-
               <div className="space-y-3">
-                {Object.entries(quizData[currentQuestion].options).map(
-                  ([key, value]) => (
-                    <button
-                      key={key}
-                      onClick={() => handleAnswer(key)}
-                      className={`w-full text-left px-5 py-3 rounded-lg border text-base transition ${
-                        selectedAnswer === key
-                          ? "bg-yellow-100 border-yellow-500"
-                          : "bg-white border-gray-300 hover:bg-yellow-50"
-                      }`}
-                    >
-                      <span className="font-semibold mr-2 uppercase">{key}.</span>
-                      {value}
-                    </button>
-                  )
-                )}
+                {Object.entries(
+                  filteredQuizData[currentQuestion].options
+                ).map(([key, value]) => (
+                  <button
+                    key={key}
+                    onClick={() => handleAnswer(key)}
+                    className={`w-full text-left px-5 py-3 rounded-lg border ${
+                      selectedAnswer === key
+                        ? "bg-yellow-100 border-yellow-500"
+                        : "border-gray-300 hover:bg-yellow-50"
+                    }`}
+                  >
+                    <span className="font-semibold mr-2 uppercase">
+                      {key}.
+                    </span>
+                    {value}
+                  </button>
+                ))}
               </div>
 
               <div className="mt-8 text-right">
                 <button
                   onClick={handleNext}
                   disabled={!selectedAnswer}
-                  className={`px-6 py-2.5 rounded-lg font-medium ${
+                  className={`px-6 py-2 rounded-lg ${
                     selectedAnswer
                       ? "bg-yellow-500 text-white hover:bg-yellow-600"
-                      : "bg-gray-300 text-gray-500 cursor-not-allowed"
+                      : "bg-gray-300 text-gray-500"
                   }`}
                 >
-                  {currentQuestion + 1 === quizData.length ? "Selesai" : "Lanjut"}
+                  {currentQuestion + 1 ===
+                  filteredQuizData.length
+                    ? "Selesai"
+                    : "Lanjut"}
                 </button>
               </div>
             </div>
