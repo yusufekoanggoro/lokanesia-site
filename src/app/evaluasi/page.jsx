@@ -816,12 +816,16 @@ export default function EvaluasiPage() {
                   {filteredQuizData[
                     currentQuestion
                   ].images.map((src) => (
-                    <img
+                    <div
                       key={src}
-                      src={src}
-                      alt={`Gambar soal ${currentQuestion + 1}`}
-                      className="max-h-64 rounded-lg object-contain"
-                    />
+                      className="w-64 h-64 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 p-2"
+                    >
+                      <img
+                        src={src}
+                        alt={`Gambar soal ${currentQuestion + 1}`}
+                        className="max-w-full max-h-full object-contain"
+                      />
+                    </div>
                   ))}
                 </div>
               )}
